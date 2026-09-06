@@ -39,6 +39,11 @@ jobs:
           sudo apt-get install -y -qq p7zip-full unrar-free >/dev/null 2>&1 || sudo apt-get install -y -qq p7zip-full >/dev/null
           pip install -q requests curl_cffi
 
+      - name: Liberar espaço em disco no runner
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL 2>/dev/null || true
+          df -h / | tail -1
+
       - name: Baixar sims e CC
         run: python sims4-bundle/scripts/download.py
 

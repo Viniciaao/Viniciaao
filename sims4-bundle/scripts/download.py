@@ -844,6 +844,9 @@ def main():
             r = report["cc_unicos"][url]
             s["cc"].append({k: r.get(k) for k in ("nome", "aliases", "fonte", "url", "status", "arquivos", "detalhe")})
 
+    shutil.rmtree(ORIG, ignore_errors=True)      # originais já foram extraídos/copiados -> libera disco
+    shutil.rmtree(EXTR, ignore_errors=True)
+
     cache = report["cc_unicos"]
     tot = len(cache)
     ok = sum(1 for c in cache.values() if c["status"] == "ok")
