@@ -580,7 +580,7 @@ A_RE = re.compile(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", re.I | re
 
 
 def cc_items_from_description(desc_html):
-    items, seen = [], set()
+    items, seen = [], {}
     for m in A_RE.finditer(desc_html or ""):
         url = unwrap_redirect(m.group(1))
         label = safe_name(re.sub(r"<[^>]+>", "", m.group(2)), 120)
@@ -589,11 +589,13 @@ def cc_items_from_description(desc_html):
             continue
         if "gshade" in url.lower() or "gshade" in label.lower() or "reshade" in label.lower():
             kind = "optional"
-        key = url
-        if key in seen:
+        if url in seen:
+            if label not in seen[url]["aliases"] and label != seen[url]["label"]:
+                seen[url]["aliases"].append(label)
             continue
-        seen.add(key)
-        items.append({"label": label, "url": url, "kind": kind})
+        it = {"label": label, "url": url, "kind": kind, "aliases": []}
+        seen[url] = it
+        items.append(it)
     return items
 
 
@@ -736,8 +738,8 @@ def download_cc(item):
     url, kind, label = item["url"], item["kind"], item["label"]
     folder = safe_name(label, 70)
     dest = ORIG / "CC" / folder
-    res = {"nome": label, "fonte": kind, "url": url, "pasta": folder, "status": "falhou",
-           "arquivos": [], "detalhe": None, "usado_por": item["usado_por"], "_paths": []}
+    res = {"nome": label, "aliases": item.get("aliases", []), "fonte": kind, "url": url, "pasta": folder,
+           "status": "falhou", "arquivos": [], "detalhe": None, "usado_por": item["usado_por"], "_paths": []}
     log(f"  >> [{kind}] {label}  <{url}>")
     try:
         if kind == "optional":
@@ -793,7 +795,11 @@ def main():
         for it in items:
             entry["cc_urls"].append(it["url"])
             if it["url"] not in unique:
-                unique[it["url"]] = dict(it, usado_por=[])
+                unique[it["url"]] = dict(it, aliases=list(it.get("aliases", [])), usado_por=[])
+            else:
+                for a in [it["label"]] + it.get("aliases", []):
+                    if a != unique[it["url"]]["label"] and a not in unique[it["url"]]["aliases"]:
+                        unique[it["url"]]["aliases"].append(a)
             if sim["name"] not in unique[it["url"]]["usado_por"]:
                 unique[it["url"]]["usado_por"].append(sim["name"])
         report["sims"].append(entry)
@@ -828,7 +834,7 @@ def main():
         s["cc"] = []
         for url in s.pop("cc_urls"):
             r = report["cc_unicos"][url]
-            s["cc"].append({k: r.get(k) for k in ("nome", "fonte", "url", "status", "arquivos", "detalhe")})
+            s["cc"].append({k: r.get(k) for k in ("nome", "aliases", "fonte", "url", "status", "arquivos", "detalhe")})
 
     cache = report["cc_unicos"]
     tot = len(cache)
@@ -870,7 +876,8 @@ def write_reports(report):
         for i, c in enumerate(s["cc"], 1):
             arqs = ", ".join(c.get("arquivos") or []) or "—"
             det = f" – {c['detalhe']}" if c.get("detalhe") and c.get("status") != "ok" else ""
-            md.append(f"| {i} | [{c['nome']}]({c['url']}) | {c['fonte']} | {c['status']}{det} | {arqs} |")
+            nome = c['nome'] + (" / " + " / ".join(c['aliases']) if c.get('aliases') else "")
+            md.append(f"| {i} | [{nome}]({c['url']}) | {c['fonte']} | {c['status']}{det} | {arqs} |")
     md.append("\n## CCs que NÃO puderam ser baixados automaticamente\n")
     miss = [c for c in report["cc_unicos"].values() if c["status"] != "ok"]
     if not miss:
@@ -882,11 +889,41 @@ def write_reports(report):
     (OUT / "log.txt").write_text("\n".join(LOG_LINES), encoding="utf-8")
 
 
+def build_parts(files, out_dir, base_name, part_limit):
+    """Zips independentes (cada um extrai sozinho) com no máximo ~part_limit bytes de conteúdo cada."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    files = sorted(files, key=lambda p: (0 if (p.name in ("LEIA-ME.txt", "relatorio.md") or "Tray" in p.parts) else 1, str(p)))
+    total = sum(p.stat().st_size for p in files)
+    if total <= part_limit:
+        path = out_dir / f"{base_name}.zip"
+        with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as z:
+            for p in files:
+                z.write(p, p.relative_to(BUNDLE.parent))
+        return [path]
+    parts, part, cur, n = [], None, 0, 0
+    for p in files:
+        sz = p.stat().st_size
+        if part is None or (cur + sz > part_limit and cur > 0):
+            if part:
+                part.close()
+            n += 1
+            path = out_dir / f"{base_name}_parte{n:02d}.zip"
+            parts.append(path)
+            part = zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED, compresslevel=6)
+            cur = 0
+        part.write(p, p.relative_to(BUNDLE.parent))
+        cur += sz
+    if part:
+        part.close()
+    return parts
+
+
 def make_bundle(report):
     r = report["resumo"]
     leia = ["TUDO JUNTO – The Sims 4: 5 sims mais recentes do CurseForge + CCs necessários", "",
             f"Gerado em {report['gerado_em']}", "",
             "COMO INSTALAR",
+            "0) Se houver várias partes (_parte01, _parte02...), extraia TODAS na mesma pasta – elas se completam.",
             "1) Copie TODO o conteúdo da pasta Tray/ para: Documentos\\Electronic Arts\\The Sims 4\\Tray",
             "2) Copie TODO o conteúdo da pasta Mods/ para: Documentos\\Electronic Arts\\The Sims 4\\Mods",
             "3) Abra o jogo > Opções > Outros > marque 'Ativar conteúdo personalizado e mods' e reinicie.",
@@ -903,43 +940,45 @@ def make_bundle(report):
 
     files = [p for p in sorted(BUNDLE.rglob("*")) if p.is_file()]
     total = sum(p.stat().st_size for p in files)
-    log(f"Conteúdo do pacote: {len(files)} arquivos, {human(total)} sem compressão")
+    n_mods = sum(1 for p in files if p.suffix.lower() in MOD_EXT)
+    n_tray = sum(1 for p in files if p.suffix.lower() in TRAY_EXT)
+    log(f"Conteúdo do pacote: {len(files)} arquivos ({n_mods} .package, {n_tray} de tray), {human(total)} sem compressão")
 
-    full = RELEASE / "TUDO_JUNTO_Sims4.zip"
-    with zipfile.ZipFile(full, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as z:
-        for p in files:
-            z.write(p, p.relative_to(BUNDLE.parent))
-    size = full.stat().st_size
-    log(f"Pacote final: {full.name} ({human(size)})")
-
-    limit_commit = 95 * 1024 * 1024
-    part_limit = 85 * 1024 * 1024
-    info_lines = [f"TUDO_JUNTO_Sims4.zip = {size} bytes ({human(size)})"]
-    if size <= limit_commit:
-        shutil.copy2(full, OUT / "TUDO_JUNTO_Sims4.zip")
-    else:
-        parts_dir = OUT / "partes"
-        parts_dir.mkdir()
-        # primeiro LEIA-ME/relatorio/Tray, depois Mods; cada parte extrai sozinha
-        files.sort(key=lambda p: (0 if (p.name in ("LEIA-ME.txt", "relatorio.md") or "Tray" in p.parts) else 1, str(p)))
-        part, cur, n = None, 0, 0
-        for p in files:
-            sz = p.stat().st_size
-            if part is None or (cur + sz > part_limit and cur > 0):
-                if part:
-                    part.close()
-                n += 1
-                part = zipfile.ZipFile(parts_dir / f"TUDO_JUNTO_Sims4_parte{n:02d}.zip", "w",
-                                       zipfile.ZIP_DEFLATED, compresslevel=6)
-                cur = 0
-            part.write(p, p.relative_to(BUNDLE.parent))
-            cur += sz
-        if part:
-            part.close()
-        for p in sorted(parts_dir.iterdir()):
-            info_lines.append(f"partes/{p.name} = {p.stat().st_size} bytes ({human(p.stat().st_size)})")
-        log(f"Pacote dividido em {n} partes em {parts_dir} (cada parte extrai sozinha)")
+    # Release do GitHub: limite de 2 GiB por arquivo -> partes de até 1,8 GiB de conteúdo
+    rel_parts = build_parts(files, RELEASE, "TUDO_JUNTO_Sims4", int(1.8 * 1024 ** 3))
+    info_lines = [f"Conteúdo total: {total} bytes ({human(total)}) em {len(files)} arquivos "
+                  f"({n_mods} .package, {n_tray} arquivos de tray)", ""]
+    for p in rel_parts:
+        log(f"Release: {p.name} ({human(p.stat().st_size)})")
+        info_lines.append(f"release/{p.name} = {p.stat().st_size} bytes ({human(p.stat().st_size)})")
+    # Cópia no repositório só se for pequeno (limite do GitHub: 100 MB por arquivo)
+    if len(rel_parts) == 1 and rel_parts[0].stat().st_size <= 95 * 1024 * 1024:
+        shutil.copy2(rel_parts[0], OUT / rel_parts[0].name)
+        info_lines.append(f"pacote/{rel_parts[0].name} (cópia no repositório)")
     (OUT / "TAMANHO.txt").write_text("\n".join(info_lines) + "\n", encoding="utf-8")
+
+    # resumo curto (vai para o painel do GitHub Actions e para as notas da Release)
+    res = [f"## The Sims 4 – TUDO JUNTO ({human(total)}, {n_mods} .package, {n_tray} arquivos de tray)", "",
+           f"Gerado em {report['gerado_em']}", "",
+           f"- Sims baixados: **{r['sims_ok']}/5**",
+           f"- CCs únicos baixados: **{r['ok']}/{r['cc_unicos']}**",
+           f"- Exclusivos de assinantes (Patreon pago / TSR VIP): {r['pago_assinantes']}",
+           f"- Falharam: {r['falhou']}", "",
+           "### Arquivos da Release", ""]
+    for p in rel_parts:
+        res.append(f"- `{p.name}` – {human(p.stat().st_size)}")
+    if len(rel_parts) > 1:
+        res.append("\nExtraia TODAS as partes na mesma pasta; cada uma é um zip independente.")
+    res += ["", "### Sims", ""]
+    for s in report["sims"]:
+        okc = sum(1 for c in s["cc"] if c["status"] == "ok")
+        res.append(f"{s['n']}. **{s['nome']}** ({s['autor']}) – sim: {s['status_sim']} – CC: {okc}/{len(s['cc'])}")
+    miss = [c for c in report["cc_unicos"].values() if c["status"] != "ok"]
+    if miss:
+        res += ["", "### Não baixados automaticamente", ""]
+        for c in miss:
+            res.append(f"- {c['nome']} – {c['status']} – {c['url']}")
+    (OUT / "resumo.md").write_text("\n".join(res) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

@@ -20,7 +20,7 @@ concurrency:
 jobs:
   download:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 150
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,14 +42,32 @@ jobs:
       - name: Baixar sims e CC
         run: python sims4-bundle/scripts/download.py
 
-      - name: Mostrar resumo
+      - name: Resumo no painel
         if: always()
         run: |
+          if [ -f sims4-bundle/pacote/resumo.md ]; then cat sims4-bundle/pacote/resumo.md >> "$GITHUB_STEP_SUMMARY"; fi
           echo "----- TAMANHO -----"; cat sims4-bundle/pacote/TAMANHO.txt 2>/dev/null || true
-          echo "----- RELATÓRIO -----"; head -c 6000 sims4-bundle/pacote/relatorio.md 2>/dev/null || true
-          ls -la sims4-bundle/pacote sims4-bundle/pacote/partes sims4-bundle/release 2>/dev/null || true
+          ls -la sims4-bundle/pacote sims4-bundle/release 2>/dev/null || true
 
-      - name: Commit dos arquivos baixados
+      - name: Publicar Release com o pacote completo
+        if: always() && hashFiles('sims4-bundle/release/*.zip') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="sims4-tudo-junto"
+          gh release delete "$TAG" -y --cleanup-tag 2>/dev/null || true
+          sleep 3
+          gh release create "$TAG" \
+            --target "${{ github.sha }}" \
+            --title "The Sims 4 – TUDO JUNTO (5 sims + CCs)" \
+            --notes-file sims4-bundle/pacote/resumo.md \
+            sims4-bundle/release/*.zip \
+            sims4-bundle/pacote/relatorio.md \
+            sims4-bundle/pacote/log.txt
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "**Download:** https://github.com/${{ github.repository }}/releases/tag/$TAG" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit dos relatórios (e do zip, se couber)
         if: always()
         run: |
           git config user.name "github-actions[bot]"
@@ -58,25 +76,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nada novo para commitar"
           else
-            git commit -m "Sims 4: pacote baixado pelo GitHub Actions (run ${{ github.run_id }})"
+            git commit -m "Sims 4: relatório/pacote gerados pelo GitHub Actions (run ${{ github.run_id }})"
             for i in 1 2 3; do
               git pull --rebase origin arena/01a07843-viniciaao && git push origin HEAD:arena/01a07843-viniciaao && break
               sleep 5
             done
           fi
-
-      - name: Publicar Release com o pacote completo
-        if: always() && hashFiles('sims4-bundle/release/TUDO_JUNTO_Sims4.zip') != ''
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          TAG="sims4-tudo-junto"
-          gh release delete "$TAG" -y --cleanup-tag 2>/dev/null || true
-          NOTES="Pacote gerado automaticamente em $(date -u '+%Y-%m-%d %H:%M UTC') (run ${{ github.run_id }}). Veja relatorio.md para a lista completa de sims/CCs e o que faltou."
-          gh release create "$TAG" \
-            --target "${{ github.sha }}" \
-            --title "The Sims 4 – TUDO JUNTO (5 sims + CCs)" \
-            --notes "$NOTES" \
-            sims4-bundle/release/TUDO_JUNTO_Sims4.zip \
-            sims4-bundle/pacote/relatorio.md \
-            sims4-bundle/pacote/log.txt
