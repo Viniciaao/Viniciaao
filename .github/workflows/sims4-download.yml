@@ -67,6 +67,8 @@ jobs:
             --title "The Sims 4 – TUDO JUNTO (5 sims + CCs)" \
             --notes-file sims4-bundle/pacote/resumo.md \
             sims4-bundle/release/*.zip \
+            sims4-bundle/pacote/NAO_BAIXADOS.txt \
+            sims4-bundle/pacote/LISTA_COMPLETA.txt \
             sims4-bundle/pacote/relatorio.md \
             sims4-bundle/pacote/log.txt
           echo "" >> "$GITHUB_STEP_SUMMARY"

@@ -861,6 +861,80 @@ def main():
     make_bundle(report)
 
 
+def write_txt_lists(report):
+    """NAO_BAIXADOS.txt (o que faltou, com link/motivo/sim) e LISTA_COMPLETA.txt (tudo, por sim)."""
+    r = report["resumo"]
+    ordem = {"pago/assinantes": 0, "falhou": 1, "opcional (não baixado)": 2}
+    miss = sorted([c for c in report["cc_unicos"].values() if c["status"] != "ok"],
+                  key=lambda c: (ordem.get(c["status"], 9), c["nome"].lower()))
+    sep = "=" * 78
+    L = [sep, "  MODS / CC QUE NÃO CONSEGUI BAIXAR AUTOMATICAMENTE", sep,
+         f"Gerado em {report['gerado_em']}",
+         f"Fonte dos sims: {report['fonte']}", "",
+         f"Total de CCs únicos nos 5 sims: {r['cc_unicos']}",
+         f"  Baixados e incluídos no pacote ......: {r['ok']}",
+         f"  Só para assinantes (Patreon/TSR VIP) : {r['pago_assinantes']}",
+         f"  Falharam (erro / link quebrado) .....: {r['falhou']}",
+         f"  Opcionais (preset GShade etc.) ......: {r['opcional']}", "",
+         "Como ler: cada item abaixo tem o LINK original, o MOTIVO e QUAIS SIMS usam.",
+         "Baixe manualmente e jogue os .package em Documentos\\Electronic Arts\\The Sims 4\\Mods.", ""]
+    grupos = [("pago/assinantes", "1) SÓ PARA ASSINANTES / MEMBROS (precisa logar no Patreon ou ser VIP no TSR)"),
+              ("falhou", "2) FALHARAM (site fora do ar, link quebrado, captcha, MEGA, pasta do Drive...)"),
+              ("opcional (não baixado)", "3) OPCIONAIS (não são CC do jogo)")]
+    n = 0
+    for status, titulo in grupos:
+        itens = [c for c in miss if c["status"] == status]
+        if not itens:
+            continue
+        L += [sep, f"  {titulo}  [{len(itens)}]", sep, ""]
+        for c in itens:
+            n += 1
+            nome = c["nome"] + (" / " + " / ".join(c.get("aliases") or []) if c.get("aliases") else "")
+            L.append(f"{n:3d}. {nome}")
+            L.append(f"     Link  : {c['url']}")
+            L.append(f"     Fonte : {c['fonte']}")
+            if c.get("detalhe"):
+                L.append(f"     Motivo: {c['detalhe']}")
+            L.append(f"     Usado por: {', '.join(c.get('usado_por') or [])}")
+            L.append("")
+    if not miss:
+        L += ["Nenhum! Todos os CCs foram baixados.", ""]
+    L += [sep, "  POR SIM – o que falta para cada um", sep, ""]
+    for s_ in report["sims"]:
+        faltam = [c for c in s_["cc"] if c["status"] != "ok"]
+        okc = len(s_["cc"]) - len(faltam)
+        L.append(f"{s_['n']}. {s_['nome']} (por {s_['autor']}) – CC baixado: {okc}/{len(s_['cc'])}"
+                 f" – sim: {s_['status_sim']}")
+        L.append(f"   {s_['pagina']}")
+        for c in faltam:
+            L.append(f"   [FALTA - {c['status']}] {c['nome']}  ->  {c['url']}")
+        L.append("")
+    (OUT / "NAO_BAIXADOS.txt").write_text("\n".join(L), encoding="utf-8")
+
+    # lista completa
+    C = [sep, "  LISTA COMPLETA – 5 sims + todos os CCs de cada um (com status)", sep,
+         f"Gerado em {report['gerado_em']}", "",
+         f"Resumo: {r['sims_ok']}/5 sims | CCs únicos {r['ok']}/{r['cc_unicos']} baixados | "
+         f"{r['pago_assinantes']} só assinantes | {r['falhou']} falharam | {r['opcional']} opcionais", ""]
+    for s_ in report["sims"]:
+        C += [sep, f"  SIM {s_['n']}: {s_['nome']}  (por {s_['autor']})", sep,
+              f"Página : {s_['pagina']}",
+              f"Arquivo: {s_.get('arquivo_sim')}  – status: {s_['status_sim']}",
+              f"Tray   : {', '.join(s_.get('tray') or []) or '—'}", ""]
+        for i, c in enumerate(s_["cc"], 1):
+            tag = "OK     " if c["status"] == "ok" else ("PAGO   " if c["status"].startswith("pago") else
+                                                          ("OPCION." if c["status"].startswith("opcional") else "FALHOU "))
+            nome = c["nome"] + (" / " + " / ".join(c.get("aliases") or []) if c.get("aliases") else "")
+            C.append(f"  {i:2d}. [{tag}] {nome}")
+            C.append(f"       {c['url']}")
+            if c["status"] == "ok":
+                C.append(f"       arquivo(s): {', '.join(c.get('arquivos') or [])}")
+            elif c.get("detalhe"):
+                C.append(f"       motivo: {c['detalhe']}")
+        C.append("")
+    (OUT / "LISTA_COMPLETA.txt").write_text("\n".join(C), encoding="utf-8")
+
+
 def write_reports(report):
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "relatorio.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -898,12 +972,13 @@ def write_reports(report):
                   + (f"  \n  motivo: {c['detalhe']}" if c.get("detalhe") else ""))
     (OUT / "relatorio.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     (OUT / "log.txt").write_text("\n".join(LOG_LINES), encoding="utf-8")
+    write_txt_lists(report)
 
 
 def build_parts(files, out_dir, base_name, part_limit):
     """Zips independentes (cada um extrai sozinho) com no máximo ~part_limit bytes de conteúdo cada."""
     out_dir.mkdir(parents=True, exist_ok=True)
-    files = sorted(files, key=lambda p: (0 if (p.name in ("LEIA-ME.txt", "relatorio.md") or "Tray" in p.parts) else 1, str(p)))
+    files = sorted(files, key=lambda p: (0 if (p.name in ("LEIA-ME.txt", "relatorio.md", "NAO_BAIXADOS.txt", "LISTA_COMPLETA.txt") or "Tray" in p.parts) else 1, str(p)))
     total = sum(p.stat().st_size for p in files)
     if total <= part_limit:
         path = out_dir / f"{base_name}.zip"
@@ -948,6 +1023,8 @@ def make_bundle(report):
              "Pasta _nao_extraidos/ (se existir) = arquivos que não pude abrir automaticamente; extraia à mão.", ""]
     (BUNDLE / "LEIA-ME.txt").write_text("\n".join(leia), encoding="utf-8")
     shutil.copy2(OUT / "relatorio.md", BUNDLE / "relatorio.md")
+    shutil.copy2(OUT / "NAO_BAIXADOS.txt", BUNDLE / "NAO_BAIXADOS.txt")
+    shutil.copy2(OUT / "LISTA_COMPLETA.txt", BUNDLE / "LISTA_COMPLETA.txt")
 
     files = [p for p in sorted(BUNDLE.rglob("*")) if p.is_file()]
     total = sum(p.stat().st_size for p in files)
