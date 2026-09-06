@@ -1,0 +1,53 @@
+name: Sims 4 - Download sims e CC
+
+on:
+  push:
+    branches:
+      - arena/01a07843-viniciaao
+    paths:
+      - 'sims4-bundle/manifest.json'
+      - 'sims4-bundle/scripts/**'
+      - 'sims4-bundle/.trigger'
+      - '.github/workflows/sims4-download.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sims4-download
+  cancel-in-progress: true
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: arena/01a07843-viniciaao
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Baixar sims e CC
+        run: python sims4-bundle/scripts/download.py
+
+      - name: Commit dos arquivos baixados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A sims4-bundle/downloads sims4-bundle/report.json sims4-bundle/report.md || true
+          if git diff --cached --quiet; then
+            echo "Nada novo para commitar"
+          else
+            git commit -m "Sims 4: arquivos baixados pelo GitHub Actions (run ${{ github.run_id }})"
+            git pull --rebase origin arena/01a07843-viniciaao || true
+            git push origin HEAD:arena/01a07843-viniciaao
+          fi
