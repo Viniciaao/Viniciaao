@@ -1,0 +1,144 @@
+==============================================================================
+  MODS / CC QUE NÃO CONSEGUI BAIXAR AUTOMATICAMENTE
+==============================================================================
+Gerado em 2026-09-06 21:55:12 UTC
+Fonte dos sims: https://www.curseforge.com/sims4/search?class=sims-households&page=1&pageSize=20&sortBy=creation+date
+
+Total de CCs únicos nos 5 sims: 133
+  Baixados e incluídos no pacote ......: 120
+  Só para assinantes (Patreon/TSR VIP) : 7
+  Falharam (erro / link quebrado) .....: 5
+  Opcionais (preset GShade etc.) ......: 1
+
+Como ler: cada item abaixo tem o LINK original, o MOTIVO e QUAIS SIMS usam.
+Baixe manualmente e jogue os .package em Documentos\Electronic Arts\The Sims 4\Mods.
+
+==============================================================================
+  1) SÓ PARA ASSINANTES / MEMBROS (precisa logar no Patreon ou ser VIP no TSR)  [7]
+==============================================================================
+
+  1. 3D EYELASHES COLLECTION
+     Link  : https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
+     Fonte : patreon
+     Motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)
+     Usado por: Edith Medina, Luciana Neal, Serena Slade
+
+  2. [BRADFORD] My LV Pearl Bracelet
+     Link  : https://www.patreon.com/bradfordsims/posts/my-lv-pearl-set-125206303
+     Fonte : patreon
+     Motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (MY LV PEARL SET /// GAME EDITION)
+     Usado por: Uminunu-F12 The Sweet Streamer
+
+  3. [NORTHERN SIBERIA WINDS] FEMALE LIPS PRESET N54-62
+     Link  : https://www.patreon.com/northernsiberiawinds/posts/love-yourself-115123327
+     Fonte : patreon
+     Motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: PRESETS COLLECTION ❤️)
+     Usado por: Edith Medina
+
+  4. [NORTHERN SIBERIA WINDS] FEMALE NOSE PRESETS N43-51 CHILD EDITION / [NORTHERN SIBERIA WINDS] EARS PRESET N4
+     Link  : https://www.patreon.com/posts/love-yourself-115123327
+     Fonte : patreon
+     Motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: PRESETS COLLECTION ❤️)
+     Usado por: Rosemary Haney
+
+  5. [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART
+     Link  : https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
+     Fonte : patreon
+     Motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)
+     Usado por: Edith Medina, Luciana Neal, Serena Slade
+
+  6. [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART
+     Link  : https://www.patreon.com/posts/love-yourself-118323257
+     Fonte : patreon
+     Motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)
+     Usado por: Rosemary Haney
+
+  7. obscurus_eyes_N18_sclera
+     Link  : https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+     Fonte : patreon
+     Motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)
+     Usado por: Edith Medina, Luciana Neal, Serena Slade
+
+==============================================================================
+  2) FALHARAM (site fora do ar, link quebrado, captcha, MEGA, pasta do Drive...)  [5]
+==============================================================================
+
+  8. [Kijiko]eyelash_YF_Mak_ex-natural_Ri
+     Link  : https://kijiko-catfood.com/3d-lashes-uncurl-makeup/
+     Fonte : other
+     Motivo: Failed to perform, curl: (28) Connection timed out after 90001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+     Usado por: Uminunu-F12 The Sweet Streamer
+
+  9. [KIKIW]The perfect doll slider_eyes_Fixed
+     Link  : https://www.tumblr.com/cocoona-sims/652805006498643968/kikiwthe-perfect-doll-slide-the-slider-can
+     Fonte : other
+     Motivo: nenhum link baixável na página (https://www.patreon.com/posts/51786745: Patreon API HTTP 404: '{"errors":[{"id":"cbf32e2d-5900-4a5c-be20-846e440fdb71",")
+     Usado por: Uminunu-F12 The Sweet Streamer
+
+ 10. [VICE4Simz] - Rick Owens
+     Link  : https://www.patreon.com/posts/vice-2022-high-c-64102874
+     Fonte : patreon
+     Motivo: Patreon API HTTP 404: '{"errors":[{"id":"77efa7af-1864-4c60-a469-f0ee48de9430","code_name":"ResourceMissing","code":4,"title":"post was not found.","detail":"post with id 64102874 was'
+     Usado por: Rosemary Haney
+
+ 11. LamaLama_Acc_Hair Melyssa
+     Link  : https://www.simsfinds.com/downloads/361654/melyssa-hair-by-lamalama-sims4
+     Fonte : other
+     Motivo: nenhum link baixável na página (https://www.simsfinds.com/en/downloads/sims4: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims4?latest=cc: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims3: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims3: pá | https://www.simsfinds.com/en/downloads/sims2: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims2: pá)
+     Usado por: Rosemary Haney
+
+ 12. obscurus_eyelids_N3test
+     Link  : https://obscurus-sims.tumblr.com/post/168617117913/eyelids-n3-24-colors-teen-males-and-females
+     Fonte : other
+     Motivo: nenhum link baixável na página (http://simfileshare.net/folder/149886/: SimFileShare: é uma PASTA – baixe manualmente)
+     Usado por: Uminunu-F12 The Sweet Streamer
+
+==============================================================================
+  3) OPCIONAIS (não são CC do jogo)  [1]
+==============================================================================
+
+ 13. Miwisimsie_Daily Perfect CAS
+     Link  : https://www.patreon.com/posts/gshade-preset-123038419
+     Fonte : optional
+     Motivo: preset gráfico (GShade/ReShade) – não é CC do jogo; opcional
+     Usado por: Edith Medina, Luciana Neal, Serena Slade
+
+==============================================================================
+  POR SIM – o que falta para cada um
+==============================================================================
+
+1. Edith Medina (por miwisimsie) – CC baixado: 32/37 – sim: ok
+   https://www.curseforge.com/sims4/sims-households/edith-medina
+   [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] FEMALE LIPS PRESET N54-62  ->  https://www.patreon.com/northernsiberiawinds/posts/love-yourself-115123327
+   [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART  ->  https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
+   [FALTA - pago/assinantes] 3D EYELASHES COLLECTION  ->  https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
+   [FALTA - pago/assinantes] obscurus_eyes_N18_sclera  ->  https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+   [FALTA - opcional (não baixado)] Miwisimsie_Daily Perfect CAS  ->  https://www.patreon.com/posts/gshade-preset-123038419
+
+2. Luciana Neal (por miwisimsie) – CC baixado: 32/36 – sim: ok
+   https://www.curseforge.com/sims4/sims-households/luciana-neal
+   [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART  ->  https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
+   [FALTA - pago/assinantes] 3D EYELASHES COLLECTION  ->  https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
+   [FALTA - pago/assinantes] obscurus_eyes_N18_sclera  ->  https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+   [FALTA - opcional (não baixado)] Miwisimsie_Daily Perfect CAS  ->  https://www.patreon.com/posts/gshade-preset-123038419
+
+3. Serena Slade (por miwisimsie) – CC baixado: 31/35 – sim: ok
+   https://www.curseforge.com/sims4/sims-households/serena-slade
+   [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART  ->  https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
+   [FALTA - pago/assinantes] 3D EYELASHES COLLECTION  ->  https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
+   [FALTA - pago/assinantes] obscurus_eyes_N18_sclera  ->  https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+   [FALTA - opcional (não baixado)] Miwisimsie_Daily Perfect CAS  ->  https://www.patreon.com/posts/gshade-preset-123038419
+
+4. Uminunu-F12 The Sweet Streamer (por Uminunu) – CC baixado: 29/33 – sim: ok
+   https://www.curseforge.com/sims4/sims-households/uminunu-f12-the-sweet-streamer
+   [FALTA - pago/assinantes] [BRADFORD] My LV Pearl Bracelet  ->  https://www.patreon.com/bradfordsims/posts/my-lv-pearl-set-125206303
+   [FALTA - falhou] [Kijiko]eyelash_YF_Mak_ex-natural_Ri  ->  https://kijiko-catfood.com/3d-lashes-uncurl-makeup/
+   [FALTA - falhou] obscurus_eyelids_N3test  ->  https://obscurus-sims.tumblr.com/post/168617117913/eyelids-n3-24-colors-teen-males-and-females
+   [FALTA - falhou] [KIKIW]The perfect doll slider_eyes_Fixed  ->  https://www.tumblr.com/cocoona-sims/652805006498643968/kikiwthe-perfect-doll-slide-the-slider-can
+
+5. Rosemary Haney (por daboosims) – CC baixado: 28/32 – sim: ok
+   https://www.curseforge.com/sims4/sims-households/rosemary-haney
+   [FALTA - falhou] [VICE4Simz] - Rick Owens  ->  https://www.patreon.com/posts/vice-2022-high-c-64102874
+   [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] FEMALE NOSE PRESETS N43-51 CHILD EDITION  ->  https://www.patreon.com/posts/love-yourself-115123327
+   [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART  ->  https://www.patreon.com/posts/love-yourself-118323257
+   [FALTA - falhou] LamaLama_Acc_Hair Melyssa  ->  https://www.simsfinds.com/downloads/361654/melyssa-hair-by-lamalama-sims4
