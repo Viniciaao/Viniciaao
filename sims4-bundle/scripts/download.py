@@ -342,7 +342,7 @@ def patreon_download(post_id, dest_dir, depth=0):
     ext_links = extract_links(content, base_url=f"https://www.patreon.com/posts/{post_id}")
 
     if can_view is False and not files and not ext_links:
-        raise PaywallError(f"post exclusivo para assinantes ({title})")
+        raise PaywallError(f"post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) ({title})")
 
     got, errs = [], []
     for name, u in files:
@@ -362,7 +362,7 @@ def patreon_download(post_id, dest_dir, depth=0):
                 errs.append(f"{u}: {e}")
     if not got:
         if can_view is False:
-            raise PaywallError(f"post exclusivo para assinantes ({title})")
+            raise PaywallError(f"post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) ({title})")
         raise RuntimeError("Patreon: nenhum arquivo baixável no post" + (f" ({'; '.join(errs[:3])})" if errs else ""))
     return got
 
@@ -674,7 +674,13 @@ def collect_files(src_dir):
     return mods, tray
 
 
+SEEN_PACKAGES = {}   # (nome, tamanho) -> caminho já copiado (evita duplicar o mesmo .package em duas pastas)
+
+
 def copy_unique(src, dest_dir):
+    key = (src.name.lower(), src.stat().st_size)
+    if src.suffix.lower() in MOD_EXT and key in SEEN_PACKAGES and SEEN_PACKAGES[key].exists():
+        return SEEN_PACKAGES[key]
     dest_dir.mkdir(parents=True, exist_ok=True)
     dest = dest_dir / src.name
     if dest.exists():
@@ -685,6 +691,8 @@ def copy_unique(src, dest_dir):
             dest = dest_dir / f"{src.stem}_{i}{src.suffix}"
             i += 1
     shutil.copy2(src, dest)
+    if src.suffix.lower() in MOD_EXT:
+        SEEN_PACKAGES[key] = dest
     return dest
 
 
@@ -945,7 +953,7 @@ def make_bundle(report):
     log(f"Conteúdo do pacote: {len(files)} arquivos ({n_mods} .package, {n_tray} de tray), {human(total)} sem compressão")
 
     # Release do GitHub: limite de 2 GiB por arquivo -> partes de até 1,8 GiB de conteúdo
-    rel_parts = build_parts(files, RELEASE, "TUDO_JUNTO_Sims4", int(1.8 * 1024 ** 3))
+    rel_parts = build_parts(files, RELEASE, "TUDO_JUNTO_Sims4", int(1.75 * 1024 ** 3))
     info_lines = [f"Conteúdo total: {total} bytes ({human(total)}) em {len(files)} arquivos "
                   f"({n_mods} .package, {n_tray} arquivos de tray)", ""]
     for p in rel_parts:
