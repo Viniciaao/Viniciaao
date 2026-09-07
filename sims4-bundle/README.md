@@ -42,6 +42,21 @@ download real roda no **GitHub Actions** (`.github/workflows/sims4-download.yml`
 4. No jogo: Opções → Outros → ativar *Conteúdo personalizado e mods* → reiniciar.
 5. Galeria → Minha Biblioteca → marcar *Incluir conteúdo personalizado* → procurar o nome do sim.
 
+## Posts do Patreon que só têm imagens de preview
+
+Muitos criadores (SEOULSOUL, sims3melancholic, MADMAN/magicbot, eunosims, GoppolsMe, SUNBERRY…) publicam
+no Patreon só as fotos e deixam o arquivo no site próprio, numa pasta do Google Drive ou no SimFileShare.
+A API pública do Patreon devolve `content: null` para esses posts e a página HTML fica atrás do
+Cloudflare quando acessada do GitHub Actions (comprovado pela sonda em `sims4-bundle/probe/`).
+
+Por isso o `download.py` tem a tabela `KNOWN_DIRECT` (id do post → link real, descoberto lendo cada post)
+e sabe baixar **pastas públicas do Google Drive** (`embeddedfolderview`), **pastas do SimFileShare**,
+anexos de blogs **tistory** (kakaocdn), páginas do **seoul-soul.com**, **MediaFire** e encurtadores
+(bit.ly). Quando o CC pedido tem nome, só os arquivos com aquele nome são baixados da pasta.
+Imagens de preview nunca contam como "baixado"; um item sem `.package` real vira **falhou**.
+
+Teste offline (sem rede, usa as páginas salvas pela sonda): `python3 sims4-bundle/probe/test_offline.py`.
+
 ## O que pode faltar
 
 - **Patreon exclusivo de assinantes** (early access pago): a API pública não entrega o arquivo. O relatório

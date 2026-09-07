@@ -71,9 +71,80 @@ TRAY_EXT = {".trayitem", ".householdbinary", ".hhi", ".sgi", ".bpi", ".blueprint
 MOD_EXT = {".package", ".ts4script"}
 ARCHIVE_EXT = {".zip", ".rar", ".7z"}
 IMG_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".txt", ".pdf", ".url", ".html"}
+IMG_MAGIC = (b"\x89PNG", b"\xff\xd8\xff", b"GIF8", b"RIFF", b"BM", b"<svg")
+
+# Links alternativos para posts do Patreon que só têm imagens de preview (o arquivo fica no site do
+# criador / Google Drive / SimFileShare) ou para páginas que falham. Descobertos manualmente lendo
+# cada post. Chave = id do post do Patreon ou a URL da página; valor = lista de links, em ordem.
+KNOWN_DIRECT = {
+    # SEOULSOUL: post -> seoul-soul.com -> pasta do Google Drive com os .package do set
+    "157807075": ["https://drive.google.com/drive/folders/1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk", "https://seoul-soul.com/5711-2/"],
+    "102201651": ["https://drive.google.com/drive/folders/1TTN0fFoBlj1ScXRTY--g5SAnXTTDSPG3", "https://seoul-soul.com/sims4-cc-2024-022/"],
+    "116111159": ["https://drive.google.com/drive/folders/1xie81qDsN-koKJWngm8gfpLpT3wig4u-", "https://seoul-soul.com/sims4-cc-2024-065/"],
+    "136614796": ["https://drive.google.com/drive/folders/1_kztUScguAH0FVk9ubpvEN98oUO-AZq2", "https://seoul-soul.com/sims4-cc-2025-118/"],
+    "147880127": ["https://drive.google.com/drive/folders/103uMfur8ZgnYJZ7tCf4Mj6Lmbh3WOFi-", "https://seoul-soul.com/sims4-cc-2026-142/"],
+    "131742236": ["https://drive.google.com/drive/folders/1zXvu1pANtMFGviHavSltgQ3thFM2HDM-", "https://seoul-soul.com/sims4-cc-2025-105-106/"],
+    "149006537": ["https://drive.google.com/drive/folders/12jrJ0P0PfH2KRhhzmdHCgmtM271p2Zxl", "https://seoul-soul.com/sims4-cc-2026-146/"],
+    "164173468": ["https://drive.google.com/drive/folders/1q_GfT8dWJn3rvBK5ap-cw212aolBP7uJ", "https://seoul-soul.com/sims4-cc-2026-179/"],
+    # sims3melancholic (Google Drive)
+    "103333754": ["https://drive.google.com/file/d/1YNZywjvC-2JEd3XGOg6z5dIpO7ks1oji/view",
+                  "https://drive.google.com/drive/folders/1HqBdxL23nNBYvojw9eLsVdsI9yj592BL"],       # highlight #23-28 ALL IN 1
+    "90064610": ["https://drive.google.com/file/d/1XxidR5sxUx1kklsFYnzUnaNTI_n417P7/view",
+                 "https://drive.google.com/drive/folders/1DXwvJWfHWJYxo7IPAfgiM1UPbHPepXrq"],        # contacts #121 EYE COLORS
+    "154420504": ["https://drive.google.com/file/d/1rslFQoSm5Tf-YhHhbhbhstPqInA0z6_t/view",
+                  "https://drive.google.com/drive/folders/1LFdW0R8V1_Z1vaVWFDpccHlJ4ztdMSk0"],       # eyebrows #166
+    # MADMAN / magicbot sliders (SimFileShare)
+    "54872952": ["https://simfileshare.net/download/2676307/"],     # chin
+    "56990147": ["https://simfileshare.net/download/2759281/"],     # mouth
+    "55675247": ["https://simfileshare.net/download/2716250/"],     # nose
+    # eunosims (blog tistory / CurseForge)
+    "123677619": ["https://eunosims.tistory.com/entry/sims4-eye-preset-download"],   # eye preset 1-5
+    "72592326": ["https://eunosims.tistory.com/entry/nose-preset-610"],              # nose preset 6-10
+    "139371473": ["https://www.curseforge.com/sims4/create-a-sim/eye-presets-11-15"],  # eye preset 11-15
+    # obscurus
+    "23816939": ["https://simfileshare.net/folder/54933/"],                            # hairline N1sd
+    "78704428": ["https://mega.nz/folder/Q5YRRIzI#KmYF3j1bPHN64dgA1pSPmA"],            # nose highlighter (só MEGA)
+    # GoppolsMe
+    "119339172": ["https://simfileshare.net/download/5216750/",
+                  "https://www.mediafire.com/file/9ox73a0npssvxtg/GPME-GOLD+Eyeshadow+CC+47.package/file"],
+    "18294399": ["https://simfileshare.net/download/508140/"],
+    # poyopoyo Michelle skin set (bit.ly -> pasta do Drive)
+    "71029892": ["https://drive.google.com/drive/folders/12AlqHAzsek4xQN75Eq14e0mVR-t9Y4Jh"],
+    # astya96 (só no Mod Collective, exige login)
+    "111339616": ["https://modcollective.gg/sims4/details/collection/298"],
+    # SUNBERRY 22.73
+    "76138099": ["https://sunberry-sims.tistory.com/entry/SIMS4CC-2273-female"],
+    # posts apagados do Patreon -> reuploads públicos no SimFileShare
+    "64102874": ["https://simfileshare.net/download/5238413/"],     # [VICE4Simz] Rick Owens
+    "51786745": ["https://simfileshare.net/folder/188255/"],        # [KIKIW] perfect doll slider
+    # páginas (chave = URL exata da descrição do sim)
+    "https://www.tumblr.com/cocoona-sims/652805006498643968/kikiwthe-perfect-doll-slide-the-slider-can":
+        ["https://simfileshare.net/folder/188255/"],
+    "https://kijiko-catfood.com/3d-lashes-uncurl-makeup/":
+        ["https://simfileshare.net/download/4893177/",
+         "https://www.mediafire.com/file/ljlqincziwc65rn/%255BKijiko%255Deyelash_Makeup_Uncurled.zip/file"],
+    "https://obscurus-sims.tumblr.com/post/168617117913/eyelids-n3-24-colors-teen-males-and-females":
+        ["https://simfileshare.net/folder/149886/"],
+    "https://www.simsfinds.com/downloads/361654/melyssa-hair-by-lamalama-sims4":
+        ["https://boosty.to/lamalama"],
+}
+
+# hosts que não dá para baixar sem navegador/conta -> vai para o relatório como "baixe manualmente"
+MANUAL_HOSTS = {
+    "mega.nz": "MEGA precisa do cliente/navegador",
+    "mega.co.nz": "MEGA precisa do cliente/navegador",
+    "modcollective.gg": "Mod Collective exige login e JavaScript",
+    "boosty.to": "Boosty exige conta",
+}
+
+# senhas de zip publicadas pelo próprio criador em post público (grátis) do Patreon
+ZIP_PASSWORDS = {
+    "euno nail set": ["4yODA4MT"],
+}
 
 LOG_LINES = []
 LOG_LOCK = threading.Lock()
+CUR = threading.local()      # contexto do item em download (nome do CC pedido, link alternativo usado)
 
 
 def log(msg):
@@ -117,16 +188,31 @@ class SkipItem(Exception):
     pass
 
 
+class ManualError(Exception):
+    """Só dá para baixar manualmente (MEGA, site com login/JS...)."""
+    pass
+
+
 # --------------------------------------------------------------------------- download genérico
 def is_real_file(head, content_type=""):
     if head.startswith((b"PK\x03\x04", b"Rar!", b"7z\xbc\xaf", b"DBPF")):
         return True
     ct = (content_type or "").lower()
-    if "text/html" in ct or "application/json" in ct or "text/plain" in ct:
+    if "text/html" in ct or "application/json" in ct or "text/plain" in ct or ct.startswith("image/"):
         return False
     if head.lstrip().lower().startswith((b"<!doctype", b"<html", b"<?xml", b"{", b"[")):
         return False
+    if head.startswith(IMG_MAGIC):          # imagem de preview não é CC
+        return False
     return True
+
+
+def is_image_file(path):
+    try:
+        head = open(path, "rb").read(8)
+    except Exception:  # noqa
+        return False
+    return head.startswith(IMG_MAGIC) or path.suffix.lower() in IMG_EXT
 
 
 def filename_from_response(r, fallback):
@@ -144,7 +230,8 @@ def filename_from_response(r, fallback):
     return safe_name(fallback, 150)
 
 
-def stream_download(url, dest_dir, fallback_name="arquivo.zip", session=None, headers=None, timeout=300):
+def stream_download(url, dest_dir, fallback_name="arquivo.zip", session=None, headers=None, timeout=300,
+                    force_name=False):
     sess = session or new_session()
     h = dict(headers or {})
     r = sess.get(url, headers=h, stream=True, timeout=timeout, allow_redirects=True)
@@ -160,7 +247,7 @@ def stream_download(url, dest_dir, fallback_name="arquivo.zip", session=None, he
         ctype = r.headers.get("Content-Type", "") or r.headers.get("content-type", "")
         if not is_real_file(first[:64], ctype):
             raise RuntimeError(f"resposta não é arquivo (Content-Type={ctype}) url={r.url}")
-        name = filename_from_response(r, fallback_name)
+        name = safe_name(fallback_name, 150) if force_name else filename_from_response(r, fallback_name)
         if "." not in name:
             name += ".zip" if first.startswith(b"PK") else (".rar" if first.startswith(b"Rar!") else ".package")
         dest_dir.mkdir(parents=True, exist_ok=True)
@@ -336,12 +423,13 @@ def patreon_download(post_id, dest_dir, depth=0):
                 seen.add(u)
                 files.append((a.get("name") or f"patreon_{post_id}", u))
     pf = attrs.get("post_file") or {}
-    if pf.get("url") and pf["url"] not in seen:
+    if pf.get("url") and pf["url"] not in seen and attrs.get("post_type") != "image_file":
         files.append((pf.get("name") or f"patreon_{post_id}", pf["url"]))
     content = attrs.get("content") or ""
     ext_links = extract_links(content, base_url=f"https://www.patreon.com/posts/{post_id}")
+    known = KNOWN_DIRECT.get(str(post_id), [])
 
-    if can_view is False and not files and not ext_links:
+    if can_view is False and not files and not ext_links and not known:
         raise PaywallError(f"post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) ({title})")
 
     got, errs = [], []
@@ -353,17 +441,46 @@ def patreon_download(post_id, dest_dir, depth=0):
         except Exception as e:  # noqa
             errs.append(f"{name}: {e}")
     if not got:
-        for u in ext_links[:10]:
-            try:
-                got += download_by_url(u, dest_dir, depth + 1)
-                if got:
-                    break
-            except Exception as e:  # noqa
-                errs.append(f"{u}: {e}")
+        # o post só tem imagens de preview: o arquivo está no site do criador / Drive / SimFileShare
+        got = try_alternatives(known + [u for u in ext_links if u not in known], dest_dir, depth, errs,
+                               why=f"post do Patreon {post_id} só tem imagens de preview")
     if not got:
         if can_view is False:
             raise PaywallError(f"post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) ({title})")
-        raise RuntimeError("Patreon: nenhum arquivo baixável no post" + (f" ({'; '.join(errs[:3])})" if errs else ""))
+        raise RuntimeError("Patreon: nenhum arquivo baixável no post (só imagens de preview)"
+                           + (f" ({'; '.join(errs[:3])})" if errs else ""))
+    return got
+
+
+def try_alternatives(links, dest_dir, depth, errs, why=""):
+    """Tenta baixar de cada link (em ordem) até um funcionar. Registra no contexto qual link funcionou.
+    Se nada funcionar e algum link era pago / só manual, levanta esse erro (mais informativo)."""
+    got, paywall, manual = [], None, None
+    for u in links[:10]:
+        try:
+            r = download_by_url(u, dest_dir, depth + 1)
+        except PaywallError as e:
+            paywall = paywall or e
+            errs.append(f"{u[:90]}: pago")
+            continue
+        except ManualError as e:
+            manual = manual or e
+            errs.append(f"{u[:90]}: manual")
+            continue
+        except Exception as e:  # noqa
+            errs.append(f"{u[:90]}: {str(e)[:90]}")
+            continue
+        if r:
+            got = r
+            if not getattr(CUR, "alt_link", None):
+                CUR.alt_link = u
+            log(f"    (arquivo veio de {u}{' – ' + why if why else ''})")
+            break
+    if not got:
+        if paywall:
+            raise paywall
+        if manual:
+            raise manual
     return got
 
 
@@ -435,50 +552,215 @@ def extract_links(html_text, base_url=None):
     return out
 
 
-def gdrive_download(url, dest_dir):
-    m = re.search(r"/d/([A-Za-z0-9_-]{20,})", url) or re.search(r"[?&]id=([A-Za-z0-9_-]{20,})", url)
-    if not m:
-        if "/folders/" in url:
-            raise RuntimeError("Google Drive: é uma PASTA – baixe manualmente")
-        raise RuntimeError("Google Drive: id não encontrado")
-    fid = m.group(1)
+def gdrive_file_download(fid, dest_dir, name=None):
     last = None
     for u in (f"https://drive.usercontent.google.com/download?id={fid}&export=download&confirm=t",
               f"https://drive.google.com/uc?export=download&id={fid}&confirm=t"):
         try:
-            return [stream_download(u, dest_dir, f"gdrive_{fid}.zip")]
+            return stream_download(u, dest_dir, name or f"gdrive_{fid}", force_name=bool(name))
         except Exception as e:  # noqa
             last = e
     raise RuntimeError(f"Google Drive: {last}")
 
 
+GD_TITLE_RE = re.compile(r'<div class="flip-entry-title">(.*?)</div>', re.S)
+
+
+def gdrive_list_folder(folder_id, session=None):
+    """Lista (id, nome, é_pasta) de uma pasta pública do Drive via embeddedfolderview (sem API key)."""
+    s = session or new_session()
+    r = s.get(f"https://drive.google.com/embeddedfolderview?id={folder_id}", timeout=90)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Google Drive pasta: HTTP {r.status_code}")
+    out = []
+    for block in re.split(r'<div class="flip-entry"\s', r.text)[1:]:
+        mid = re.match(r'id="entry-([A-Za-z0-9_-]+)"', block)
+        mt = GD_TITLE_RE.search(block)
+        if not mid or not mt:
+            continue
+        name = safe_name(html.unescape(re.sub(r"<[^>]+>", "", mt.group(1))), 150)
+        out.append((mid.group(1), name, "/drive/folders/" in block))
+    return out
+
+
+def wanted_names():
+    """Nome do CC pedido na descrição do sim (+ apelidos), normalizado, para escolher arquivos dentro de pastas."""
+    names = [getattr(CUR, "label", "")] + list(getattr(CUR, "aliases", []) or [])
+    return [n for n in (norm_name(x) for x in names) if n]
+
+
+def norm_name(s):
+    s = html.unescape(s or "").lower()
+    s = re.sub(r"\.(package|zip|rar|7z)$", "", s)
+    s = re.sub(r"[\s_\-\[\]\(\)#+:,'\"]+", "", s)
+    return s
+
+
+def pick_from_listing(entries, why="pasta"):
+    """entries = [(id, nome, é_pasta)]. Se o CC pedido tem nome, pega os arquivos cujo nome bate;
+    senão (ou se nada bater) pega todos os arquivos da pasta (limite de segurança)."""
+    files = [e for e in entries if not e[2]]
+    want = wanted_names()
+    if want and files:
+        exact = [e for e in files if norm_name(e[1]) in want]
+        if exact:
+            log(f"    {why}: {len(files)} arquivos, {len(exact)} com o nome exato pedido")
+            return exact
+        hit = [e for e in files if any(w in norm_name(e[1]) or norm_name(e[1]) in w for w in want)]
+        if hit:
+            log(f"    {why}: {len(files)} arquivos, {len(hit)} batem com o nome pedido")
+            return hit
+    log(f"    {why}: {len(files)} arquivos, baixando todos (nenhum nome bateu ou sem nome)")
+    return files[:40]
+
+
+def gdrive_download(url, dest_dir, depth=0):
+    m = re.search(r"/d/([A-Za-z0-9_-]{20,})", url) or re.search(r"[?&]id=([A-Za-z0-9_-]{20,})", url)
+    if m and "/folders/" not in url:
+        return [gdrive_file_download(m.group(1), dest_dir)]
+    mf = re.search(r"/folders/([A-Za-z0-9_-]{20,})", url)
+    if not mf:
+        raise RuntimeError("Google Drive: id não encontrado")
+    # pasta pública: lista e baixa os arquivos (recursivo em subpastas, até 2 níveis)
+    entries = gdrive_list_folder(mf.group(1))
+    if not entries:
+        raise RuntimeError("Google Drive: pasta vazia ou privada")
+    got, errs = [], []
+    for fid, name, _ in pick_from_listing(entries, "pasta do Drive"):
+        if pathlib.Path(name).suffix.lower() in IMG_EXT:
+            continue
+        try:
+            got.append(gdrive_file_download(fid, dest_dir, name))
+        except Exception as e:  # noqa
+            errs.append(f"{name}: {str(e)[:80]}")
+    if not got and depth < 3:
+        for fid, name, is_dir in entries:
+            if is_dir:
+                try:
+                    got += gdrive_download(f"https://drive.google.com/drive/folders/{fid}", dest_dir, depth + 1)
+                except Exception as e:  # noqa
+                    errs.append(f"{name}/: {str(e)[:80]}")
+                if got:
+                    break
+    if not got:
+        raise RuntimeError("Google Drive pasta: nada baixado" + (f" ({'; '.join(errs[:3])})" if errs else ""))
+    return got
+
+
+SFS_ROW_RE = re.compile(r'<a href="(?:https?://simfileshare\.net)?/download/(\d+)/?">(.*?)</a>', re.S)
+
+
+def simfileshare_file(sid, dest_dir, session=None, name=None):
+    s = session or new_session()
+    page = f"https://simfileshare.net/download/{sid}/"
+    r = s.get(page, timeout=90)
+    if r.status_code >= 400:
+        raise RuntimeError(f"SimFileShare HTTP {r.status_code}")
+    m = re.search(r'href="(https?://cdn\.simfileshare\.net/download/\d+/\?dl[^"]*)"', r.text)
+    cands = ([html.unescape(m.group(1))] if m else []) + [f"https://cdn.simfileshare.net/download/{sid}/?dl",
+                                                          f"https://simfileshare.net/download/{sid}/?dl"]
+    if not name:
+        mt = re.search(r"<h3>\s*([^<]*?\.(?:package|zip|rar|7z|ts4script))\s*\(", r.text, re.S | re.I)
+        if mt:
+            name = safe_name(html.unescape(mt.group(1)), 150)
+    last = None
+    for u in cands:
+        try:
+            return stream_download(u, dest_dir, name or f"sfs_{sid}", session=s, headers={"Referer": page},
+                                   force_name=bool(name))
+        except Exception as e:  # noqa
+            last = e
+    raise RuntimeError(f"SimFileShare: {last}")
+
+
 def simfileshare_download(url, dest_dir):
     m = re.search(r"simfileshare\.net/download/(\d+)", url)
+    if m:
+        return [simfileshare_file(m.group(1), dest_dir)]
+    m = re.search(r"simfileshare\.net/folder/(\d+)", url)
     if not m:
-        m = re.search(r"simfileshare\.net/folder/(\d+)", url)
-        if m:
-            raise RuntimeError("SimFileShare: é uma PASTA – baixe manualmente")
         raise RuntimeError("SimFileShare: id não encontrado")
-    sid = m.group(1)
     s = new_session()
-    page = f"https://simfileshare.net/download/{sid}/"
-    try:
-        s.get(page, timeout=90)
-    except Exception:  # noqa
-        pass
-    return [stream_download(f"https://simfileshare.net/download/{sid}/?dl", dest_dir, f"sfs_{sid}.zip",
-                            session=s, headers={"Referer": page})]
+    r = s.get(f"https://simfileshare.net/folder/{m.group(1)}/", timeout=90)
+    if r.status_code >= 400:
+        raise RuntimeError(f"SimFileShare pasta: HTTP {r.status_code}")
+    rows = [(sid, safe_name(re.sub(r"<[^>]+>", "", nm), 150), False) for sid, nm in SFS_ROW_RE.findall(r.text)]
+    if not rows:
+        raise RuntimeError("SimFileShare pasta: nenhum arquivo listado")
+    got, errs = [], []
+    for sid, name, _ in pick_from_listing(rows, "pasta do SimFileShare"):
+        if pathlib.Path(name).suffix.lower() in IMG_EXT:
+            continue
+        try:
+            got.append(simfileshare_file(sid, dest_dir, session=s, name=name))
+        except Exception as e:  # noqa
+            errs.append(f"{name}: {str(e)[:80]}")
+    if not got:
+        raise RuntimeError("SimFileShare pasta: nada baixado" + (f" ({'; '.join(errs[:3])})" if errs else ""))
+    return got
 
 
 def mediafire_download(url, dest_dir):
     s = new_session()
     r = s.get(url, timeout=90)
-    m = re.search(r'href="(https?://download[^"]+)"[^>]*id="downloadButton"', r.text) or \
-        re.search(r'id="downloadButton"[^>]*href="(https?://download[^"]+)"', r.text) or \
+    m = re.search(r'href="(https?://download[^"]+)"[^>]*id="downloadButton"', r.text, re.S) or \
+        re.search(r'id="downloadButton"[^>]*href="(https?://download[^"]+)"', r.text, re.S) or \
         re.search(r'(https?://download\d+\.mediafire\.com/[^"\']+)', r.text)
     if not m:
         raise RuntimeError("MediaFire: botão de download não encontrado")
-    return [stream_download(html.unescape(m.group(1)), dest_dir, "mediafire.zip", session=s)]
+    mn = re.search(r'<div class="filename">([^<]+)</div>', r.text)
+    name = safe_name(html.unescape(mn.group(1)), 150) if mn else None
+    if not name:
+        name = urllib.parse.unquote_plus(html.unescape(m.group(1)).split("?")[0].rsplit("/", 1)[-1])
+    return [stream_download(html.unescape(m.group(1)), dest_dir, name, session=s, force_name=True)]
+
+
+KAKAO_RE = re.compile(r'href="(https://blog\.kakaocdn\.net/[^"]+)"', re.I)
+
+
+def tistory_download(url, dest_dir):
+    """Blogs tistory (eunosims, sunberry): anexos ficam em blog.kakaocdn.net/...&attach=1."""
+    s = new_session()
+    r = s.get(url, timeout=90)
+    if r.status_code >= 400:
+        raise RuntimeError(f"HTTP {r.status_code}")
+    links = []
+    for m in KAKAO_RE.finditer(r.text):
+        u = html.unescape(m.group(1))
+        path = urllib.parse.urlparse(u).path
+        name = urllib.parse.unquote(path.rsplit("/", 1)[-1])
+        if "attach=1" not in u and not re.search(r"\.(package|zip|rar|7z)$", name, re.I):
+            continue
+        if u not in [l[1] for l in links]:
+            links.append((name, u))
+    if not links:
+        raise RuntimeError("tistory: nenhum anexo (.package/.zip) na página")
+    rows = [(u, name, False) for name, u in links]
+    got, errs = [], []
+    for u, name, _ in pick_from_listing(rows, "anexos do tistory"):
+        try:
+            got.append(stream_download(u, dest_dir, name, session=s, headers={"Referer": url}, force_name=True))
+        except Exception as e:  # noqa
+            errs.append(f"{name}: {str(e)[:80]}")
+    if not got:
+        raise RuntimeError("tistory: nada baixado" + (f" ({'; '.join(errs[:3])})" if errs else ""))
+    return got
+
+
+def creator_page_download(url, dest_dir, depth):
+    """Página de criador (seoul-soul.com etc.): procura links de pasta/arquivo do Drive, SFS, MediaFire..."""
+    s = new_session()
+    r = s.get(url, timeout=90)
+    log(f"    página do criador {r.status_code} ({len(r.text)} bytes) {url}")
+    if r.status_code >= 400:
+        raise RuntimeError(f"HTTP {r.status_code}")
+    # só hosts de arquivo (Drive, SFS, MediaFire, Dropbox...); links para outros posts (Patreon etc.) são outros CCs
+    links = [l for l in extract_links(r.text, base_url=url) if FILE_HOST_RE.match(l)]
+    errs = []
+    got = try_alternatives(links, dest_dir, depth, errs)
+    if not got:
+        raise RuntimeError("nenhum link baixável na página" + (f" ({' | '.join(errs[:4])})" if errs else ""))
+    return got
 
 
 def classify(u):
@@ -498,13 +780,53 @@ def classify(u):
     return "other"
 
 
-def download_by_url(url, dest_dir, depth=0):
+def download_by_url(url, dest_dir, depth=0, use_known=True):
     """Baixa a partir de qualquer URL conhecida. Retorna lista de Paths ou levanta exceção."""
     u = unwrap_redirect(url)
     low = u.lower()
     kind = classify(u)
     if kind == "skip":
         raise RuntimeError("link não é de arquivo")
+    host = urllib.parse.urlparse(u).netloc.lower().removeprefix("www.")
+    if host in MANUAL_HOSTS:
+        raise ManualError(f"{MANUAL_HOSTS[host]} – baixe manualmente: {u}")
+    # página com link alternativo conhecido (site fora do ar, post apagado, pasta...)
+    if use_known and depth == 0 and u in KNOWN_DIRECT:
+        errs, manual = [], None
+        try:
+            got = try_alternatives(KNOWN_DIRECT[u], dest_dir, depth, errs, why="link alternativo conhecido")
+        except ManualError as e:
+            got, manual = [], e
+        if got:
+            return got
+        log(f"    alternativas conhecidas falharam ({'; '.join(errs[:2])}); tentando a página original")
+        try:
+            return download_by_url(url, dest_dir, depth, use_known=False)
+        except (PaywallError, ManualError):
+            raise
+        except Exception as e:  # noqa
+            if manual:
+                raise manual
+            raise RuntimeError(f"{str(e)[:200]} | alternativas: {'; '.join(errs[:2])}")
+    if host in ("bit.ly", "tinyurl.com", "t.co", "cutt.ly", "shorturl.at"):
+        s = new_session()
+        r = s.get(u, timeout=60, allow_redirects=True)
+        dest = str(r.url)
+        if urllib.parse.urlparse(dest).netloc.lower().removeprefix("www.") == host:   # página intersticial
+            m = re.search(r'href="(https?://(?!bit\.ly)[^"]+)"[^>]*>\s*(?:<[^>]+>\s*)*Continue', r.text, re.I) or \
+                re.search(r'(https?://drive\.google\.com/[^"\'<> ]+)', r.text)
+            if not m:
+                raise RuntimeError(f"encurtador {host}: destino não encontrado")
+            dest = html.unescape(m.group(1))
+        log(f"    {host} -> {dest}")
+        return download_by_url(dest, dest_dir, depth + 1)
+    if host.endswith(".tistory.com"):
+        return tistory_download(u, dest_dir)
+    if host == "seoul-soul.com":
+        return creator_page_download(u, dest_dir, depth)
+    if host == "blog.kakaocdn.net":
+        name = urllib.parse.unquote(urllib.parse.urlparse(u).path.rsplit("/", 1)[-1])
+        return [stream_download(u, dest_dir, name, force_name=True)]
     if kind == "curseforge":
         m = re.search(r"curseforge\.com/sims4/([^/?#]+/[^/?#]+)", u)
         if not m:
@@ -516,12 +838,24 @@ def download_by_url(url, dest_dir, depth=0):
             raise RuntimeError("TSR: id não encontrado na URL")
         return tsr_download(int(m.group(1)), dest_dir)
     if kind == "patreon":
-        if depth >= 2:
+        if depth >= 3:
             raise RuntimeError("profundidade máxima")
         m = re.search(r"patreon\.com/(?:[^/]+/)?posts/(?:[^/?#]*?-)?(\d+)(?=[/?#]|$)", u)
         if not m:
             raise RuntimeError("Patreon: id do post não encontrado")
-        return patreon_download(m.group(1), dest_dir, depth)
+        pid = m.group(1)
+        try:
+            return patreon_download(pid, dest_dir, depth)
+        except (PaywallError, ManualError):
+            raise
+        except Exception as e:  # noqa
+            # post apagado (404) ou API fora: usa reupload/link conhecido, se houver
+            if depth == 0 and pid in KNOWN_DIRECT and str(e).startswith("Patreon API HTTP"):
+                errs = []
+                got = try_alternatives(KNOWN_DIRECT[pid], dest_dir, depth, errs, why=f"Patreon falhou: {str(e)[:60]}")
+                if got:
+                    return got
+            raise
     if "drive.google.com" in low or "docs.google.com" in low:
         return gdrive_download(u, dest_dir)
     if "simfileshare.net" in low:
@@ -534,7 +868,7 @@ def download_by_url(url, dest_dir, depth=0):
     if "mediafire.com" in low:
         return mediafire_download(u, dest_dir)
     if "mega.nz" in low or "mega.co.nz" in low:
-        raise RuntimeError("MEGA exige cliente próprio – baixe manualmente")
+        raise ManualError(f"MEGA exige cliente/navegador – baixe manualmente: {u}")
     if "patreon.com/file?" in low or re.search(r"\.(zip|rar|7z|package)(\?|$)", low) or "patreonusercontent" in low:
         return [stream_download(u, dest_dir, u.split("?")[0].rsplit("/", 1)[-1] or "arquivo.zip")]
     if "modthesims.info" in low:
@@ -559,19 +893,11 @@ def download_by_url(url, dest_dir, depth=0):
     log(f"    página genérica {r.status_code} ({len(r.text)} bytes) {u}")
     if r.status_code >= 400:
         raise RuntimeError(f"HTTP {r.status_code}")
-    links = extract_links(r.text, base_url=u)
+    links = [l for l in extract_links(r.text, base_url=u) if l.split("#")[0] != u.split("#")[0]]
     errs = []
-    for l in links[:15]:
-        if l.split("#")[0] == u.split("#")[0]:
-            continue
-        try:
-            got = download_by_url(l, dest_dir, depth + 1)
-            if got:
-                return got
-        except PaywallError:
-            raise
-        except Exception as e:  # noqa
-            errs.append(f"{l[:90]}: {str(e)[:80]}")
+    got = try_alternatives(links[:15], dest_dir, depth, errs)
+    if got:
+        return got
     raise RuntimeError("nenhum link baixável na página" + (f" ({' | '.join(errs[:4])})" if errs else ""))
 
 
@@ -621,31 +947,70 @@ def get_sim_info(sim):
 
 
 # --------------------------------------------------------------------------- extração / organização
-def run_7z(archive, outdir):
+def run_7z(archive, outdir, password=None):
     outdir.mkdir(parents=True, exist_ok=True)
+    pw = [f"-p{password}"] if password else ["-p"]      # "-p" vazio: não fica esperando senha no stdin
     for exe in ("7z", "7zz", "7za"):
         if shutil.which(exe):
-            p = subprocess.run([exe, "x", "-y", f"-o{outdir}", str(archive)], capture_output=True, text=True)
+            p = subprocess.run([exe, "x", "-y", *pw, f"-o{outdir}", str(archive)], capture_output=True, text=True,
+                               stdin=subprocess.DEVNULL)
             if p.returncode == 0:
                 return True
-            log(f"    {exe} falhou ({p.returncode}): {p.stderr[-200:]}")
+            log(f"    {exe} falhou ({p.returncode}): {(p.stderr or p.stdout)[-200:].strip()}")
+            break
     if shutil.which("unrar"):
-        p = subprocess.run(["unrar", "x", "-y", str(archive), str(outdir) + "/"], capture_output=True, text=True)
+        p = subprocess.run(["unrar", "x", "-y", *(pw if password else ["-p-"]), str(archive), str(outdir) + "/"],
+                           capture_output=True, text=True, stdin=subprocess.DEVNULL)
         return p.returncode == 0
     return False
+
+
+def zip_passwords_for(archive):
+    stem = archive.stem.lower()
+    out = []
+    for key, pws in ZIP_PASSWORDS.items():
+        if key in stem:
+            out += pws
+    return out
+
+
+class PasswordError(Exception):
+    pass
 
 
 def extract_archive(archive, outdir, depth=0):
     outdir.mkdir(parents=True, exist_ok=True)
     ok = False
     head = open(archive, "rb").read(4)
+    encrypted = False
     if head == b"PK\x03\x04":
         try:
             with zipfile.ZipFile(archive) as z:
-                z.extractall(outdir)
-            ok = True
+                encrypted = any(i.flag_bits & 0x1 for i in z.infolist())
+                if not encrypted:
+                    z.extractall(outdir)
+                    ok = True
         except Exception as e:  # noqa
             log(f"    zipfile falhou ({e}); tentando 7z")
+    if not ok and encrypted:
+        pws = zip_passwords_for(archive)
+        if not pws:
+            raise PasswordError("arquivo zip protegido por senha (senha só para patronos)")
+        for pw in pws:
+            shutil.rmtree(outdir, ignore_errors=True)
+            outdir.mkdir(parents=True, exist_ok=True)
+            try:
+                with zipfile.ZipFile(archive) as z:
+                    z.extractall(outdir, pwd=pw.encode())
+                ok = True
+            except Exception:  # noqa  (AES ou senha errada -> 7z)
+                shutil.rmtree(outdir, ignore_errors=True)
+                ok = run_7z(archive, outdir, password=pw)
+            if ok:
+                log(f"    zip com senha aberto ({archive.name})")
+                break
+        if not ok:
+            raise PasswordError("arquivo zip protegido por senha (a senha conhecida não funcionou)")
     if not ok:
         ok = run_7z(archive, outdir)
     if not ok:
@@ -696,23 +1061,33 @@ def copy_unique(src, dest_dir):
     return dest
 
 
-def place_files(downloaded, folder_name):
-    """Extrai e coloca .package em Mods/<folder>/ e arquivos de tray em Tray/."""
-    placed = {"mods": [], "tray": [], "outros": []}
+def place_files(downloaded, folder_name, is_sim=False):
+    """Extrai e coloca .package em Mods/<folder>/ e arquivos de tray em Tray/ (tray vindo de CC vai para _extras/)."""
+    tray_dir = BUNDLE / "Tray" if is_sim else BUNDLE / "_extras" / "Tray" / folder_name
+    placed = {"mods": [], "tray": [], "outros": [], "imagens": []}
     for f in downloaded:
         ext = f.suffix.lower()
         head = open(f, "rb").read(4)
+        if is_image_file(f) and head != b"DBPF":
+            placed["imagens"].append(f.name)          # preview: não entra no pacote
+            continue
         if ext in MOD_EXT or head == b"DBPF":
             d = copy_unique(f, BUNDLE / "Mods" / folder_name)
             placed["mods"].append(str(d.relative_to(BUNDLE)))
         elif ext in TRAY_EXT:
-            d = copy_unique(f, BUNDLE / "Tray")
+            d = copy_unique(f, tray_dir)
             placed["tray"].append(str(d.relative_to(BUNDLE)))
         elif ext in ARCHIVE_EXT or head in (b"PK\x03\x04", b"Rar!") or head.startswith(b"7z"):
             tmp = EXTR / safe_name(folder_name + "_" + f.stem, 90)
             if tmp.exists():
                 shutil.rmtree(tmp)
-            if not extract_archive(f, tmp):
+            try:
+                extracted = extract_archive(f, tmp)
+            except PasswordError as e:
+                log(f"    {f.name}: {e}")
+                placed["senha"] = str(e)
+                extracted = False
+            if not extracted:
                 log(f"    não consegui extrair {f.name}")
                 d = copy_unique(f, BUNDLE / "_nao_extraidos" / folder_name)
                 placed["outros"].append(str(d.relative_to(BUNDLE)))
@@ -728,7 +1103,7 @@ def place_files(downloaded, folder_name):
                 d = copy_unique(m, sub)
                 placed["mods"].append(str(d.relative_to(BUNDLE)))
             for t in tray:
-                d = copy_unique(t, BUNDLE / "Tray")
+                d = copy_unique(t, tray_dir)
                 placed["tray"].append(str(d.relative_to(BUNDLE)))
             if not mods and not tray:
                 d = copy_unique(f, BUNDLE / "_nao_extraidos" / folder_name)
@@ -749,15 +1124,24 @@ def download_cc(item):
     res = {"nome": label, "aliases": item.get("aliases", []), "fonte": kind, "url": url, "pasta": folder,
            "status": "falhou", "arquivos": [], "detalhe": None, "usado_por": item["usado_por"], "_paths": []}
     log(f"  >> [{kind}] {label}  <{url}>")
+    CUR.label, CUR.aliases, CUR.alt_link = label, list(item.get("aliases", [])), None
     try:
         if kind == "optional":
             raise SkipItem("preset gráfico (GShade/ReShade) – não é CC do jogo; opcional")
         files = download_by_url(url, dest)
-        res.update({"status": "ok", "arquivos": [f.name for f in files],
-                    "tamanho": sum(f.stat().st_size for f in files), "_paths": files})
+        real = [f for f in files if not is_image_file(f)]
+        if not real:
+            raise RuntimeError("só imagens de preview – link de download não encontrado no post")
+        res.update({"status": "ok", "arquivos": [f.name for f in real],
+                    "tamanho": sum(f.stat().st_size for f in real), "_paths": files})
+        if CUR.alt_link:
+            res["link_download"] = CUR.alt_link
     except PaywallError as e:
         res.update({"status": "pago/assinantes", "detalhe": str(e)})
         log(f"    PAGO: {label}: {e}")
+    except ManualError as e:
+        res.update({"status": "falhou", "detalhe": str(e)[:600]})
+        log(f"    MANUAL: {label}: {e}")
     except SkipItem as e:
         res.update({"status": "opcional (não baixado)", "detalhe": str(e)})
     except Exception as e:  # noqa
@@ -792,7 +1176,7 @@ def main():
         sim_dir = ORIG / f"{sim['n']:02d} - {safe_name(sim['name'])}"
         try:
             f = cf_download_file(info["file_id"], info["file_name"], sim_dir, info.get("project_id"))
-            placed = place_files([f], f"_sim_{sim['n']:02d}")
+            placed = place_files([f], f"_sim_{sim['n']:02d}", is_sim=True)
             entry.update({"arquivo_sim": f.name, "tamanho_sim": f.stat().st_size, "status_sim": "ok",
                           "tray": placed["tray"], "mods_incluidos_no_sim": placed["mods"]})
         except Exception as e:  # noqa
@@ -834,7 +1218,13 @@ def main():
             placed = place_files(res["_paths"], res["pasta"])
             res.update({"mods": placed["mods"], "tray": placed["tray"], "outros": placed["outros"]})
             if not placed["mods"] and not placed["tray"]:
-                res["detalhe"] = "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+                if placed.get("senha"):
+                    res.update({"status": "falhou", "detalhe": placed["senha"] + " (arquivo em _nao_extraidos)"})
+                elif placed["outros"]:
+                    res.update({"status": "falhou", "detalhe": "baixado, mas não consegui extrair/reconhecer .package (arquivo em _nao_extraidos)"})
+                else:
+                    res.update({"status": "falhou", "detalhe": "só imagens de preview – link de download não encontrado"})
+                log(f"    SEM .PACKAGE: {res['nome']}: {res['detalhe']}")
         res.pop("_paths", None)
         report["cc_unicos"][url] = res
 
@@ -842,7 +1232,7 @@ def main():
         s["cc"] = []
         for url in s.pop("cc_urls"):
             r = report["cc_unicos"][url]
-            s["cc"].append({k: r.get(k) for k in ("nome", "aliases", "fonte", "url", "status", "arquivos", "detalhe")})
+            s["cc"].append({k: r.get(k) for k in ("nome", "aliases", "fonte", "url", "status", "arquivos", "detalhe", "link_download")})
 
     shutil.rmtree(ORIG, ignore_errors=True)      # originais já foram extraídos/copiados -> libera disco
     shutil.rmtree(EXTR, ignore_errors=True)
@@ -879,7 +1269,7 @@ def write_txt_lists(report):
          "Como ler: cada item abaixo tem o LINK original, o MOTIVO e QUAIS SIMS usam.",
          "Baixe manualmente e jogue os .package em Documentos\\Electronic Arts\\The Sims 4\\Mods.", ""]
     grupos = [("pago/assinantes", "1) SÓ PARA ASSINANTES / MEMBROS (precisa logar no Patreon ou ser VIP no TSR)"),
-              ("falhou", "2) FALHARAM (site fora do ar, link quebrado, captcha, MEGA, pasta do Drive...)"),
+              ("falhou", "2) FALHARAM (site fora do ar, link quebrado, captcha, MEGA, site com login, zip com senha...)"),
               ("opcional (não baixado)", "3) OPCIONAIS (não são CC do jogo)")]
     n = 0
     for status, titulo in grupos:
@@ -929,6 +1319,8 @@ def write_txt_lists(report):
             C.append(f"       {c['url']}")
             if c["status"] == "ok":
                 C.append(f"       arquivo(s): {', '.join(c.get('arquivos') or [])}")
+                if c.get("link_download"):
+                    C.append(f"       baixado de: {c['link_download']}")
             elif c.get("detalhe"):
                 C.append(f"       motivo: {c['detalhe']}")
         C.append("")
@@ -961,6 +1353,8 @@ def write_reports(report):
         for i, c in enumerate(s["cc"], 1):
             arqs = ", ".join(c.get("arquivos") or []) or "—"
             det = f" – {c['detalhe']}" if c.get("detalhe") and c.get("status") != "ok" else ""
+            if c.get("status") == "ok" and c.get("link_download"):
+                arqs += f" (via <{c['link_download']}>)"
             nome = c['nome'] + (" / " + " / ".join(c['aliases']) if c.get('aliases') else "")
             md.append(f"| {i} | [{nome}]({c['url']}) | {c['fonte']} | {c['status']}{det} | {arqs} |")
     md.append("\n## CCs que NÃO puderam ser baixados automaticamente\n")
@@ -1020,7 +1414,8 @@ def make_bundle(report):
     leia += ["", f"CCs: {r['ok']}/{r['cc_unicos']} baixados. {r['pago_assinantes']} são exclusivos de assinantes "
              f"(Patreon pago / TSR VIP) e {r['falhou']} falharam – veja relatorio.md para os links e baixe manualmente.", "",
              "Os .package ficam em Mods/<nome do CC>/ – o jogo lê subpastas normalmente (até 5 níveis).",
-             "Pasta _nao_extraidos/ (se existir) = arquivos que não pude abrir automaticamente; extraia à mão.", ""]
+             "Pasta _nao_extraidos/ (se existir) = arquivos que não pude abrir automaticamente; extraia à mão.",
+             "Pasta _extras/ (se existir) = famílias/lotes de tray que vieram junto com algum CC (não são necessários).", ""]
     (BUNDLE / "LEIA-ME.txt").write_text("\n".join(leia), encoding="utf-8")
     shutil.copy2(OUT / "relatorio.md", BUNDLE / "relatorio.md")
     shutil.copy2(OUT / "NAO_BAIXADOS.txt", BUNDLE / "NAO_BAIXADOS.txt")
