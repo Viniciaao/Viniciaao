@@ -1,0 +1,565 @@
+==============================================================================
+  LISTA COMPLETA – 5 sims + todos os CCs de cada um (com status)
+==============================================================================
+Gerado em 2026-09-06 21:55:12 UTC
+
+Resumo: 5/5 sims | CCs únicos 120/133 baixados | 7 só assinantes | 5 falharam | 1 opcionais
+
+==============================================================================
+  SIM 1: Edith Medina  (por miwisimsie)
+==============================================================================
+Página : https://www.curseforge.com/sims4/sims-households/edith-medina
+Arquivo: Miwisimsie_Edith Medina.zip  – status: ok
+Tray   : Tray/0xc37d1502!0x0086171b3afb0017.hhi, Tray/0x00000000!0x0086171b3afb0017.householdbinary, Tray/0x00000001!0x0086171b3afb0017.trayitem, Tray/0x00000013!0x0b86171b3afb0018.sgi, Tray/0xc37d1503!0x0086171b3afb0017.hhi
+
+   1. [PAGO   ] [NORTHERN SIBERIA WINDS] FEMALE LIPS PRESET N54-62
+       https://www.patreon.com/northernsiberiawinds/posts/love-yourself-115123327
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: PRESETS COLLECTION ❤️)
+   2. [PAGO   ] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART
+       https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)
+   3. [PAGO   ] 3D EYELASHES COLLECTION
+       https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)
+   4. [OK     ] AxA Angel
+       https://www.patreon.com/aharris00britney/posts/axa-angel-76620403
+       arquivo(s): AxA Angel.zip, Preview.png
+   5. [OK     ] [Anonimux] Lipstick N26
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-lipstick/title/lipstick-n26/id/1639048/
+       arquivo(s): [Anonimux] Lipstick N26.package
+   6. [OK     ] [Anonimux] Makeup Set N19 - Blush
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-blush/title/makeup-set-n19-blush/id/1665579/
+       arquivo(s): [Anonimux] Makeup Set N19 - Blush.package
+   7. [OK     ] [cosimetic]Eyeliner-N51-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-eyeliner/title/eyeliner-n51/id/1588676/
+       arquivo(s): [cosimetic]Eyeliner-N51-TSR.package
+   8. [OK     ] [cosimetic]Eyeshadow-N27-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-eyeshadow/title/eyeshadow-n27/id/1578357/
+       arquivo(s): [cosimetic]Eyeshadow-N27-TSR.package
+   9. [OK     ] [cosimetic]Gloss-N2-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-skindetails/title/eye-gloss-n2/id/1616048/
+       arquivo(s): [cosimetic]Gloss-N2-TSR.package
+  10. [OK     ] [cosimetic]LipLiner-No1-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-lipstick/title/90-s-lipliner-n1/id/1561448/
+       arquivo(s): [cosimetic]LipLiner-No1-TSR.package
+  11. [OK     ] [JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED
+       https://www.patreon.com/jo_se_oh/posts/lighting-overlay-94005453
+       arquivo(s): [JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED.package, [JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package, Cover Lighting Overlay 2.png
+  12. [OK     ] [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS / [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N2 TEEN-ELDERS / [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N1 TEEN-ELDERS
+       https://www.patreon.com/northernsiberiawinds/posts/sisters-pack-i-112828776
+       arquivo(s): [NORTHERN SIBERIA WINDS] SKIN N15 A.package, [NORTHERN SIBERIA WINDS] SKIN N15 B.package, [NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package, альфа превью1.png
+  13. [OK     ] [NORTHERN SIBERIA WINDS] EYES N5
+       https://www.patreon.com/northernsiberiawinds/posts/from-west-to-43932063
+       arquivo(s): [NorthernSiberiaWinds] Eyelids N4.package, [NorthernSiberiaWinds] Eyelids N5.package, [NorthernSiberiaWinds] Eyelids N6.package, [NorthernSiberiaWinds] Eyelids N7.package, [NorthernSiberiaWinds] NOSEMASK N2.package, [NorthernSiberiaWinds] NOSEMASK N3.package, [NORTHERN SIBERIA WINDS] EYES N7.package, [NORTHERN SIBERIA WINDS] EYES N6.package, [NORTHERN SIBERIA WINDS] EYES N5.package, [NorthernSiberiaWinds] Nose Presets F N10-17.package, 2.png
+  14. [OK     ] [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N3 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N4 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N2
+       https://www.patreon.com/northernsiberiawinds/posts/bodycare-kit-93373994
+       arquivo(s): [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1 B MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N2 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N3 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N2.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N3.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1 B MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N2 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N3 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N2.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N3.package, [NORTHERN SIBERIA WINDS] CLEAVAGE MASK N6 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] CLEAVAGE MASK N6.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N2.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N3.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N4.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N1.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N2.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N3.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package, превью1.png
+  15. [OK     ] [NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16 / [NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N14
+       https://www.patreon.com/northernsiberiawinds/posts/final-touch-kit-99496806
+       arquivo(s): [NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1-8.zip, [NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip, превью.png
+  16. [OK     ] [NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES
+       https://www.patreon.com/northernsiberiawinds/posts/cartoon-style-i-72215143
+       arquivo(s): [NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES.package, 1.png
+  17. [OK     ] [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ / [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ
+       https://www.patreon.com/northernsiberiawinds/posts/cartoon-style-ii-72215146
+       arquivo(s): [NORTHERN SIBERIA WINDS] NON DEFAULT EYE COLORS N1.package, [NORTHERN SIBERIA WINDS] EYES N27.package, [NORTHERN SIBERIA WINDS] EYEBROWS N5.package, [NORTHERN SIBERIA WINDS] EYEBROWS N6.package, [NORTHERN SIBERIA WINDS] EYEBROWS N4.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FACE MASK.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FACE MASK.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FACE MASK HQ.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FACE MASK HQ.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package, 5.png
+  18. [OK     ] [RIMINGS] DREAMCORE _Jewl Earring
+       https://www.patreon.com/RIMINGs/posts/rimings-111782004
+       arquivo(s): [RIMINGS] DREAMCORE _Jewl Earring.package, [RIMINGS] DREAMCORE _Slit Maxi Dress.package, 썸넬.png
+  19. [OK     ] [SEOULSOUL] 2026_#164_Skirt
+       https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-157807075
+       arquivo(s): 01.png
+  20. [OK     ] Anonimux - Arlecchino Lips
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-lipstick/title/arlecchino-lips/id/1699291/
+       arquivo(s): Anonimux - Arlecchino Lips.package
+  21. [OK     ] Anonimux - Eyeshadow N36
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-eyeshadow/title/eyeshadow-n36/id/1743552/
+       arquivo(s): Anonimux - Eyeshadow N36.package
+  22. [OK     ] Anonimux - Makeup Set N38 - Eyeliner
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-eyeliner/title/makeup-set-n38-eyeliner/id/1728237/
+       arquivo(s): Anonimux - Makeup Set N38 - Eyeliner.package
+  23. [OK     ] Anonimux - Mavuika Blush
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-blush/title/mavuika-blush/id/1710204/
+       arquivo(s): Anonimux - Mavuika Blush.package
+  24. [OK     ] BackTrack_fLuna_Halter_Dress
+       https://www.curseforge.com/sims4/create-a-sim/luna-halter-dress
+       arquivo(s): BackTrack_Luna_Halter_Dress.zip
+  25. [OK     ] BackTrack_fMaeve_Buckled_Heels(Glossy)
+       https://www.curseforge.com/sims4/create-a-sim/maeve-buckled-heels
+       arquivo(s): BackTrack_Maeve_Buckled_Heels.zip
+  26. [OK     ] BackTrack_fSteh_Bikini
+       https://www.curseforge.com/sims4/create-a-sim/steh-bikini
+       arquivo(s): BackTrack_Steh_Bikini.zip
+  27. [OK     ] euno eye preset 11-15 [250801]
+       https://www.patreon.com/eunosims/posts/preview-preset-139371473
+       arquivo(s): 01.jpg
+  28. [OK     ] euno nose preset 6-10
+       https://www.patreon.com/eunosims/posts/nose-preset-6-10-72592326
+       arquivo(s): 코프리셋.jpg
+  29. [OK     ] LUUMIA_mod_HeightSlider_UpdateJune2022
+       https://www.patreon.com/luumia/posts/sim-height-june-68032331
+       arquivo(s): LUUMIA_mod_HeightBodyPresets.package, LUUMIA_mod_HeightSlider_UpdateJune2022.package
+  30. [OK     ] miiko-eyebrow-slider-02(far-close)
+       https://www.curseforge.com/sims4/create-a-sim/eyebrow-slider-02
+       arquivo(s): miiko-eyebrow-slider-02.zip
+  31. [PAGO   ] obscurus_eyes_N18_sclera
+       https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)
+  32. [OK     ] obscurus_nose_highlighter / obscurus_nosemask_nostrils
+       https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428
+       arquivo(s): 14.02.2023_23-58-02 копия.png
+  33. [OK     ] Simpliciaty_AlanaHair
+       https://www.curseforge.com/sims4/create-a-sim/simpliciatys-alana-hair
+       arquivo(s): Simpliciaty_AlanaHair.zip
+  34. [OK     ] sims3melancholic_contacts #121 EYE COLORS / sims3melancholic_contacts #120 EYE COLORS
+       https://www.patreon.com/sims3melancholic/posts/pretty-eyes-90064610
+       arquivo(s): 11.png
+  35. [OK     ] sims3melancholic_eyebrows #166
+       https://www.patreon.com/sims3melancholic/posts/soft-forms-maxis-154420504
+       arquivo(s): 1.png
+  36. [OK     ] sims3melancholic_highlight #23-28 ALL IN 1
+       https://www.patreon.com/sims3melancholic/posts/highlight-103333754
+       arquivo(s): 11.png
+  37. [OPCION.] Miwisimsie_Daily Perfect CAS
+       https://www.patreon.com/posts/gshade-preset-123038419
+       motivo: preset gráfico (GShade/ReShade) – não é CC do jogo; opcional
+
+==============================================================================
+  SIM 2: Luciana Neal  (por miwisimsie)
+==============================================================================
+Página : https://www.curseforge.com/sims4/sims-households/luciana-neal
+Arquivo: Miwisimsie_Luciana Neal.zip  – status: ok
+Tray   : Tray/0x00000013!0x0b52171144a60020.sgi, Tray/0x00000000!0x0052171144a6001f.householdbinary, Tray/0x00000001!0x0052171144a6001f.trayitem, Tray/0x34eed502!0x0052171144a6001f.hhi, Tray/0x34eed503!0x0052171144a6001f.hhi
+
+   1. [PAGO   ] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART
+       https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)
+   2. [PAGO   ] 3D EYELASHES COLLECTION
+       https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)
+   3. [OK     ] [cosimetic]Eyebrows-N35-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-hair-facial-eyebrows/title/curved-eyebrows-no-35/id/1564490/
+       arquivo(s): [cosimetic]Eyebrows-N35-TSR.package
+   4. [OK     ] [cosimetic]Eyeliner-N51-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-eyeliner/title/eyeliner-n51/id/1588676/
+       arquivo(s): [cosimetic]Eyeliner-N51-TSR.package
+   5. [OK     ] [cosimetic]Eyeliner-N93-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-eyeliner/title/eyeliner-n93/id/1611040/
+       arquivo(s): [cosimetic]Eyeliner-N93-TSR.package
+   6. [OK     ] [cosimetic]Eyeshadow-N96-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-eyeshadow/title/eyeshadow-n96/id/1616062/
+       arquivo(s): [cosimetic]Eyeshadow-N96-TSR.package
+   7. [OK     ] [cosimetic]-MM-Higlighter-N4-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-skindetails/title/highlighter-n4/id/1621075/
+       arquivo(s): [cosimetic]-MM-Higlighter-N4-TSR.package
+   8. [OK     ] [JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED
+       https://www.patreon.com/jo_se_oh/posts/lighting-overlay-94005453
+       arquivo(s): [JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED.package, [JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package, Cover Lighting Overlay 2.png
+   9. [OK     ] [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS / [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N2 TEEN-ELDERS / [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N1 TEEN-ELDERS
+       https://www.patreon.com/northernsiberiawinds/posts/sisters-pack-i-112828776
+       arquivo(s): [NORTHERN SIBERIA WINDS] SKIN N15 A.package, [NORTHERN SIBERIA WINDS] SKIN N15 B.package, [NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package, альфа превью1.png
+  10. [OK     ] [NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES
+       https://www.patreon.com/northernsiberiawinds/posts/winter-berry-75333957
+       arquivo(s): [NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK B.package, [NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK A.package, [NORTHERN SIBERIA WINDS] BLUEBERRY SKIN A FULL BODY.package, [NORTHERN SIBERIA WINDS] BLUEBERRY SKIN B FULL BODY.package, [NORTHERN SIBERIA WINDS] BLUEBERRY SKIN A FULL BODY HQ.package, [NORTHERN SIBERIA WINDS] BLUEBERRY SKIN B FULL BODY HQ.package, [NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK A HQ.package, [NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES.package, [NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK B HQ.package, катун сет2.png
+  11. [OK     ] [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N3 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N4 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N2
+       https://www.patreon.com/northernsiberiawinds/posts/bodycare-kit-93373994
+       arquivo(s): [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1 B MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N2 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N3 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N2.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N3.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1 B MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N2 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N3 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N2.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N3.package, [NORTHERN SIBERIA WINDS] CLEAVAGE MASK N6 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] CLEAVAGE MASK N6.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N2.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N3.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N4.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N1.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N2.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N3.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package, превью1.png
+  12. [OK     ] [NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16 / [NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N14
+       https://www.patreon.com/northernsiberiawinds/posts/final-touch-kit-99496806
+       arquivo(s): [NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1-8.zip, [NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip, превью.png
+  13. [OK     ] [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ / [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ
+       https://www.patreon.com/northernsiberiawinds/posts/cartoon-style-ii-72215146
+       arquivo(s): [NORTHERN SIBERIA WINDS] NON DEFAULT EYE COLORS N1.package, [NORTHERN SIBERIA WINDS] EYES N27.package, [NORTHERN SIBERIA WINDS] EYEBROWS N5.package, [NORTHERN SIBERIA WINDS] EYEBROWS N6.package, [NORTHERN SIBERIA WINDS] EYEBROWS N4.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FACE MASK.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FACE MASK.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FACE MASK HQ.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FACE MASK HQ.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ.package, [NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package, 5.png
+  14. [OK     ] [NorthernSiberiaWinds] LIPS N35
+       https://www.patreon.com/northernsiberiawinds/posts/wild-cat-make-up-64319245
+       arquivo(s): [NorthernSiberiaWinds] EYELIDS N11.package, [NorthernSiberiaWinds] EYELIDS N12.package, [NorthernSiberiaWinds] NOSEMASK N6.package, [NorthernSiberiaWinds] LIPS N34.package, [NorthernSiberiaWinds] LIPS N35.package, [NorthernSiberiaWinds] LIPS BLOOD N1.package, [NorthernSiberiaWinds] LIPS BLOOD N2.package, [NORTHERN SIBERIA WINDS] BLUSH N7.package, [NORTHERN SIBERIA WINDS] NOSE FRECKLES BLUSH N6.package, [NORTHERN SIBERIA WINDS] NOSE FRECKLES BLUSH N6 OVERLAY.package, [NORTHERN SIBERIA WINDS] SKIN N12.package, [NORTHERN SIBERIA WINDS] SKIN N12 EXTRA DARK.package, [NORTHERN SIBERIA WINDS] SKIN N12 EXTRA DARK HQ.package, [NORTHERN SIBERIA WINDS] SKIN N12 HQ.package, [NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY.package, [NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY HQ.package, гиф-маска.gif
+  15. [OK     ] [RIMINGS] OLD GIFT BOX 9 _Earring
+       https://www.patreon.com/RIMINGs/posts/rimings-old-gift-90183432
+       arquivo(s): [RIMINGS] OLD GIFT BOX 9 _Earring.package, [RIMINGS] OLD GIFT BOX 9 _Earring2.package, [RIMINGS] OLD GIFT BOX 9 _Beret.package, [RIMINGS] OLD GIFT BOX 9 _Crop Top & Suit Pants.package, [RIMINGS] OLD GIFT BOX 9 _Hipsack & Twopiece Suit.package, [RIMINGS] OLD GIFT BOX 9 _Longcoat & Skirt.package, 썸넬.png
+  16. [OK     ] [SEOULSOUL] 2024_#22_Lace Pants
+       https://www.patreon.com/seoulsoul/posts/ingame-ver-2024-102201651
+       arquivo(s): 06.png
+  17. [OK     ] [SEOULSOUL] 2024_#65_Ribbons tights
+       https://www.patreon.com/seoulsoul/posts/ingame-ver-2024-116111159
+       arquivo(s): 18.png
+  18. [OK     ] [SEOULSOUL] 2025_#118_Ribbons Heels
+       https://www.patreon.com/seoulsoul/posts/ingame-ver-2025-136614796
+       arquivo(s): 14.png
+  19. [OK     ] [SEOULSOUL] 2026_#142_V2_Fur Jacket
+       https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-147880127
+       arquivo(s): 25.png
+  20. [OK     ] Anonimux - Arlecchino Lips
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-lipstick/title/arlecchino-lips/id/1699291/
+       arquivo(s): Anonimux - Arlecchino Lips.package
+  21. [OK     ] Anonimux - Eyeshadow N36
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-eyeshadow/title/eyeshadow-n36/id/1743552/
+       arquivo(s): Anonimux - Eyeshadow N36.package
+  22. [OK     ] Anonimux - Mavuika Blush
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-blush/title/mavuika-blush/id/1710204/
+       arquivo(s): Anonimux - Mavuika Blush.package
+  23. [OK     ] Anonimux - New Year's Glow 2025 - Blush
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-blush/title/new-year-s-glow-2025-blush/id/1729794/
+       arquivo(s): Anonimux - New Year's Glow 2025 - Blush.package
+  24. [OK     ] BackTrack_fLuna_Halter_Dress
+       https://www.curseforge.com/sims4/create-a-sim/luna-halter-dress
+       arquivo(s): BackTrack_Luna_Halter_Dress.zip
+  25. [OK     ] BackTrack_fSteh_Bikini
+       https://www.curseforge.com/sims4/create-a-sim/steh-bikini
+       arquivo(s): BackTrack_Steh_Bikini.zip
+  26. [OK     ] euno eye preset 1-5 [250220]
+       https://www.patreon.com/eunosims/posts/preview-preset-123677619
+       arquivo(s): 00.jpg
+  27. [OK     ] LUUMIA_mod_HeightSlider_UpdateJune2022
+       https://www.patreon.com/luumia/posts/sim-height-june-68032331
+       arquivo(s): LUUMIA_mod_HeightBodyPresets.package, LUUMIA_mod_HeightSlider_UpdateJune2022.package
+  28. [OK     ] miiko-eyebrow-slider
+       https://www.patreon.com/miikocc/posts/eyebrow-slider-39393841
+       arquivo(s): miiko-eyebrow-slider.package, eyebrow-slider-preview.jpg
+  29. [PAGO   ] obscurus_eyes_N18_sclera
+       https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)
+  30. [OK     ] obscurus_hairline_N1sd
+       https://www.patreon.com/obscurus_sims/posts/eyebrows-and-23816939
+       arquivo(s): 1.png, 1_1.png
+  31. [OK     ] obscurus_nose_highlighter / obscurus_nosemask_nostrils
+       https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428
+       arquivo(s): 14.02.2023_23-58-02 копия.png
+  32. [OK     ] SimMandy_Spotlight_Skindetails
+       https://www.patreon.com/posts/42027501
+       arquivo(s): SimMandy_Spotlight_FaceMask.package, SimMandy_Spotlight_Skindetails.package, SimMandy_Spotlight_Tattoos.package, thumb2.gif
+  33. [OK     ] sims3melancholic_highlight #23-28 ALL IN 1
+       https://www.patreon.com/sims3melancholic/posts/highlight-103333754
+       arquivo(s): 11.png
+  34. [OK     ] teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed / teanmoon_MouthScaleSliderHQ_Fixed
+       https://www.patreon.com/nonvmestudios/posts/teanmoon-mouth-28177423
+       arquivo(s): teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed.package
+  35. [OK     ] WINGS HAIR TS4 EF0914 (Back ponytail curly hair)
+       https://www.thesimsresource.com/artists/wingssims/downloads/details/category/sims4-hair-hairstyles/title/wings-ef0914-back-ponytail-curly-hair/id/1716875/
+       arquivo(s): WINGS HAIR TS4 EF0914 (Back ponytail curly hair).package
+  36. [OPCION.] Miwisimsie_Daily Perfect CAS
+       https://www.patreon.com/posts/gshade-preset-123038419
+       motivo: preset gráfico (GShade/ReShade) – não é CC do jogo; opcional
+
+==============================================================================
+  SIM 3: Serena Slade  (por miwisimsie)
+==============================================================================
+Página : https://www.curseforge.com/sims4/sims-households/serena-slade
+Arquivo: Miwisimsie_Serena Slade.zip  – status: ok
+Tray   : Tray/0x00000000!0x0086171b3c4c0023.householdbinary, Tray/0x65fe9903!0x0086171b3c4c0023.hhi, Tray/0x65fe9902!0x0086171b3c4c0023.hhi, Tray/0x00000001!0x0086171b3c4c0023.trayitem, Tray/0x00000013!0x0b86171b3c4c0024.sgi
+
+   1. [PAGO   ] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART
+       https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)
+   2. [PAGO   ] 3D EYELASHES COLLECTION
+       https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)
+   3. [OK     ] [cosimetic]Eyebrows-N31-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-hair-facial-eyebrows/title/cara-eyebrows-no-31/id/1560384/
+       arquivo(s): [cosimetic]Eyebrows-N31-TSR.package
+   4. [OK     ] [cosimetic]Eyeliner-N43-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-eyeliner/title/eyeliner-n43/id/1586670/
+       arquivo(s): [cosimetic]Eyeliner-N43-TSR.package
+   5. [OK     ] [cosimetic]Eyeliner-N51-TSR
+       https://www.thesimsresource.com/members/cosimetic/downloads/details/category/sims4-makeup-female-eyeliner/title/eyeliner-n51/id/1588676/
+       arquivo(s): [cosimetic]Eyeliner-N51-TSR.package
+   6. [OK     ] [JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED
+       https://www.patreon.com/jo_se_oh/posts/lighting-overlay-94005453
+       arquivo(s): [JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED.package, [JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package, Cover Lighting Overlay 2.png
+   7. [OK     ] [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS / [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N2 TEEN-ELDERS / [NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N1 TEEN-ELDERS
+       https://www.patreon.com/northernsiberiawinds/posts/sisters-pack-i-112828776
+       arquivo(s): [NORTHERN SIBERIA WINDS] SKIN N15 A.package, [NORTHERN SIBERIA WINDS] SKIN N15 B.package, [NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package, альфа превью1.png
+   8. [OK     ] [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N3 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N4 / [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N2
+       https://www.patreon.com/northernsiberiawinds/posts/bodycare-kit-93373994
+       arquivo(s): [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1 B MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N2 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N3 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N1.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N2.package, [NORTHERN SIBERIA WINDS] MALE TORSO MASK N3.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1 B MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N2 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N3 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N1.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N2.package, [NORTHERN SIBERIA WINDS] FEMALE TORSO MASK N3.package, [NORTHERN SIBERIA WINDS] CLEAVAGE MASK N6 MM OVERLAY.package, [NORTHERN SIBERIA WINDS] CLEAVAGE MASK N6.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N2.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N3.package, [NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N4.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N1.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N2.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N3.package, [NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package, превью1.png
+   9. [OK     ] [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2
+       https://www.patreon.com/northernsiberiawinds/posts/head-shape-set-74056677
+       arquivo(s): [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N8.package, [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N7.package, [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N6.package, [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N5.package, [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N4.package, [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N3.package, [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2.package, [NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N1.package, превью1.png
+  10. [OK     ] [NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ
+       https://www.patreon.com/northernsiberiawinds/posts/winter-tale-and-45622566
+       arquivo(s): [NorthernSiberiaWinds] EYELINER N1.package, [NorthernSiberiaWinds] EYESHADOW N3.package, [NorthernSiberiaWinds] HIGHLIGHTER N1.package, [NorthernSiberiaWinds] GLITTER N3.package, [NorthernSiberiaWinds] LIPS N15.package, [NorthernSiberiaWinds] LIPS N14.package, [NORTHERN SIBERIA WINDS] SKIN N4.package, [NORTHERN SIBERIA WINDS] SKIN N4 - FANTASY VER.1.package, [NORTHERN SIBERIA WINDS] SKIN N4 - FANTASY VER.2.package, [NORTHERN SIBERIA WINDS] SKIN N4 - FANTASY VER.1 HQ.package, [NORTHERN SIBERIA WINDS] SKIN N4 - FANTASY VER.2 HQ.package, [NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY.package, [NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ.package, 1.png
+  11. [OK     ] [SEOULSOUL] 2025_#106_Skirt
+       https://www.patreon.com/seoulsoul/posts/ingame-ver-2025-131742236
+       arquivo(s): 16.png
+  12. [OK     ] [SEOULSOUL] 2026_#146_Sleeveless top
+       https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-149006537
+       arquivo(s): 43.png
+  13. [OK     ] [SEOULSOUL] 2026_#179_Thong boots
+       https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-164173468
+       arquivo(s): 17.png
+  14. [OK     ] Anonimux - Arlecchino Lips
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-lipstick/title/arlecchino-lips/id/1699291/
+       arquivo(s): Anonimux - Arlecchino Lips.package
+  15. [OK     ] Anonimux - Eyeshadow N36
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-eyeshadow/title/eyeshadow-n36/id/1743552/
+       arquivo(s): Anonimux - Eyeshadow N36.package
+  16. [OK     ] Anonimux - Makeup Set N36 - Lips
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-lipstick/title/makeup-set-n36-lips/id/1717771/
+       arquivo(s): Anonimux - Makeup Set N36 - Lips.package
+  17. [OK     ] Anonimux - Makeup Set N46 - Blush
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-blush/title/makeup-set-n46-blush/id/1756552/
+       arquivo(s): Anonimux - Makeup Set N46 - Blush.package
+  18. [OK     ] Anonimux - Mavuika Blush
+       https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-blush/title/mavuika-blush/id/1710204/
+       arquivo(s): Anonimux - Mavuika Blush.package
+  19. [OK     ] BackTrack_fLuna_Halter_Dress
+       https://www.curseforge.com/sims4/create-a-sim/luna-halter-dress
+       arquivo(s): BackTrack_Luna_Halter_Dress.zip
+  20. [OK     ] BackTrack_fSteh_Bikini
+       https://www.curseforge.com/sims4/create-a-sim/steh-bikini
+       arquivo(s): BackTrack_Steh_Bikini.zip
+  21. [OK     ] euno nose preset 6-10
+       https://www.patreon.com/eunosims/posts/nose-preset-6-10-72592326
+       arquivo(s): 코프리셋.jpg
+  22. [OK     ] Eyes Preset F N1-6 [NorthernSiberiaWinds]
+       https://www.patreon.com/northernsiberiawinds/posts/set-for-eyes-fox-40748818
+       arquivo(s): Eyebrows N2 [NorthernSiberiaWinds].package, Eyebrows N3 [NorthernSiberiaWinds].package, Eyelashes 2D N1 [NorthernSiberiaWinds].package, Eyelids N1 [NorthernSiberiaWinds].package, Eyeshadow N2 [NorthernSiberiaWinds].package, [NORTHERN SIBERIA WINDS] EYES N4.package, [NORTHERN SIBERIA WINDS] EYES N3.package, Eyes Preset F N1-6 [NorthernSiberiaWinds].package, 1.png
+  23. [OK     ] GPME-GOLD Eyeshadow CC 47
+       https://www.patreon.com/goppolsme/posts/gpme-gold-cc-47-119339172
+       arquivo(s): EYESHADOW CC47 - 2.jpg
+  24. [OK     ] Lips Preset N8 [NorthernSiberiaWinds]
+       https://www.patreon.com/northernsiberiawinds/posts/summer-equinox-38572488
+       arquivo(s): Lips N3 - Poplar Fluff [NorthernSiberiaWinds].package, Lips N4 - Tenderness [NorthernSiberiaWinds].package, Lips N5 - Withered Rose [NorthernSiberiaWinds].package, Lips Preset N9 [NorthernSiberiaWinds].package, Lips Preset N8 [NorthernSiberiaWinds].package, Lips Preset N7 [NorthernSiberiaWinds].package, Lips Preset N6 [NorthernSiberiaWinds].package, Lips Preset N5 [NorthernSiberiaWinds].package, Lips Preset N4 [NorthernSiberiaWinds].package, Lips Preset N3 [NorthernSiberiaWinds].package, Lips Preset N2 [NorthernSiberiaWinds].package, Lips Preset N1 [NorthernSiberiaWinds].package, гиф.gif
+  25. [OK     ] LUUMIA_mod_HeightSlider_UpdateJune2022
+       https://www.patreon.com/luumia/posts/sim-height-june-68032331
+       arquivo(s): LUUMIA_mod_HeightBodyPresets.package, LUUMIA_mod_HeightSlider_UpdateJune2022.package
+  26. [OK     ] miiko-eyebrow-slider
+       https://www.patreon.com/miikocc/posts/eyebrow-slider-39393841
+       arquivo(s): miiko-eyebrow-slider.package, eyebrow-slider-preview.jpg
+  27. [PAGO   ] obscurus_eyes_N18_sclera
+       https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)
+  28. [OK     ] obscurus_nose_highlighter / obscurus_nosemask_nostrils
+       https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428
+       arquivo(s): 14.02.2023_23-58-02 копия.png
+  29. [OK     ] SimMandy_Spotlight_Skindetails
+       https://www.patreon.com/posts/42027501
+       arquivo(s): SimMandy_Spotlight_FaceMask.package, SimMandy_Spotlight_Skindetails.package, SimMandy_Spotlight_Tattoos.package, thumb2.gif
+  30. [OK     ] sims3melancholic_contacts #121 EYE COLORS / sims3melancholic_contacts #120 EYE COLORS
+       https://www.patreon.com/sims3melancholic/posts/pretty-eyes-90064610
+       arquivo(s): 11.png
+  31. [OK     ] sims3melancholic_highlight #23-28 ALL IN 1
+       https://www.patreon.com/sims3melancholic/posts/highlight-103333754
+       arquivo(s): 11.png
+  32. [OK     ] teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed / teanmoon_MouthScaleSliderHQ_Fixed
+       https://www.patreon.com/nonvmestudios/posts/teanmoon-mouth-28177423
+       arquivo(s): teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed.package
+  33. [OK     ] VivianDang_AF_Necklace_Y (ForCloth)
+       https://www.thesimsresource.com/members/VivianDang/downloads/details/category/sims4-accessories-female-necklaces/title/viviandang-af-necklace-y-forcloth-package/id/1741622/
+       arquivo(s): VivianDang_AF_Necklace_Y (ForCloth).package
+  34. [OK     ] WINGS HAIR TS4 ES0115 (Bouffant curl hair)
+       https://www.thesimsresource.com/artists/wingssims/downloads/details/category/sims4-hair-hairstyles-female/title/bouffant-curl-hair-es0115/id/1636920/
+       arquivo(s): WINGS HAIR TS4 ES0115 (Bouffant curl hair).package
+  35. [OPCION.] Miwisimsie_Daily Perfect CAS
+       https://www.patreon.com/posts/gshade-preset-123038419
+       motivo: preset gráfico (GShade/ReShade) – não é CC do jogo; opcional
+
+==============================================================================
+  SIM 4: Uminunu-F12 The Sweet Streamer  (por Uminunu)
+==============================================================================
+Página : https://www.curseforge.com/sims4/sims-households/uminunu-f12-the-sweet-streamer
+Arquivo: Uminunu-F12-The Sweet Streamer.zip  – status: ok
+Tray   : Tray/0x8c0daa03!0x002b171fbcae00e4.hhi, Tray/0x00000013!0x032b171fbcae00e5.sgi, Tray/0x8c0daa02!0x002b171fbcae00e4.hhi, Tray/0x00000000!0x002b171fbcae00e4.householdbinary, Tray/0x00000001!0x002b171fbcae00e4.trayitem
+
+   1. [PAGO   ] [BRADFORD] My LV Pearl Bracelet
+       https://www.patreon.com/bradfordsims/posts/my-lv-pearl-set-125206303
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (MY LV PEARL SET /// GAME EDITION)
+   2. [OK     ] [CAMUFLAJE] Girly Things Collection - Head Bow
+       https://www.patreon.com/camuflaje/posts/camuflaje-girly-123313051
+       arquivo(s): [CAMUFLAJE] Girly Things Collection - Dress I.package, [CAMUFLAJE] Girly Things Collection - Dress II.package, [CAMUFLAJE] Girly Things Collection - Earrings.package, [CAMUFLAJE] Girly Things Collection - Head Bow.package, [CAMUFLAJE] Girly Things Collection - Outfit.package, [CAMUFLAJE] Girly Things Collection - ALL IN ONE.rar, J1.jpg
+   3. [FALHOU ] [Kijiko]eyelash_YF_Mak_ex-natural_Ri
+       https://kijiko-catfood.com/3d-lashes-uncurl-makeup/
+       motivo: Failed to perform, curl: (28) Connection timed out after 90001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+   4. [OK     ] [NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY edit
+       https://www.patreon.com/northernsiberiawinds/posts/ladies-50919435
+       arquivo(s): [NORTHERN SIBERIA WINDS] EYES N14.package, [NORTHERN SIBERIA WINDS] EYES N15.package, [NORTHERN SIBERIA WINDS] EYES N16.package, [NorthernSiberiaWinds] LIPS N18.package, [NorthernSiberiaWinds] LIPS N19.package, [NorthernSiberiaWinds] NOSEMASK N4.package, [NORTHERN SIBERIA WINDS] SKIN N7.package, [NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY.package, [NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY HQ.package, 1.png
+   5. [OK     ] [NorthernSiberiaWinds] EYELINER N3
+       https://www.patreon.com/northernsiberiawinds/posts/female-new-year-60554269
+       arquivo(s): [NorthernSiberiaWinds] EYELIDS N10.package, [NorthernSiberiaWinds] EYELINER N3.package, [NorthernSiberiaWinds] EYELINER N4.package, [NORTHERN SIBERIA WINDS] BLUSH N4.package, [NORTHERN SIBERIA WINDS] HIGHLIGHTER N3.package, [NORTHERN SIBERIA WINDS] HIGHLIGHTER N4 + NOSE BLUSH.package, [NorthernSiberiaWinds] LIPS PRESETS CHILD F&M N1-9.package, [NORTHERN SIBERIA WINDS] SKIN N11.package, [NORTHERN SIBERIA WINDS] SKIN N11 HQ.package, [NORTHERN SIBERIA WINDS] SKIN N11 OVERLAY.package, [NORTHERN SIBERIA WINDS] SKIN N11 OVERLAY HQ.package, [NorthernSiberiaWinds] LIPS PRESETS F N33-41.package, 5.png
+   6. [OK     ] [poyopoyo] Eye Contacts N9
+       https://www.patreon.com/poyopoyosim/posts/poyopoyo-skin-n5-71029892
+       arquivo(s): 23.png
+   7. [OK     ] ALGU_EYEBROWS_51
+       https://m.blog.naver.com/kimseheongun/221720378667
+       arquivo(s): ALGU_EYEBROWS_51.package
+   8. [OK     ] ANGISSI_BLUSH_A28
+       https://www.thesimsresource.com/themes/maxismatch/downloads/details/category/sims4-makeup-female-blush/title/blush-a28/id/1697428/
+       arquivo(s): ANGISSI_BLUSH_A28.package
+   9. [OK     ] astya96_february_collection_skirt_01
+       https://www.patreon.com/astya96/posts/february-2023-78882631
+       arquivo(s): astya96 february2023.rar, 01023.png
+  10. [OK     ] astya96_vintage_summer_lila_top
+       https://www.patreon.com/astya96/posts/vintage-summer-111339616
+       arquivo(s): 1lila prev 01.png
+  11. [OK     ] euno 2022 0104 nail (square shape) Solid HQ
+       https://eunosims.tistory.com/entry/sims4cc-nail-set
+       arquivo(s): euno nail set.zip
+  12. [OK     ] GPME-GOLD High Glossy Eyes
+       https://www.patreon.com/goppolsme/posts/gpme-gold-high-18294399
+       arquivo(s): glosseyes_1-1.jpg
+  13. [OK     ] mermalade_S193
+       https://www.thesimsresource.com/downloads/details/category/sims4-shoes-female-teenadultelder/title/cut-out-design-heeled-sandals-s193/id/1659882/
+       arquivo(s): mermalade_S193.package
+  14. [OK     ] MsBlue_SkintoneSetV3
+       https://www.thesimsresource.com/downloads/details/category/sims4-skintones/title/skintone-set-v3/id/1346781/
+       arquivo(s): Skintone Set V3.package
+  15. [FALHOU ] obscurus_eyelids_N3test
+       https://obscurus-sims.tumblr.com/post/168617117913/eyelids-n3-24-colors-teen-males-and-females
+       motivo: nenhum link baixável na página (http://simfileshare.net/folder/149886/: SimFileShare: é uma PASTA – baixe manualmente)
+  16. [OK     ] Pralinesims_Necklace_Reverb_Pearl_F
+       https://www.patreon.com/pralinesims/posts/reverb-bead-set-88161386
+       arquivo(s): Pralinesims_REVERB_NecklaceSet.zip, REVERB.png
+  17. [OK     ] PS_MidaPearlEarringSet
+       https://www.thesimsresource.com/downloads/details/category/sims4-accessories-female-earrings/title/mida-pearl-earring-set/id/1419274/
+       arquivo(s): PS_MidaPearlEarringSet.package
+  18. [OK     ] RemusSirion_Lipstick_225-Ovate
+       https://www.thesimsresource.com/downloads/details/category/sims4-makeup-female-lipstick/title/ovate-lipstick/id/1528221/
+       arquivo(s): Ovate Lipstick.package
+  19. [OK     ] sclub_ts4_hair_ 080125
+       https://www.thesimsresource.com/downloads/details/category/sims4-hair-hairstyles/title/ponytail-hairstyle-080125-by-s-club/id/1727463/
+       arquivo(s): sclub_ts4_hair_ 080125.package
+  20. [OK     ] Meatballteeth_Nose_Rotate_Slider
+       https://www.patreon.com/uxji/posts/allen-benavides-47157885
+       arquivo(s): Meatballteeth_Nose_Rotate_Slider.package, Meatballteeth_Household_allen benavides.zip, tumblr_04c7d4c8b9b6b9b043e0cb3602727ce2_cc360fd4_500.jpg
+  21. [OK     ] [bloodmoon] forehead height slider_Fixed
+       https://bloodmooncc.tumblr.com/post/643220448197394432/forehead-height-slider-consider-this-my-420
+       arquivo(s): [bloodmoon] forehead height slider.package
+  22. [FALHOU ] [KIKIW]The perfect doll slider_eyes_Fixed
+       https://www.tumblr.com/cocoona-sims/652805006498643968/kikiwthe-perfect-doll-slide-the-slider-can
+       motivo: nenhum link baixável na página (https://www.patreon.com/posts/51786745: Patreon API HTTP 404: '{"errors":[{"id":"cbf32e2d-5900-4a5c-be20-846e440fdb71",")
+  23. [OK     ] [MB] Default chin slider_Fixed
+       https://www.patreon.com/magicbot/posts/default-chin-54872952
+       arquivo(s): ПРЕВЬЮ.png
+  24. [OK     ] [MB] Default jaw slider
+       https://www.patreon.com/magicbot/posts/set-default-face-103538408
+       arquivo(s): [MB] Default jaw + cheeks slider.package, [MB] Default cheekbone slider.package, [MB] Default cheeks slider.package, [MB] Default jaw slider.package, превью копия.png
+  25. [OK     ] [MB] Default mouth slider
+       https://www.patreon.com/magicbot/posts/default-mouth-56990147
+       arquivo(s): ПРЕВЬЮ.png
+  26. [OK     ] [MB] Default nose slider_Fixed
+       https://www.patreon.com/magicbot/posts/default-nose-55675247
+       arquivo(s): ПРЕВЬЮ.png
+  27. [OK     ] Dumbaby chin slider FEMALE_Fixed
+       https://www.dumbaby.com/post/download-chin-slider-for-a-perfect-face-in-profile
+       arquivo(s): Dumbaby Chin Slider.zip
+  28. [OK     ] HFO_TS4AUNoseTipSlider
+       https://www.patreon.com/icecreamforbreakfast/posts/nose-tilt-slider-40825368
+       arquivo(s): HFO_TS4AUNoseTipSlider.package, tumblr_802d766f14a008075c665c7769033eb2_252e9b5a_1280.jpg
+  29. [OK     ] HFO_TS4ShoulderSliders
+       https://modthesims.info/download.php?t=613257
+       arquivo(s): MTS_Hellfrozeover_2108295_HFO_TS4ShoulderSliders_Fixed.zip, MTS_Hellfrozeover_1774223_HFO_TS4ShoulderSliders.zip, MTS_Hellfrozeover_1774203_HFO_TS4ShoulderHeight.zip
+  30. [OK     ] miiko-pouty-lip-slider
+       https://www.patreon.com/miikocc/posts/pouty-lip-slider-38539565
+       arquivo(s): miiko-pouty-lip-slider.package, pouty-lip-slider-preview.jpg
+  31. [OK     ] obscurus eyelids sliders N1
+       https://obscurus-sims.tumblr.com/post/174905199148/sliders-for-eyelids-dl-works-in-normal-mode
+       arquivo(s): obscurus eyelids sliders N1.package
+  32. [OK     ] teanmoon_ExpandedNoseWidthSilder
+       https://www.tumblr.com/teanmoon/174763735970/expanded-nose-width-slider-by-teanmoon-teen
+       arquivo(s): teanmoon_LatticeTable.package
+  33. [OK     ] teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed / teanmoon_MouthScaleSliderHQ_Fixed
+       https://www.patreon.com/nonvmestudios/posts/teanmoon-mouth-28177423
+       arquivo(s): teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed.package
+
+==============================================================================
+  SIM 5: Rosemary Haney  (por daboosims)
+==============================================================================
+Página : https://www.curseforge.com/sims4/sims-households/rosemary-haney
+Arquivo: Daboosims Rosemary Haney.zip  – status: ok
+Tray   : Tray/0x00000000!0x0046171f6cba0037.householdbinary, Tray/0x869cb002!0x0046171f6cba0037.hhi, Tray/0x00000013!0x0346171f6cba0038.sgi, Tray/0x869cb003!0x0046171f6cba0037.hhi, Tray/0x00000001!0x0046171f6cba0037.trayitem
+
+   1. [OK     ] Madlen Lucille Boots
+       https://www.patreon.com/posts/lucille-boots-58167877
+       arquivo(s): Madlen Lucille Boots.package, ad1.jpg
+   2. [FALHOU ] [VICE4Simz] - Rick Owens
+       https://www.patreon.com/posts/vice-2022-high-c-64102874
+       motivo: Patreon API HTTP 404: '{"errors":[{"id":"77efa7af-1864-4c60-a469-f0ee48de9430","code_name":"ResourceMissing","code":4,"title":"post was not found.","detail":"post with id 64102874 was'
+   3. [OK     ] [SUNBERRY]Heart Fur Boots 22.73
+       https://www.patreon.com/posts/sunberry-puff-22-76138099
+       arquivo(s): 썸네일##.png
+   4. [OK     ] [RIMINGS] Love What You Have _Mini Skirt
+       https://www.patreon.com/posts/rimings-love-you-87534253
+       arquivo(s): [RIMINGS] Love What You Have _Mini Skirt.package, [RIMINGS] Love What You Have _Shopper Bag.package, [RIMINGS] Love What You Have _Turtleneck Top & Cardigan.package, [RIMINGS] Love What You Have _Turtleneck Top & Patternd Cardigan.package, 썸넬2.png
+   5. [OK     ] [Jius]KnittedSocks05
+       https://www.patreon.com/posts/69246364
+       arquivo(s): [Jius]PlatformPumps04.package, [Jius]PlatformSandals08.package, [Jius]PlatformSandals09.package, [Jius]PlatformLoafersPumps01.package, [Jius]KnittedSocks05.package, 01.jpg
+   6. [OK     ] Sagittariah_Wounded_Blush
+       https://www.thesimsresource.com/themes/maxismatch/downloads/details/category/sims4-makeup-female-blush/title/wounded-blush/id/1633809/
+       arquivo(s): Sagittariah_Wounded_Blush.package
+   7. [OK     ] Lips Preset N7 [NorthernSiberiaWinds]
+       https://www.patreon.com/posts/summer-equinox-38572488
+       arquivo(s): Lips N3 - Poplar Fluff [NorthernSiberiaWinds].package, Lips N4 - Tenderness [NorthernSiberiaWinds].package, Lips N5 - Withered Rose [NorthernSiberiaWinds].package, Lips Preset N9 [NorthernSiberiaWinds].package, Lips Preset N8 [NorthernSiberiaWinds].package, Lips Preset N7 [NorthernSiberiaWinds].package, Lips Preset N6 [NorthernSiberiaWinds].package, Lips Preset N5 [NorthernSiberiaWinds].package, Lips Preset N4 [NorthernSiberiaWinds].package, Lips Preset N3 [NorthernSiberiaWinds].package, Lips Preset N2 [NorthernSiberiaWinds].package, Lips Preset N1 [NorthernSiberiaWinds].package, гиф.gif
+   8. [OK     ] í+333í+Box-shaped-Nose-shadow HQ
+       https://www.patreon.com/posts/333-box-shaped-108500219
+       arquivo(s): 【333】Box-shaped-Nose-shadow.zip, ad1.png
+   9. [OK     ] ANGISSI Eyeliner A210
+       https://www.thesimsresource.com/downloads/details/category/sims4-makeup-female-eyeliner/title/eyeliner-a210/id/1731059/
+       arquivo(s): ANGISSI Eyeliner A210.package
+  10. [OK     ] [NorthernSiberiaWinds] LIPS N29
+       https://www.patreon.com/posts/gloss-collection-61905018
+       arquivo(s): [NorthernSiberiaWinds] NOSEMASK N5.package, [NorthernSiberiaWinds] LIPS N26.package, [NorthernSiberiaWinds] LIPS N27.package, [NorthernSiberiaWinds] LIPS N28.package, [NorthernSiberiaWinds] LIPS N29.package, [NorthernSiberiaWinds] LIPS N30.package, [NorthernSiberiaWinds] LIPS N31.package, [NorthernSiberiaWinds] LIPS N32.package, [NorthernSiberiaWinds] LIPS N33.package, [NORTHERN SIBERIA WINDS] DIMPLES N2 В.package, [NORTHERN SIBERIA WINDS] DIMPLES N2 A.package, [NORTHERN SIBERIA WINDS] DIMPLES N1 A.package, [NORTHERN SIBERIA WINDS] DIMPLES N1 B.package, [NORTHERN SIBERIA WINDS] BLUSH N5 + HIGHLIGHTER.package, [NORTHERN SIBERIA WINDS] NOSE PRESETS F N18-27 FOR CHILDREN.package, [NorthernSiberiaWinds] NOSE PRESETS F N18-27.package, Без-имени-1.gif
+  11. [OK     ] [NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ
+       https://www.patreon.com/posts/mr-mrs-55374454
+       arquivo(s): [NORTHERN SIBERIA WINDS] SKIN N8.package, [NORTHERN SIBERIA WINDS] SKIN N9.package, [NORTHERN SIBERIA WINDS] SKIN N8 OVERLAY.package, [NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY.package, [NORTHERN SIBERIA WINDS] SKIN N8 OVERLAY HQ.package, [NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ.package, 1Б.png
+  12. [PAGO   ] [NORTHERN SIBERIA WINDS] FEMALE NOSE PRESETS N43-51 CHILD EDITION / [NORTHERN SIBERIA WINDS] EARS PRESET N4
+       https://www.patreon.com/posts/love-yourself-115123327
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: PRESETS COLLECTION ❤️)
+  13. [OK     ] [NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N13
+       https://www.patreon.com/posts/final-touch-kit-99496806
+       arquivo(s): [NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1-8.zip, [NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip, превью.png
+  14. [OK     ] [NORTHERN SIBERIA WINDS] EYES N7
+       https://www.patreon.com/posts/from-west-to-43932063
+       arquivo(s): [NorthernSiberiaWinds] Eyelids N4.package, [NorthernSiberiaWinds] Eyelids N5.package, [NorthernSiberiaWinds] Eyelids N6.package, [NorthernSiberiaWinds] Eyelids N7.package, [NorthernSiberiaWinds] NOSEMASK N2.package, [NorthernSiberiaWinds] NOSEMASK N3.package, [NORTHERN SIBERIA WINDS] EYES N7.package, [NORTHERN SIBERIA WINDS] EYES N6.package, [NORTHERN SIBERIA WINDS] EYES N5.package, [NorthernSiberiaWinds] Nose Presets F N10-17.package, 2.png
+  15. [PAGO   ] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART
+       https://www.patreon.com/posts/love-yourself-118323257
+       motivo: post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)
+  16. [FALHOU ] LamaLama_Acc_Hair Melyssa
+       https://www.simsfinds.com/downloads/361654/melyssa-hair-by-lamalama-sims4
+       motivo: nenhum link baixável na página (https://www.simsfinds.com/en/downloads/sims4: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims4?latest=cc: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims3: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims3: pá | https://www.simsfinds.com/en/downloads/sims2: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims2: pá)
+  17. [OK     ] SMSims_magenta_bodypresets
+       https://www.patreon.com/SMSims/posts/honey-magenta-152440667
+       arquivo(s): SMSims_magenta_bodypresets.package, SMSims_magenta_bodypresets.png
+  18. [OK     ] S-Club LL ts4 necklace 202019
+       https://www.thesimsresource.com/downloads/details/id/1512540
+       arquivo(s): S-Club LL ts4 necklace 202019.package
+  19. [OK     ] MARSMERIZING_LISS_Carol Jacket_FTop
+       https://www.patreon.com/posts/92611624
+       arquivo(s): MARSMERIZING_LISS_Celebrity Windbreaker_MTop.package, MARSMERIZING_LISS_Celebrity Windbreaker_FTop.package, MARSMERIZING_LISS_June Muffler (Necklace).package, MARSMERIZING_LISS_Carol Jacket_FTop.package, MARSMERIZING_LISS_Coco Jacket_FTop.package, MARSMERIZING_LISS_Santa Mittens.package, MARSMERIZING_LISS_Whitney Jacket_FTop.package, let it snow jackets.png
+  20. [OK     ] MagicHand Haley Eyebrows N286
+       https://www.thesimsresource.com/downloads/details/id/1695424
+       arquivo(s): MagicHand Haley Eyebrows N286.package
+  21. [OK     ] LMCS_Gotta_Top
+       https://www.thesimsresource.com/downloads/details/id/1494078
+       arquivo(s): LMCS_Gotta_Top.package
+  22. [OK     ] EnriqueS4_yfHair_Ari
+       https://www.thesimsresource.com/downloads/details/category/sims4-hair-hairstyles-female/title/enriques4-ari-hairstyle/id/1489843/
+       arquivo(s): EnriqueS4_yfHair_Ari.package
+  23. [OK     ] Bobur Eyeshadow 15
+       https://www.thesimsresource.com/downloads/details/category/sims4-makeup-female-eyeshadow/title/bobur-eyeshadow-15/id/1386223/
+       arquivo(s): Bobur Eyeshadow 15.package
+  24. [OK     ] ShakeProductionsS062301-HighHeels
+       https://www.thesimsresource.com/members/MysteriousOo/downloads/details/category/sims4-shoes-female-teenadultelder/title/high-heels-s062301/id/1657121/
+       arquivo(s): ShakeProductionsS062301-HighHeels.package
+  25. [OK     ] ShakeProductions976-HighHeelBoots
+       https://www.thesimsresource.com/artists/ShakeProductions/downloads/details/category/sims4-shoes-female-teenadultelder/title/976-high-heel-boots/id/1633936/
+       arquivo(s): ShakeProductions976-HighHeelBoots.package
+  26. [OK     ] S-Club LL ts4 erring 201926
+       https://www.thesimsresource.com/downloads/details/category/sims4-accessories-female-earrings/title/s-club-ts4-ll-earrings-201926/id/1472912/
+       arquivo(s): S-Club LL ts4 erring 201926.package
+  27. [OK     ] portev p669
+       https://www.thesimsresource.com/downloads/details/category/sims4-clothing-female-elder-everyday/title/shiny-sleeveless-cross-strap-top/id/1709291/
+       arquivo(s): portev p669.package
+  28. [OK     ] Pitted0live_Raquel_Earrings
+       https://www.thesimsresource.com/downloads/details/category/sims4-accessories-female-earrings/title/raquel-earrings/id/1701389/
+       arquivo(s): Pitted0live_Raquel_Earrings.package
+  29. [OK     ] LLSIMS_StilettoNails_001
+       https://www.thesimsresource.com/downloads/details/id/1306392
+       arquivo(s): LLSIMS_StilettoNails_001.package
+  30. [OK     ] GlitterberrySims- TSR Butterfly Ring
+       https://www.thesimsresource.com/downloads/details/id/1607661
+       arquivo(s): GlitterberrySims- TSR Butterfly Ring.package
+  31. [OK     ] GlitterberrySims- aug2023- Olive Wedding Band
+       https://www.thesimsresource.com/downloads/details/category/sims4-accessories-female-rings/title/olive-ring/id/1664721/
+       arquivo(s): GlitterberrySims- aug2023- Olive Wedding Band.package
+  32. [OK     ] Coffeemoon_Invisible_eyelashes_Teen-elderHQ
+       https://www.thesimsresource.com/downloads/details/id/1589726
+       arquivo(s): Coffeemoon_Invisible_eyelashes_Teen-elderHQ.package

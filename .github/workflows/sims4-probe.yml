@@ -1,0 +1,46 @@
+name: Sims 4 - sonda de hosts
+
+on:
+  push:
+    branches:
+      - arena/01a07843-viniciaao
+    paths:
+      - 'sims4-bundle/probe/probe.py'
+      - '.github/workflows/sims4-probe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sims4-probe
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/01a07843-viniciaao
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q requests curl_cffi
+      - name: Rodar sonda
+        run: python sims4-bundle/probe/probe.py
+      - name: Commit da saída
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A sims4-bundle/probe/out || true
+          if git diff --cached --quiet; then echo "nada"; else
+            git commit -m "sonda: saída (run ${{ github.run_id }})"
+            for i in 1 2 3; do
+              git pull --rebase origin arena/01a07843-viniciaao && git push origin HEAD:arena/01a07843-viniciaao && break
+              sleep 5
+            done
+          fi

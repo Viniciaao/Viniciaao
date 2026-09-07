@@ -1,0 +1,84 @@
+GET https://www.patreon.com/posts/157807075
+  -> 403 text/html; charset=UTF-8 6027 bytes em 0.0s final=https://www.patreon.com/posts/157807075
+  head=b'<!DOCTYPE html><html lan'
+  salvo patreon_157807075.html (6027 de 6027 bytes)
+GET https://www.patreon.com/posts/54872952
+  -> 403 text/html; charset=UTF-8 6045 bytes em 0.0s final=https://www.patreon.com/posts/54872952
+  head=b'<!DOCTYPE html><html lan'
+  salvo patreon_54872952.html (6045 de 6045 bytes)
+GET https://www.patreon.com/posts/119339172
+  -> 403 text/html; charset=UTF-8 6048 bytes em 0.0s final=https://www.patreon.com/posts/119339172
+  head=b'<!DOCTYPE html><html lan'
+  salvo patreon_119339172.html (6048 de 6048 bytes)
+GET https://www.patreon.com/api/posts/157807075?include=attachments_media,media,attachments,campaign&fields[post]=change_visibility_at,comment_count,content,created_at,current_user_can_view,embed,image,is_paid,like_count,post_file,post_metadata,published_at,patreon_url,post_type,teaser_text,title,url&fields[media]=id,download_url,file_name,image_urls,mimetype,size_bytes&json-api-version=1.0&json-api-use-default-includes=false
+  -> 200 application/vnd.api+json 21590 bytes em 0.2s final=https://www.patreon.com/api/posts/157807075?include=attachments_media,media,attachments,campaign&fields[post]=change_visibility_at,comment_count,content,created_at,current_user_can_view,embed,image,is_paid,like_count,post_file,post_metadata,published_at,patreon_url,post_type,teaser_text,title,url&fields[media]=id,download_url,file_name,image_urls,mimetype,size_bytes&json-api-version=1.0&json-api-use-default-includes=false
+  head=b'{"data":{"id":"157807075'
+  salvo patreon_api_157807075.json (21590 de 21590 bytes)
+    'seoul-soul.com' x1  ex: 'content=join_link\\" rel=\\"noopener noreferrer nofollow\\">T.O.U</a></p><p style=\\"text-align:center;\\"><a href=\\"https://seoul-soul.com/\\" rel=\\"noopener noreferrer nofollow\\">W E B S I T E</a></p><p style=\\"text-align:center;\\"><a href=\\"https://www.instagram.com/seoulsoul_sims/\\'
+    '"content":' x1  ex: '{"data":{"id":"157807075","type":"post","attributes":{"change_visibility_at":null,"comment_count":5,"content":null,"created_at":"2026-05-09T14:31:36.000+00:00","current_user_can_view":true,"embed":null,"image":{"url":"https://c10.patreonusercontent.com/4/patre'
+    'download_url' x4  ex: '"text-align:center;\\"></p>","url":"https://www.patreon.com/seoulsoul"}},{"id":"660397588","type":"media","attributes":{"download_url":"https://c10.patreonusercontent.com/4/patreon-media/p/post/157807075/610ebd593f2d4cccafb4dd86533fdef5/eyJhIjoxLCJwIjoxfQ%3D%3D/1.png?token-hash=R5'
+GET https://drive.google.com/embeddedfolderview?id=1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk
+  -> 200 text/html; charset=utf-8 4449 bytes em 0.4s final=https://drive.google.com/embeddedfolderview?id=1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk
+  head=b'<!DOCTYPE html><html><he'
+  salvo gdrive_folder.html (4449 de 4449 bytes)
+    'drive.google.com' x4  ex: 'ry" id="entry-1C35zslpGNH1lGV9e3_DP8rJbt-_QFPys" tabindex="0" role="link"><div class="flip-entry-info"><a href="https://drive.google.com/file/d/1C35zslpGNH1lGV9e3_DP8rJbt-_QFPys/view?usp=drive_web" target="_blank"><div class="flip-entry-visual"><div class="flip-entry-visual-card"'
+    '/file/d/' x4  ex: '35zslpGNH1lGV9e3_DP8rJbt-_QFPys" tabindex="0" role="link"><div class="flip-entry-info"><a href="https://drive.google.com/file/d/1C35zslpGNH1lGV9e3_DP8rJbt-_QFPys/view?usp=drive_web" target="_blank"><div class="flip-entry-visual"><div class="flip-entry-visual-card"><div class="fli'
+    'flip-entry' x32  ex: 'g" aria-level="2" class="flip-list-last-modified-header">LAST MODIFIED</div></div><div class="flip-entries"><div class="flip-entry" id="entry-1C35zslpGNH1lGV9e3_DP8rJbt-_QFPys" tabindex="0" role="link"><div class="flip-entry-info"><a href="https://drive.google.com/file/d/1C35zslp'
+GET https://drive.google.com/drive/folders/1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk
+  -> 200 text/html; charset=utf-8 348168 bytes em 0.5s final=https://drive.google.com/drive/folders/1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk
+  head=b'<!DOCTYPE html><html lan'
+  salvo gdrive_folder_full.html (348168 de 348168 bytes)
+    'drive.google.com' x40  ex: 'ull,null,null,null,null,null,null,null,null,null,0,0]],null,null,"49","49",1,0,null,"en",0,null,null,0,0,[null,"https://drive.google.com/drive/folders/1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk",null,null,null,0,null,0,0,"","","","https://ogads-pa.clients6.google.com",null,0,0,"","",null,'
+GET https://drive.usercontent.google.com/download?id=14FF7u81DPpITQtsfKDAo5ROJM4b0Vm7b&export=download&confirm=t
+  -> 200 application/octet-stream 8042385 bytes em 1.4s final=https://drive.usercontent.google.com/download?id=14FF7u81DPpITQtsfKDAo5ROJM4b0Vm7b&export=download&confirm=t
+  head=b'DBPF\x02\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  salvo gdrive_file.bin (64 de 8042385 bytes)
+GET https://simfileshare.net/folder/149886/
+  -> 200 text/html; charset=utf-8 6643 bytes em 0.4s final=https://simfileshare.net/folder/149886/
+  head=b'\n\n\n<!DOCTYPE html>\n<html'
+  salvo sfs_folder.html (6643 de 6643 bytes)
+GET https://simfileshare.net/download/2803274/?dl
+  -> 200 text/html; charset=utf-8 6792 bytes em 0.1s final=https://simfileshare.net/download/2803274/?dl
+  head=b'\n\n\n<!DOCTYPE html>\n<html'
+  salvo sfs_file.bin (64 de 6792 bytes)
+GET https://eunosims.tistory.com/entry/sims4-eye-preset-download
+  -> 200 text/html;charset=UTF-8 41947 bytes em 1.2s final=https://eunosims.tistory.com/entry/sims4-eye-preset-download
+  head=b'<!doctype html>\n<html la'
+  salvo tistory.html (41947 de 41947 bytes)
+    'kakaocdn.net' x25  ex: '/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>\n<script type="text/javascript" src="//t1.kakaocdn.net/tiara/js/v1/tiara-1.2.0.min.js"></script><meta name="referrer" content="always"/>\n<meta name="google-adsense-platform-account" content="ca-host-pub'
+GET https://blog.kakaocdn.net/dna/bSApvo/btsNa8XlvF3/AAAAAAAAAAAAAAAAAAAAAHx-rt2FoJghho-NsjrmndEW5FsSsc9C1BrY_NDekJ8y/euno%20eye%20preset%201-5%20%5B250220%5D.package?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=A1jRJiTvrDlEm8aNcpxYVcJ3dLk%3D&attach=1&knm=tfile.package
+  -> 200 application/octet-stream 110520 bytes em 1.7s final=https://blog.kakaocdn.net/dna/bSApvo/btsNa8XlvF3/AAAAAAAAAAAAAAAAAAAAAHx-rt2FoJghho-NsjrmndEW5FsSsc9C1BrY_NDekJ8y/euno%20eye%20preset%201-5%20%5B250220%5D.package?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=A1jRJiTvrDlEm8aNcpxYVcJ3dLk%3D&attach=1&knm=tfile.package
+  head=b'DBPF\x02\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  salvo kakao_file.bin (64 de 110520 bytes)
+GET https://seoul-soul.com/5711-2/
+  -> 200 text/html; charset=UTF-8 342888 bytes em 0.1s final=https://seoul-soul.com/5711-2/
+  head=b'<!DOCTYPE html>\n<html la'
+  salvo seoulsoul.html (342888 de 342888 bytes)
+    'seoul-soul.com' x174  ex: 'nymous\' rel=\'preconnect\' />\n<link rel="alternate" type="application/rss+xml" title="SEOULSOUL &raquo; 피드" href="https://seoul-soul.com/feed/" />\n<link rel="alternate" type="application/rss+xml" title="SEOULSOUL &raquo; 댓글 피드" href="https://seoul-soul.com/comments/feed/" />\n<!-- S'
+    'drive.google.com' x1  ex: 'block-button"><a class="wp-block-button__link has-small-font-size has-custom-font-size wp-element-button" href="https://drive.google.com/drive/folders/1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk?usp=sharing" target="_blank" rel="noreferrer noopener">DOWNLOAD</a></div>\n</div>\n\n\n\n<p class="h'
+GET https://kijiko-catfood.com/3d-lashes-uncurl-makeup/
+  -> 200 text/html; charset=UTF-8 372786 bytes em 3.2s final=https://kijiko-catfood.com/3d-lashes-uncurl-makeup/
+  head=b'<!doctype html>\n<html la'
+  salvo kijiko_cffi.html (372786 de 372786 bytes)
+    'simfileshare.net/download' x2  ex: '="_blank" class="wp-block-button__link has-light-green-background-color has-background wp-element-button" href="https://simfileshare.net/download/4893177/" style="border-radius:100px">Download via Sim File Share</a></div>\n\n\n\n<div class="wp-block-button has-custom-width wp-block-b'
+    'mediafire.com/file' x2  ex: 't="_blank" class="wp-block-button__link has-indigo-background-color has-background wp-element-button" href="https://www.mediafire.com/file/ljlqincziwc65rn/%255BKijiko%255Deyelash_Makeup_Uncurled.zip/file" style="border-radius:100px">Download via MediaFire</a></div>\n</div>\n</div>\n'
+requests kijiko -> 200 372367 bytes em 1.1s
+  salvo kijiko_requests.html (372367 de 372367 bytes)
+    'simfileshare.net/download' x2  ex: '="_blank" class="wp-block-button__link has-light-green-background-color has-background wp-element-button" href="https://simfileshare.net/download/4893177/" style="border-radius:100px">Download via Sim File Share</a></div>\n\n\n\n<div class="wp-block-button has-custom-width wp-block-b'
+    'mediafire.com/file' x2  ex: 't="_blank" class="wp-block-button__link has-indigo-background-color has-background wp-element-button" href="https://www.mediafire.com/file/ljlqincziwc65rn/%255BKijiko%255Deyelash_Makeup_Uncurled.zip/file" style="border-radius:100px">Download via MediaFire</a></div>\n</div>\n</div>\n'
+bit.ly -> 200 Location=None
+GET https://www.mediafire.com/file/9ox73a0npssvxtg/GPME-GOLD+Eyeshadow+CC+47.package/file
+  -> 200 text/html; charset=UTF-8 333748 bytes em 0.2s final=https://www.mediafire.com/file/9ox73a0npssvxtg/GPME-GOLD+Eyeshadow+CC+47.package/file
+  head=b'<!DOCTYPE html>\n<html la'
+  salvo mediafire.html (333748 de 333748 bytes)
+    'mediafire.com/file' x8  ex: '"MediaFire"/>\n        <meta property="og:locale" content="en_US"/>\n        <meta property="og:url" content="https://www.mediafire.com/file/9ox73a0npssvxtg/GPME-GOLD_Eyeshadow_CC_47.package/file"/>\n        <meta property="og:title" content="GPME-GOLD Eyeshadow CC 47"/>\n        <me'
+    'downloadButton' x3  ex: 't9By4-0j9Ablz0OnK39L08svoKKAET5VRi1SUpoDXYhXxBtNVYypRw/9ox73a0npssvxtg/GPME-GOLD+Eyeshadow+CC+47.package"           id="downloadButton"\n           rel="nofollow">\n                Download (2.02MB)\n        </a>\n\n                <a class="starting" href="#"><span>Your download is s'
+GET https://www.modcollective.gg/sims4/details/collection/298
+  -> 200 text/html; charset=utf-8 912852 bytes em 0.1s final=https://www.modcollective.gg/sims4/details/collection/298
+  head=b'<!DOCTYPE html><html lan'
+  salvo modcollective.html (600000 de 912852 bytes)
+    'downloadButton' x12  ex: '-w-[120px] overflow-hidden whitespace-nowrap overflow-ellipsis">Chic Meets Classic</em></div></a><div class="browseitem_downloadButtons___8n9Y"><button class="relative flex button_button__iBnBy button_primary__8QRtp fill-foreground-highlight hover:hover:fill-foreground-highlight '
+GET https://simfileshare.net/folder/188255/
+  -> 200 text/html; charset=utf-8 7386 bytes em 0.3s final=https://simfileshare.net/folder/188255/
+  head=b'\n\n\n<!DOCTYPE html>\n<html'
+  salvo sfs_folder_kikiw.html (7386 de 7386 bytes)
