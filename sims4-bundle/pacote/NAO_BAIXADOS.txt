@@ -1,13 +1,13 @@
 ==============================================================================
   MODS / CC QUE NÃO CONSEGUI BAIXAR AUTOMATICAMENTE
 ==============================================================================
-Gerado em 2026-09-06 21:55:12 UTC
+Gerado em 2026-09-07 15:12:37 UTC
 Fonte dos sims: https://www.curseforge.com/sims4/search?class=sims-households&page=1&pageSize=20&sortBy=creation+date
 
 Total de CCs únicos nos 5 sims: 133
-  Baixados e incluídos no pacote ......: 120
+  Baixados e incluídos no pacote ......: 119
   Só para assinantes (Patreon/TSR VIP) : 7
-  Falharam (erro / link quebrado) .....: 5
+  Falharam (erro / link quebrado) .....: 6
   Opcionais (preset GShade etc.) ......: 1
 
 Como ler: cada item abaixo tem o LINK original, o MOTIVO e QUAIS SIMS usam.
@@ -60,44 +60,50 @@ Baixe manualmente e jogue os .package em Documentos\Electronic Arts\The Sims 4\M
      Usado por: Edith Medina, Luciana Neal, Serena Slade
 
 ==============================================================================
-  2) FALHARAM (site fora do ar, link quebrado, captcha, MEGA, pasta do Drive...)  [5]
+  2) FALHARAM (site fora do ar, link quebrado, captcha, MEGA, site com login, zip com senha...)  [6]
 ==============================================================================
 
-  8. [Kijiko]eyelash_YF_Mak_ex-natural_Ri
-     Link  : https://kijiko-catfood.com/3d-lashes-uncurl-makeup/
-     Fonte : other
-     Motivo: Failed to perform, curl: (28) Connection timed out after 90001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
-     Usado por: Uminunu-F12 The Sweet Streamer
-
-  9. [KIKIW]The perfect doll slider_eyes_Fixed
-     Link  : https://www.tumblr.com/cocoona-sims/652805006498643968/kikiwthe-perfect-doll-slide-the-slider-can
-     Fonte : other
-     Motivo: nenhum link baixável na página (https://www.patreon.com/posts/51786745: Patreon API HTTP 404: '{"errors":[{"id":"cbf32e2d-5900-4a5c-be20-846e440fdb71",")
-     Usado por: Uminunu-F12 The Sweet Streamer
-
- 10. [VICE4Simz] - Rick Owens
-     Link  : https://www.patreon.com/posts/vice-2022-high-c-64102874
+  8. astya96_vintage_summer_lila_top
+     Link  : https://www.patreon.com/astya96/posts/vintage-summer-111339616
      Fonte : patreon
-     Motivo: Patreon API HTTP 404: '{"errors":[{"id":"77efa7af-1864-4c60-a469-f0ee48de9430","code_name":"ResourceMissing","code":4,"title":"post was not found.","detail":"post with id 64102874 was'
-     Usado por: Rosemary Haney
+     Motivo: Mod Collective exige login e JavaScript – baixe manualmente: https://modcollective.gg/sims4/details/collection/298
+     Usado por: Uminunu-F12 The Sweet Streamer
 
- 11. LamaLama_Acc_Hair Melyssa
+  9. LamaLama_Acc_Hair Melyssa
      Link  : https://www.simsfinds.com/downloads/361654/melyssa-hair-by-lamalama-sims4
      Fonte : other
-     Motivo: nenhum link baixável na página (https://www.simsfinds.com/en/downloads/sims4: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims4?latest=cc: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims3: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims3: pá | https://www.simsfinds.com/en/downloads/sims2: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims2: pá)
+     Motivo: Boosty exige conta – baixe manualmente: https://boosty.to/lamalama
      Usado por: Rosemary Haney
 
- 12. obscurus_eyelids_N3test
-     Link  : https://obscurus-sims.tumblr.com/post/168617117913/eyelids-n3-24-colors-teen-males-and-females
-     Fonte : other
-     Motivo: nenhum link baixável na página (http://simfileshare.net/folder/149886/: SimFileShare: é uma PASTA – baixe manualmente)
-     Usado por: Uminunu-F12 The Sweet Streamer
+ 10. obscurus_nose_highlighter / obscurus_nosemask_nostrils
+     Link  : https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428
+     Fonte : patreon
+     Motivo: MEGA precisa do cliente/navegador – baixe manualmente: https://mega.nz/folder/Q5YRRIzI#KmYF3j1bPHN64dgA1pSPmA
+     Usado por: Edith Medina, Luciana Neal, Serena Slade
+
+ 11. sims3melancholic_contacts #121 EYE COLORS / sims3melancholic_contacts #120 EYE COLORS
+     Link  : https://www.patreon.com/sims3melancholic/posts/pretty-eyes-90064610
+     Fonte : patreon
+     Motivo: Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1XxidR5sxUx1kklsFYnzUnaNTI_n417P7/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1DXwvJWfHWJYxo7IPAfgiM1UPbHPepXrq: Google Drive pasta: nada baixado (sims3melancholic_contacts #120 EYE COLORS.package: Googl)
+     Usado por: Edith Medina, Serena Slade
+
+ 12. sims3melancholic_eyebrows #166
+     Link  : https://www.patreon.com/sims3melancholic/posts/soft-forms-maxis-154420504
+     Fonte : patreon
+     Motivo: Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1rslFQoSm5Tf-YhHhbhbhstPqInA0z6_t/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1LFdW0R8V1_Z1vaVWFDpccHlJ4ztdMSk0: Google Drive pasta: nada baixado (sims3melancholic_eyebrows #166.package: Google Drive: re)
+     Usado por: Edith Medina
+
+ 13. sims3melancholic_highlight #23-28 ALL IN 1
+     Link  : https://www.patreon.com/sims3melancholic/posts/highlight-103333754
+     Fonte : patreon
+     Motivo: Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1YNZywjvC-2JEd3XGOg6z5dIpO7ks1oji/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1HqBdxL23nNBYvojw9eLsVdsI9yj592BL: Google Drive pasta: nada baixado (sims3melancholic_highlight #23-28 ALL IN 1.package: Goog)
+     Usado por: Edith Medina, Luciana Neal, Serena Slade
 
 ==============================================================================
   3) OPCIONAIS (não são CC do jogo)  [1]
 ==============================================================================
 
- 13. Miwisimsie_Daily Perfect CAS
+ 14. Miwisimsie_Daily Perfect CAS
      Link  : https://www.patreon.com/posts/gshade-preset-123038419
      Fonte : optional
      Motivo: preset gráfico (GShade/ReShade) – não é CC do jogo; opcional
@@ -107,38 +113,44 @@ Baixe manualmente e jogue os .package em Documentos\Electronic Arts\The Sims 4\M
   POR SIM – o que falta para cada um
 ==============================================================================
 
-1. Edith Medina (por miwisimsie) – CC baixado: 32/37 – sim: ok
+1. Edith Medina (por miwisimsie) – CC baixado: 28/37 – sim: ok
    https://www.curseforge.com/sims4/sims-households/edith-medina
    [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] FEMALE LIPS PRESET N54-62  ->  https://www.patreon.com/northernsiberiawinds/posts/love-yourself-115123327
    [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART  ->  https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
    [FALTA - pago/assinantes] 3D EYELASHES COLLECTION  ->  https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
    [FALTA - pago/assinantes] obscurus_eyes_N18_sclera  ->  https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+   [FALTA - falhou] obscurus_nose_highlighter  ->  https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428
+   [FALTA - falhou] sims3melancholic_contacts #121 EYE COLORS  ->  https://www.patreon.com/sims3melancholic/posts/pretty-eyes-90064610
+   [FALTA - falhou] sims3melancholic_eyebrows #166  ->  https://www.patreon.com/sims3melancholic/posts/soft-forms-maxis-154420504
+   [FALTA - falhou] sims3melancholic_highlight #23-28 ALL IN 1  ->  https://www.patreon.com/sims3melancholic/posts/highlight-103333754
    [FALTA - opcional (não baixado)] Miwisimsie_Daily Perfect CAS  ->  https://www.patreon.com/posts/gshade-preset-123038419
 
-2. Luciana Neal (por miwisimsie) – CC baixado: 32/36 – sim: ok
+2. Luciana Neal (por miwisimsie) – CC baixado: 30/36 – sim: ok
    https://www.curseforge.com/sims4/sims-households/luciana-neal
    [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART  ->  https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
    [FALTA - pago/assinantes] 3D EYELASHES COLLECTION  ->  https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
    [FALTA - pago/assinantes] obscurus_eyes_N18_sclera  ->  https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+   [FALTA - falhou] obscurus_nose_highlighter  ->  https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428
+   [FALTA - falhou] sims3melancholic_highlight #23-28 ALL IN 1  ->  https://www.patreon.com/sims3melancholic/posts/highlight-103333754
    [FALTA - opcional (não baixado)] Miwisimsie_Daily Perfect CAS  ->  https://www.patreon.com/posts/gshade-preset-123038419
 
-3. Serena Slade (por miwisimsie) – CC baixado: 31/35 – sim: ok
+3. Serena Slade (por miwisimsie) – CC baixado: 28/35 – sim: ok
    https://www.curseforge.com/sims4/sims-households/serena-slade
    [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART  ->  https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257
    [FALTA - pago/assinantes] 3D EYELASHES COLLECTION  ->  https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524
    [FALTA - pago/assinantes] obscurus_eyes_N18_sclera  ->  https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599
+   [FALTA - falhou] obscurus_nose_highlighter  ->  https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428
+   [FALTA - falhou] sims3melancholic_contacts #121 EYE COLORS  ->  https://www.patreon.com/sims3melancholic/posts/pretty-eyes-90064610
+   [FALTA - falhou] sims3melancholic_highlight #23-28 ALL IN 1  ->  https://www.patreon.com/sims3melancholic/posts/highlight-103333754
    [FALTA - opcional (não baixado)] Miwisimsie_Daily Perfect CAS  ->  https://www.patreon.com/posts/gshade-preset-123038419
 
-4. Uminunu-F12 The Sweet Streamer (por Uminunu) – CC baixado: 29/33 – sim: ok
+4. Uminunu-F12 The Sweet Streamer (por Uminunu) – CC baixado: 31/33 – sim: ok
    https://www.curseforge.com/sims4/sims-households/uminunu-f12-the-sweet-streamer
    [FALTA - pago/assinantes] [BRADFORD] My LV Pearl Bracelet  ->  https://www.patreon.com/bradfordsims/posts/my-lv-pearl-set-125206303
-   [FALTA - falhou] [Kijiko]eyelash_YF_Mak_ex-natural_Ri  ->  https://kijiko-catfood.com/3d-lashes-uncurl-makeup/
-   [FALTA - falhou] obscurus_eyelids_N3test  ->  https://obscurus-sims.tumblr.com/post/168617117913/eyelids-n3-24-colors-teen-males-and-females
-   [FALTA - falhou] [KIKIW]The perfect doll slider_eyes_Fixed  ->  https://www.tumblr.com/cocoona-sims/652805006498643968/kikiwthe-perfect-doll-slide-the-slider-can
+   [FALTA - falhou] astya96_vintage_summer_lila_top  ->  https://www.patreon.com/astya96/posts/vintage-summer-111339616
 
-5. Rosemary Haney (por daboosims) – CC baixado: 28/32 – sim: ok
+5. Rosemary Haney (por daboosims) – CC baixado: 29/32 – sim: ok
    https://www.curseforge.com/sims4/sims-households/rosemary-haney
-   [FALTA - falhou] [VICE4Simz] - Rick Owens  ->  https://www.patreon.com/posts/vice-2022-high-c-64102874
    [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] FEMALE NOSE PRESETS N43-51 CHILD EDITION  ->  https://www.patreon.com/posts/love-yourself-115123327
    [FALTA - pago/assinantes] [NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART  ->  https://www.patreon.com/posts/love-yourself-118323257
    [FALTA - falhou] LamaLama_Acc_Hair Melyssa  ->  https://www.simsfinds.com/downloads/361654/melyssa-hair-by-lamalama-sims4

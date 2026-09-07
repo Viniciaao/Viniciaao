@@ -1,5 +1,5 @@
-Conteúdo total: 4453731026 bytes (4.1 GB) em 446 arquivos (348 .package, 30 arquivos de tray)
+Conteúdo total: 4261972729 bytes (4.0 GB) em 411 arquivos (377 .package, 30 arquivos de tray)
 
-release/TUDO_JUNTO_Sims4_parte01.zip = 1689018819 bytes (1.6 GB)
+release/TUDO_JUNTO_Sims4_parte01.zip = 1704065138 bytes (1.6 GB)
 release/TUDO_JUNTO_Sims4_parte02.zip = 1816579963 bytes (1.7 GB)
-release/TUDO_JUNTO_Sims4_parte03.zip = 861523161 bytes (821.6 MB)
+release/TUDO_JUNTO_Sims4_parte03.zip = 654088816 bytes (623.8 MB)

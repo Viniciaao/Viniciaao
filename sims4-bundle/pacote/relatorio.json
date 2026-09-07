@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-06 21:55:12 UTC",
+  "gerado_em": "2026-09-07 15:12:37 UTC",
   "fonte": "https://www.curseforge.com/sims4/search?class=sims-households&page=1&pageSize=20&sortBy=creation+date",
   "sims": [
     {
@@ -26,7 +26,8 @@
           "url": "https://www.patreon.com/northernsiberiawinds/posts/love-yourself-115123327",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: PRESETS COLLECTION ❤️)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: PRESETS COLLECTION ❤️)",
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART",
@@ -35,7 +36,8 @@
           "url": "https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)",
+          "link_download": null
         },
         {
           "nome": "3D EYELASHES COLLECTION",
@@ -44,7 +46,8 @@
           "url": "https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)",
+          "link_download": null
         },
         {
           "nome": "AxA Angel",
@@ -53,10 +56,10 @@
           "url": "https://www.patreon.com/aharris00britney/posts/axa-angel-76620403",
           "status": "ok",
           "arquivos": [
-            "AxA Angel.zip",
-            "Preview.png"
+            "AxA Angel.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[Anonimux] Lipstick N26",
@@ -67,7 +70,8 @@
           "arquivos": [
             "[Anonimux] Lipstick N26.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[Anonimux] Makeup Set N19 - Blush",
@@ -78,7 +82,8 @@
           "arquivos": [
             "[Anonimux] Makeup Set N19 - Blush.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyeliner-N51-TSR",
@@ -89,7 +94,8 @@
           "arquivos": [
             "[cosimetic]Eyeliner-N51-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyeshadow-N27-TSR",
@@ -100,7 +106,8 @@
           "arquivos": [
             "[cosimetic]Eyeshadow-N27-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Gloss-N2-TSR",
@@ -111,7 +118,8 @@
           "arquivos": [
             "[cosimetic]Gloss-N2-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]LipLiner-No1-TSR",
@@ -122,7 +130,8 @@
           "arquivos": [
             "[cosimetic]LipLiner-No1-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED",
@@ -132,10 +141,10 @@
           "status": "ok",
           "arquivos": [
             "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED.package",
-            "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package",
-            "Cover Lighting Overlay 2.png"
+            "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS",
@@ -149,10 +158,10 @@
           "arquivos": [
             "[NORTHERN SIBERIA WINDS] SKIN N15 A.package",
             "[NORTHERN SIBERIA WINDS] SKIN N15 B.package",
-            "[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package",
-            "альфа превью1.png"
+            "[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] EYES N5",
@@ -170,10 +179,10 @@
             "[NORTHERN SIBERIA WINDS] EYES N7.package",
             "[NORTHERN SIBERIA WINDS] EYES N6.package",
             "[NORTHERN SIBERIA WINDS] EYES N5.package",
-            "[NorthernSiberiaWinds] Nose Presets F N10-17.package",
-            "2.png"
+            "[NorthernSiberiaWinds] Nose Presets F N10-17.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1",
@@ -209,10 +218,10 @@
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N1.package",
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N2.package",
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N3.package",
-            "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package",
-            "превью1.png"
+            "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16",
@@ -224,10 +233,10 @@
           "status": "ok",
           "arquivos": [
             "[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1-8.zip",
-            "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip",
-            "превью.png"
+            "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES",
@@ -236,10 +245,10 @@
           "url": "https://www.patreon.com/northernsiberiawinds/posts/cartoon-style-i-72215143",
           "status": "ok",
           "arquivos": [
-            "[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES.package",
-            "1.png"
+            "[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ",
@@ -262,10 +271,10 @@
             "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FACE MASK HQ.package",
             "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FACE MASK HQ.package",
             "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ.package",
-            "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package",
-            "5.png"
+            "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[RIMINGS] DREAMCORE _Jewl Earring",
@@ -275,10 +284,10 @@
           "status": "ok",
           "arquivos": [
             "[RIMINGS] DREAMCORE _Jewl Earring.package",
-            "[RIMINGS] DREAMCORE _Slit Maxi Dress.package",
-            "썸넬.png"
+            "[RIMINGS] DREAMCORE _Slit Maxi Dress.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[SEOULSOUL] 2026_#164_Skirt",
@@ -287,9 +296,10 @@
           "url": "https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-157807075",
           "status": "ok",
           "arquivos": [
-            "01.png"
+            "[SEOULSOUL] 2026_#164_Skirt.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk"
         },
         {
           "nome": "Anonimux - Arlecchino Lips",
@@ -300,7 +310,8 @@
           "arquivos": [
             "Anonimux - Arlecchino Lips.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Eyeshadow N36",
@@ -311,7 +322,8 @@
           "arquivos": [
             "Anonimux - Eyeshadow N36.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Makeup Set N38 - Eyeliner",
@@ -322,7 +334,8 @@
           "arquivos": [
             "Anonimux - Makeup Set N38 - Eyeliner.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Mavuika Blush",
@@ -333,7 +346,8 @@
           "arquivos": [
             "Anonimux - Mavuika Blush.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "BackTrack_fLuna_Halter_Dress",
@@ -344,7 +358,8 @@
           "arquivos": [
             "BackTrack_Luna_Halter_Dress.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "BackTrack_fMaeve_Buckled_Heels(Glossy)",
@@ -355,7 +370,8 @@
           "arquivos": [
             "BackTrack_Maeve_Buckled_Heels.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "BackTrack_fSteh_Bikini",
@@ -366,7 +382,8 @@
           "arquivos": [
             "BackTrack_Steh_Bikini.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "euno eye preset 11-15 [250801]",
@@ -375,9 +392,10 @@
           "url": "https://www.patreon.com/eunosims/posts/preview-preset-139371473",
           "status": "ok",
           "arquivos": [
-            "01.jpg"
+            "euno eye preset 11-15 [250801].zip"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://www.curseforge.com/sims4/create-a-sim/eye-presets-11-15"
         },
         {
           "nome": "euno nose preset 6-10",
@@ -386,9 +404,10 @@
           "url": "https://www.patreon.com/eunosims/posts/nose-preset-6-10-72592326",
           "status": "ok",
           "arquivos": [
-            "코프리셋.jpg"
+            "euno nose preset 6-10.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://eunosims.tistory.com/entry/nose-preset-610"
         },
         {
           "nome": "LUUMIA_mod_HeightSlider_UpdateJune2022",
@@ -400,7 +419,8 @@
             "LUUMIA_mod_HeightBodyPresets.package",
             "LUUMIA_mod_HeightSlider_UpdateJune2022.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "miiko-eyebrow-slider-02(far-close)",
@@ -411,7 +431,8 @@
           "arquivos": [
             "miiko-eyebrow-slider-02.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "obscurus_eyes_N18_sclera",
@@ -420,7 +441,8 @@
           "url": "https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)",
+          "link_download": null
         },
         {
           "nome": "obscurus_nose_highlighter",
@@ -429,11 +451,10 @@
           ],
           "fonte": "patreon",
           "url": "https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428",
-          "status": "ok",
-          "arquivos": [
-            "14.02.2023_23-58-02 копия.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "MEGA precisa do cliente/navegador – baixe manualmente: https://mega.nz/folder/Q5YRRIzI#KmYF3j1bPHN64dgA1pSPmA",
+          "link_download": null
         },
         {
           "nome": "Simpliciaty_AlanaHair",
@@ -444,7 +465,8 @@
           "arquivos": [
             "Simpliciaty_AlanaHair.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "sims3melancholic_contacts #121 EYE COLORS",
@@ -453,33 +475,30 @@
           ],
           "fonte": "patreon",
           "url": "https://www.patreon.com/sims3melancholic/posts/pretty-eyes-90064610",
-          "status": "ok",
-          "arquivos": [
-            "11.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1XxidR5sxUx1kklsFYnzUnaNTI_n417P7/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1DXwvJWfHWJYxo7IPAfgiM1UPbHPepXrq: Google Drive pasta: nada baixado (sims3melancholic_contacts #120 EYE COLORS.package: Googl)",
+          "link_download": null
         },
         {
           "nome": "sims3melancholic_eyebrows #166",
           "aliases": [],
           "fonte": "patreon",
           "url": "https://www.patreon.com/sims3melancholic/posts/soft-forms-maxis-154420504",
-          "status": "ok",
-          "arquivos": [
-            "1.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1rslFQoSm5Tf-YhHhbhbhstPqInA0z6_t/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1LFdW0R8V1_Z1vaVWFDpccHlJ4ztdMSk0: Google Drive pasta: nada baixado (sims3melancholic_eyebrows #166.package: Google Drive: re)",
+          "link_download": null
         },
         {
           "nome": "sims3melancholic_highlight #23-28 ALL IN 1",
           "aliases": [],
           "fonte": "patreon",
           "url": "https://www.patreon.com/sims3melancholic/posts/highlight-103333754",
-          "status": "ok",
-          "arquivos": [
-            "11.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1YNZywjvC-2JEd3XGOg6z5dIpO7ks1oji/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1HqBdxL23nNBYvojw9eLsVdsI9yj592BL: Google Drive pasta: nada baixado (sims3melancholic_highlight #23-28 ALL IN 1.package: Goog)",
+          "link_download": null
         },
         {
           "nome": "Miwisimsie_Daily Perfect CAS",
@@ -488,7 +507,8 @@
           "url": "https://www.patreon.com/posts/gshade-preset-123038419",
           "status": "opcional (não baixado)",
           "arquivos": [],
-          "detalhe": "preset gráfico (GShade/ReShade) – não é CC do jogo; opcional"
+          "detalhe": "preset gráfico (GShade/ReShade) – não é CC do jogo; opcional",
+          "link_download": null
         }
       ]
     },
@@ -516,7 +536,8 @@
           "url": "https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)",
+          "link_download": null
         },
         {
           "nome": "3D EYELASHES COLLECTION",
@@ -525,7 +546,8 @@
           "url": "https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)",
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyebrows-N35-TSR",
@@ -536,7 +558,8 @@
           "arquivos": [
             "[cosimetic]Eyebrows-N35-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyeliner-N51-TSR",
@@ -547,7 +570,8 @@
           "arquivos": [
             "[cosimetic]Eyeliner-N51-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyeliner-N93-TSR",
@@ -558,7 +582,8 @@
           "arquivos": [
             "[cosimetic]Eyeliner-N93-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyeshadow-N96-TSR",
@@ -569,7 +594,8 @@
           "arquivos": [
             "[cosimetic]Eyeshadow-N96-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]-MM-Higlighter-N4-TSR",
@@ -580,7 +606,8 @@
           "arquivos": [
             "[cosimetic]-MM-Higlighter-N4-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED",
@@ -590,10 +617,10 @@
           "status": "ok",
           "arquivos": [
             "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED.package",
-            "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package",
-            "Cover Lighting Overlay 2.png"
+            "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS",
@@ -607,10 +634,10 @@
           "arquivos": [
             "[NORTHERN SIBERIA WINDS] SKIN N15 A.package",
             "[NORTHERN SIBERIA WINDS] SKIN N15 B.package",
-            "[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package",
-            "альфа превью1.png"
+            "[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES",
@@ -627,10 +654,10 @@
             "[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN B FULL BODY HQ.package",
             "[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK A HQ.package",
             "[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES.package",
-            "[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK B HQ.package",
-            "катун сет2.png"
+            "[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK B HQ.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1",
@@ -666,10 +693,10 @@
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N1.package",
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N2.package",
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N3.package",
-            "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package",
-            "превью1.png"
+            "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16",
@@ -681,10 +708,10 @@
           "status": "ok",
           "arquivos": [
             "[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1-8.zip",
-            "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip",
-            "превью.png"
+            "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ",
@@ -707,10 +734,10 @@
             "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FACE MASK HQ.package",
             "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FACE MASK HQ.package",
             "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ.package",
-            "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package",
-            "5.png"
+            "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NorthernSiberiaWinds] LIPS N35",
@@ -734,10 +761,10 @@
             "[NORTHERN SIBERIA WINDS] SKIN N12 EXTRA DARK HQ.package",
             "[NORTHERN SIBERIA WINDS] SKIN N12 HQ.package",
             "[NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY.package",
-            "[NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY HQ.package",
-            "гиф-маска.gif"
+            "[NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY HQ.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[RIMINGS] OLD GIFT BOX 9 _Earring",
@@ -751,10 +778,10 @@
             "[RIMINGS] OLD GIFT BOX 9 _Beret.package",
             "[RIMINGS] OLD GIFT BOX 9 _Crop Top & Suit Pants.package",
             "[RIMINGS] OLD GIFT BOX 9 _Hipsack & Twopiece Suit.package",
-            "[RIMINGS] OLD GIFT BOX 9 _Longcoat & Skirt.package",
-            "썸넬.png"
+            "[RIMINGS] OLD GIFT BOX 9 _Longcoat & Skirt.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[SEOULSOUL] 2024_#22_Lace Pants",
@@ -763,9 +790,10 @@
           "url": "https://www.patreon.com/seoulsoul/posts/ingame-ver-2024-102201651",
           "status": "ok",
           "arquivos": [
-            "06.png"
+            "[SEOULSOUL] 2024_#22_Lace Pants.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/1TTN0fFoBlj1ScXRTY--g5SAnXTTDSPG3"
         },
         {
           "nome": "[SEOULSOUL] 2024_#65_Ribbons tights",
@@ -774,9 +802,10 @@
           "url": "https://www.patreon.com/seoulsoul/posts/ingame-ver-2024-116111159",
           "status": "ok",
           "arquivos": [
-            "18.png"
+            "[SEOULSOUL] 2024_#65_Ribbons tights.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/1xie81qDsN-koKJWngm8gfpLpT3wig4u-"
         },
         {
           "nome": "[SEOULSOUL] 2025_#118_Ribbons Heels",
@@ -785,9 +814,10 @@
           "url": "https://www.patreon.com/seoulsoul/posts/ingame-ver-2025-136614796",
           "status": "ok",
           "arquivos": [
-            "14.png"
+            "[SEOULSOUL] 2025_#118_Ribbons Heels.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/1_kztUScguAH0FVk9ubpvEN98oUO-AZq2"
         },
         {
           "nome": "[SEOULSOUL] 2026_#142_V2_Fur Jacket",
@@ -796,9 +826,10 @@
           "url": "https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-147880127",
           "status": "ok",
           "arquivos": [
-            "25.png"
+            "[SEOULSOUL] 2026_#142_V2_Fur Jacket.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/103uMfur8ZgnYJZ7tCf4Mj6Lmbh3WOFi-"
         },
         {
           "nome": "Anonimux - Arlecchino Lips",
@@ -809,7 +840,8 @@
           "arquivos": [
             "Anonimux - Arlecchino Lips.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Eyeshadow N36",
@@ -820,7 +852,8 @@
           "arquivos": [
             "Anonimux - Eyeshadow N36.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Mavuika Blush",
@@ -831,7 +864,8 @@
           "arquivos": [
             "Anonimux - Mavuika Blush.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - New Year's Glow 2025 - Blush",
@@ -842,7 +876,8 @@
           "arquivos": [
             "Anonimux - New Year's Glow 2025 - Blush.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "BackTrack_fLuna_Halter_Dress",
@@ -853,7 +888,8 @@
           "arquivos": [
             "BackTrack_Luna_Halter_Dress.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "BackTrack_fSteh_Bikini",
@@ -864,7 +900,8 @@
           "arquivos": [
             "BackTrack_Steh_Bikini.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "euno eye preset 1-5 [250220]",
@@ -873,9 +910,10 @@
           "url": "https://www.patreon.com/eunosims/posts/preview-preset-123677619",
           "status": "ok",
           "arquivos": [
-            "00.jpg"
+            "euno eye preset 1-5 [250220].package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://eunosims.tistory.com/entry/sims4-eye-preset-download"
         },
         {
           "nome": "LUUMIA_mod_HeightSlider_UpdateJune2022",
@@ -887,7 +925,8 @@
             "LUUMIA_mod_HeightBodyPresets.package",
             "LUUMIA_mod_HeightSlider_UpdateJune2022.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "miiko-eyebrow-slider",
@@ -896,10 +935,10 @@
           "url": "https://www.patreon.com/miikocc/posts/eyebrow-slider-39393841",
           "status": "ok",
           "arquivos": [
-            "miiko-eyebrow-slider.package",
-            "eyebrow-slider-preview.jpg"
+            "miiko-eyebrow-slider.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "obscurus_eyes_N18_sclera",
@@ -908,7 +947,8 @@
           "url": "https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)",
+          "link_download": null
         },
         {
           "nome": "obscurus_hairline_N1sd",
@@ -917,10 +957,10 @@
           "url": "https://www.patreon.com/obscurus_sims/posts/eyebrows-and-23816939",
           "status": "ok",
           "arquivos": [
-            "1.png",
-            "1_1.png"
+            "obscurus_hairline_N1sd.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/folder/54933/"
         },
         {
           "nome": "obscurus_nose_highlighter",
@@ -929,11 +969,10 @@
           ],
           "fonte": "patreon",
           "url": "https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428",
-          "status": "ok",
-          "arquivos": [
-            "14.02.2023_23-58-02 копия.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "MEGA precisa do cliente/navegador – baixe manualmente: https://mega.nz/folder/Q5YRRIzI#KmYF3j1bPHN64dgA1pSPmA",
+          "link_download": null
         },
         {
           "nome": "SimMandy_Spotlight_Skindetails",
@@ -944,21 +983,20 @@
           "arquivos": [
             "SimMandy_Spotlight_FaceMask.package",
             "SimMandy_Spotlight_Skindetails.package",
-            "SimMandy_Spotlight_Tattoos.package",
-            "thumb2.gif"
+            "SimMandy_Spotlight_Tattoos.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "sims3melancholic_highlight #23-28 ALL IN 1",
           "aliases": [],
           "fonte": "patreon",
           "url": "https://www.patreon.com/sims3melancholic/posts/highlight-103333754",
-          "status": "ok",
-          "arquivos": [
-            "11.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1YNZywjvC-2JEd3XGOg6z5dIpO7ks1oji/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1HqBdxL23nNBYvojw9eLsVdsI9yj592BL: Google Drive pasta: nada baixado (sims3melancholic_highlight #23-28 ALL IN 1.package: Goog)",
+          "link_download": null
         },
         {
           "nome": "teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed",
@@ -971,7 +1009,8 @@
           "arquivos": [
             "teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "WINGS HAIR TS4 EF0914 (Back ponytail curly hair)",
@@ -982,7 +1021,8 @@
           "arquivos": [
             "WINGS HAIR TS4 EF0914 (Back ponytail curly hair).package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Miwisimsie_Daily Perfect CAS",
@@ -991,7 +1031,8 @@
           "url": "https://www.patreon.com/posts/gshade-preset-123038419",
           "status": "opcional (não baixado)",
           "arquivos": [],
-          "detalhe": "preset gráfico (GShade/ReShade) – não é CC do jogo; opcional"
+          "detalhe": "preset gráfico (GShade/ReShade) – não é CC do jogo; opcional",
+          "link_download": null
         }
       ]
     },
@@ -1019,7 +1060,8 @@
           "url": "https://www.patreon.com/northernsiberiawinds/posts/love-yourself-118323257",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)",
+          "link_download": null
         },
         {
           "nome": "3D EYELASHES COLLECTION",
@@ -1028,7 +1070,8 @@
           "url": "https://www.patreon.com/northernsiberiawinds/posts/3d-eyelashes-123193524",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (3D EYELASHES COLLECTION)",
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyebrows-N31-TSR",
@@ -1039,7 +1082,8 @@
           "arquivos": [
             "[cosimetic]Eyebrows-N31-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyeliner-N43-TSR",
@@ -1050,7 +1094,8 @@
           "arquivos": [
             "[cosimetic]Eyeliner-N43-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[cosimetic]Eyeliner-N51-TSR",
@@ -1061,7 +1106,8 @@
           "arquivos": [
             "[cosimetic]Eyeliner-N51-TSR.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED",
@@ -1071,10 +1117,10 @@
           "status": "ok",
           "arquivos": [
             "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED.package",
-            "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package",
-            "Cover Lighting Overlay 2.png"
+            "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS",
@@ -1088,10 +1134,10 @@
           "arquivos": [
             "[NORTHERN SIBERIA WINDS] SKIN N15 A.package",
             "[NORTHERN SIBERIA WINDS] SKIN N15 B.package",
-            "[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package",
-            "альфа превью1.png"
+            "[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1",
@@ -1127,10 +1173,10 @@
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N1.package",
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N2.package",
             "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N3.package",
-            "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package",
-            "превью1.png"
+            "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2",
@@ -1146,10 +1192,10 @@
             "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N4.package",
             "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N3.package",
             "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2.package",
-            "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N1.package",
-            "превью1.png"
+            "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N1.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ",
@@ -1170,10 +1216,10 @@
             "[NORTHERN SIBERIA WINDS] SKIN N4 - FANTASY VER.1 HQ.package",
             "[NORTHERN SIBERIA WINDS] SKIN N4 - FANTASY VER.2 HQ.package",
             "[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY.package",
-            "[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ.package",
-            "1.png"
+            "[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[SEOULSOUL] 2025_#106_Skirt",
@@ -1182,9 +1228,10 @@
           "url": "https://www.patreon.com/seoulsoul/posts/ingame-ver-2025-131742236",
           "status": "ok",
           "arquivos": [
-            "16.png"
+            "[SEOULSOUL] 2025_#106_Skirt.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/1zXvu1pANtMFGviHavSltgQ3thFM2HDM-"
         },
         {
           "nome": "[SEOULSOUL] 2026_#146_Sleeveless top",
@@ -1193,9 +1240,10 @@
           "url": "https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-149006537",
           "status": "ok",
           "arquivos": [
-            "43.png"
+            "[SEOULSOUL] 2026_#146_Sleeveless top.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/12jrJ0P0PfH2KRhhzmdHCgmtM271p2Zxl"
         },
         {
           "nome": "[SEOULSOUL] 2026_#179_Thong boots",
@@ -1204,9 +1252,10 @@
           "url": "https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-164173468",
           "status": "ok",
           "arquivos": [
-            "17.png"
+            "[SEOULSOUL] 2026_#179_Thong boots.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/1q_GfT8dWJn3rvBK5ap-cw212aolBP7uJ"
         },
         {
           "nome": "Anonimux - Arlecchino Lips",
@@ -1217,7 +1266,8 @@
           "arquivos": [
             "Anonimux - Arlecchino Lips.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Eyeshadow N36",
@@ -1228,7 +1278,8 @@
           "arquivos": [
             "Anonimux - Eyeshadow N36.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Makeup Set N36 - Lips",
@@ -1239,7 +1290,8 @@
           "arquivos": [
             "Anonimux - Makeup Set N36 - Lips.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Makeup Set N46 - Blush",
@@ -1250,7 +1302,8 @@
           "arquivos": [
             "Anonimux - Makeup Set N46 - Blush.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Anonimux - Mavuika Blush",
@@ -1261,7 +1314,8 @@
           "arquivos": [
             "Anonimux - Mavuika Blush.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "BackTrack_fLuna_Halter_Dress",
@@ -1272,7 +1326,8 @@
           "arquivos": [
             "BackTrack_Luna_Halter_Dress.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "BackTrack_fSteh_Bikini",
@@ -1283,7 +1338,8 @@
           "arquivos": [
             "BackTrack_Steh_Bikini.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "euno nose preset 6-10",
@@ -1292,9 +1348,10 @@
           "url": "https://www.patreon.com/eunosims/posts/nose-preset-6-10-72592326",
           "status": "ok",
           "arquivos": [
-            "코프리셋.jpg"
+            "euno nose preset 6-10.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://eunosims.tistory.com/entry/nose-preset-610"
         },
         {
           "nome": "Eyes Preset F N1-6 [NorthernSiberiaWinds]",
@@ -1310,10 +1367,10 @@
             "Eyeshadow N2 [NorthernSiberiaWinds].package",
             "[NORTHERN SIBERIA WINDS] EYES N4.package",
             "[NORTHERN SIBERIA WINDS] EYES N3.package",
-            "Eyes Preset F N1-6 [NorthernSiberiaWinds].package",
-            "1.png"
+            "Eyes Preset F N1-6 [NorthernSiberiaWinds].package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "GPME-GOLD Eyeshadow CC 47",
@@ -1322,9 +1379,10 @@
           "url": "https://www.patreon.com/goppolsme/posts/gpme-gold-cc-47-119339172",
           "status": "ok",
           "arquivos": [
-            "EYESHADOW CC47 - 2.jpg"
+            "GPME-GOLD Eyeshadow CC 47.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/download/5216750/"
         },
         {
           "nome": "Lips Preset N8 [NorthernSiberiaWinds]",
@@ -1344,10 +1402,10 @@
             "Lips Preset N4 [NorthernSiberiaWinds].package",
             "Lips Preset N3 [NorthernSiberiaWinds].package",
             "Lips Preset N2 [NorthernSiberiaWinds].package",
-            "Lips Preset N1 [NorthernSiberiaWinds].package",
-            "гиф.gif"
+            "Lips Preset N1 [NorthernSiberiaWinds].package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "LUUMIA_mod_HeightSlider_UpdateJune2022",
@@ -1359,7 +1417,8 @@
             "LUUMIA_mod_HeightBodyPresets.package",
             "LUUMIA_mod_HeightSlider_UpdateJune2022.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "miiko-eyebrow-slider",
@@ -1368,10 +1427,10 @@
           "url": "https://www.patreon.com/miikocc/posts/eyebrow-slider-39393841",
           "status": "ok",
           "arquivos": [
-            "miiko-eyebrow-slider.package",
-            "eyebrow-slider-preview.jpg"
+            "miiko-eyebrow-slider.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "obscurus_eyes_N18_sclera",
@@ -1380,7 +1439,8 @@
           "url": "https://www.patreon.com/obscurus_sims/posts/snowy-dreams-set-121197599",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (SNOWY DREAMS SET)",
+          "link_download": null
         },
         {
           "nome": "obscurus_nose_highlighter",
@@ -1389,11 +1449,10 @@
           ],
           "fonte": "patreon",
           "url": "https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428",
-          "status": "ok",
-          "arquivos": [
-            "14.02.2023_23-58-02 копия.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "MEGA precisa do cliente/navegador – baixe manualmente: https://mega.nz/folder/Q5YRRIzI#KmYF3j1bPHN64dgA1pSPmA",
+          "link_download": null
         },
         {
           "nome": "SimMandy_Spotlight_Skindetails",
@@ -1404,10 +1463,10 @@
           "arquivos": [
             "SimMandy_Spotlight_FaceMask.package",
             "SimMandy_Spotlight_Skindetails.package",
-            "SimMandy_Spotlight_Tattoos.package",
-            "thumb2.gif"
+            "SimMandy_Spotlight_Tattoos.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "sims3melancholic_contacts #121 EYE COLORS",
@@ -1416,22 +1475,20 @@
           ],
           "fonte": "patreon",
           "url": "https://www.patreon.com/sims3melancholic/posts/pretty-eyes-90064610",
-          "status": "ok",
-          "arquivos": [
-            "11.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1XxidR5sxUx1kklsFYnzUnaNTI_n417P7/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1DXwvJWfHWJYxo7IPAfgiM1UPbHPepXrq: Google Drive pasta: nada baixado (sims3melancholic_contacts #120 EYE COLORS.package: Googl)",
+          "link_download": null
         },
         {
           "nome": "sims3melancholic_highlight #23-28 ALL IN 1",
           "aliases": [],
           "fonte": "patreon",
           "url": "https://www.patreon.com/sims3melancholic/posts/highlight-103333754",
-          "status": "ok",
-          "arquivos": [
-            "11.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1YNZywjvC-2JEd3XGOg6z5dIpO7ks1oji/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1HqBdxL23nNBYvojw9eLsVdsI9yj592BL: Google Drive pasta: nada baixado (sims3melancholic_highlight #23-28 ALL IN 1.package: Goog)",
+          "link_download": null
         },
         {
           "nome": "teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed",
@@ -1444,7 +1501,8 @@
           "arquivos": [
             "teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "VivianDang_AF_Necklace_Y (ForCloth)",
@@ -1455,7 +1513,8 @@
           "arquivos": [
             "VivianDang_AF_Necklace_Y (ForCloth).package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "WINGS HAIR TS4 ES0115 (Bouffant curl hair)",
@@ -1466,7 +1525,8 @@
           "arquivos": [
             "WINGS HAIR TS4 ES0115 (Bouffant curl hair).package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Miwisimsie_Daily Perfect CAS",
@@ -1475,7 +1535,8 @@
           "url": "https://www.patreon.com/posts/gshade-preset-123038419",
           "status": "opcional (não baixado)",
           "arquivos": [],
-          "detalhe": "preset gráfico (GShade/ReShade) – não é CC do jogo; opcional"
+          "detalhe": "preset gráfico (GShade/ReShade) – não é CC do jogo; opcional",
+          "link_download": null
         }
       ]
     },
@@ -1503,7 +1564,8 @@
           "url": "https://www.patreon.com/bradfordsims/posts/my-lv-pearl-set-125206303",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (MY LV PEARL SET /// GAME EDITION)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (MY LV PEARL SET /// GAME EDITION)",
+          "link_download": null
         },
         {
           "nome": "[CAMUFLAJE] Girly Things Collection - Head Bow",
@@ -1517,19 +1579,22 @@
             "[CAMUFLAJE] Girly Things Collection - Earrings.package",
             "[CAMUFLAJE] Girly Things Collection - Head Bow.package",
             "[CAMUFLAJE] Girly Things Collection - Outfit.package",
-            "[CAMUFLAJE] Girly Things Collection - ALL IN ONE.rar",
-            "J1.jpg"
+            "[CAMUFLAJE] Girly Things Collection - ALL IN ONE.rar"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[Kijiko]eyelash_YF_Mak_ex-natural_Ri",
           "aliases": [],
           "fonte": "other",
           "url": "https://kijiko-catfood.com/3d-lashes-uncurl-makeup/",
-          "status": "falhou",
-          "arquivos": [],
-          "detalhe": "Failed to perform, curl: (28) Connection timed out after 90001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+          "status": "ok",
+          "arquivos": [
+            "[Kijiko]eyelash_Makeup_Uncurled.zip"
+          ],
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/download/4893177/"
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY edit",
@@ -1546,10 +1611,10 @@
             "[NorthernSiberiaWinds] NOSEMASK N4.package",
             "[NORTHERN SIBERIA WINDS] SKIN N7.package",
             "[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY.package",
-            "[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY HQ.package",
-            "1.png"
+            "[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY HQ.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NorthernSiberiaWinds] EYELINER N3",
@@ -1569,10 +1634,10 @@
             "[NORTHERN SIBERIA WINDS] SKIN N11 HQ.package",
             "[NORTHERN SIBERIA WINDS] SKIN N11 OVERLAY.package",
             "[NORTHERN SIBERIA WINDS] SKIN N11 OVERLAY HQ.package",
-            "[NorthernSiberiaWinds] LIPS PRESETS F N33-41.package",
-            "5.png"
+            "[NorthernSiberiaWinds] LIPS PRESETS F N33-41.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[poyopoyo] Eye Contacts N9",
@@ -1581,9 +1646,10 @@
           "url": "https://www.patreon.com/poyopoyosim/posts/poyopoyo-skin-n5-71029892",
           "status": "ok",
           "arquivos": [
-            "23.png"
+            "[poyopoyo] Eye Contacts N9.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://drive.google.com/drive/folders/12AlqHAzsek4xQN75Eq14e0mVR-t9Y4Jh"
         },
         {
           "nome": "ALGU_EYEBROWS_51",
@@ -1594,7 +1660,8 @@
           "arquivos": [
             "ALGU_EYEBROWS_51.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": "http://www.simfileshare.net/download/1470158/"
         },
         {
           "nome": "ANGISSI_BLUSH_A28",
@@ -1605,7 +1672,8 @@
           "arquivos": [
             "ANGISSI_BLUSH_A28.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "astya96_february_collection_skirt_01",
@@ -1614,21 +1682,20 @@
           "url": "https://www.patreon.com/astya96/posts/february-2023-78882631",
           "status": "ok",
           "arquivos": [
-            "astya96 february2023.rar",
-            "01023.png"
+            "astya96 february2023.rar"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "astya96_vintage_summer_lila_top",
           "aliases": [],
           "fonte": "patreon",
           "url": "https://www.patreon.com/astya96/posts/vintage-summer-111339616",
-          "status": "ok",
-          "arquivos": [
-            "1lila prev 01.png"
-          ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "status": "falhou",
+          "arquivos": [],
+          "detalhe": "Mod Collective exige login e JavaScript – baixe manualmente: https://modcollective.gg/sims4/details/collection/298",
+          "link_download": null
         },
         {
           "nome": "euno 2022 0104 nail (square shape) Solid HQ",
@@ -1639,7 +1706,8 @@
           "arquivos": [
             "euno nail set.zip"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "GPME-GOLD High Glossy Eyes",
@@ -1648,9 +1716,10 @@
           "url": "https://www.patreon.com/goppolsme/posts/gpme-gold-high-18294399",
           "status": "ok",
           "arquivos": [
-            "glosseyes_1-1.jpg"
+            "GPME-GOLD High Glossy Eyes.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/download/508140/"
         },
         {
           "nome": "mermalade_S193",
@@ -1661,7 +1730,8 @@
           "arquivos": [
             "mermalade_S193.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "MsBlue_SkintoneSetV3",
@@ -1672,16 +1742,20 @@
           "arquivos": [
             "Skintone Set V3.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "obscurus_eyelids_N3test",
           "aliases": [],
           "fonte": "other",
           "url": "https://obscurus-sims.tumblr.com/post/168617117913/eyelids-n3-24-colors-teen-males-and-females",
-          "status": "falhou",
-          "arquivos": [],
-          "detalhe": "nenhum link baixável na página (http://simfileshare.net/folder/149886/: SimFileShare: é uma PASTA – baixe manualmente)"
+          "status": "ok",
+          "arquivos": [
+            "obscurus_eyelids_N3.package"
+          ],
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/folder/149886/"
         },
         {
           "nome": "Pralinesims_Necklace_Reverb_Pearl_F",
@@ -1690,10 +1764,10 @@
           "url": "https://www.patreon.com/pralinesims/posts/reverb-bead-set-88161386",
           "status": "ok",
           "arquivos": [
-            "Pralinesims_REVERB_NecklaceSet.zip",
-            "REVERB.png"
+            "Pralinesims_REVERB_NecklaceSet.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "PS_MidaPearlEarringSet",
@@ -1704,7 +1778,8 @@
           "arquivos": [
             "PS_MidaPearlEarringSet.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "RemusSirion_Lipstick_225-Ovate",
@@ -1715,7 +1790,8 @@
           "arquivos": [
             "Ovate Lipstick.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "sclub_ts4_hair_ 080125",
@@ -1726,7 +1802,8 @@
           "arquivos": [
             "sclub_ts4_hair_ 080125.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Meatballteeth_Nose_Rotate_Slider",
@@ -1736,10 +1813,10 @@
           "status": "ok",
           "arquivos": [
             "Meatballteeth_Nose_Rotate_Slider.package",
-            "Meatballteeth_Household_allen benavides.zip",
-            "tumblr_04c7d4c8b9b6b9b043e0cb3602727ce2_cc360fd4_500.jpg"
+            "Meatballteeth_Household_allen benavides.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[bloodmoon] forehead height slider_Fixed",
@@ -1750,16 +1827,20 @@
           "arquivos": [
             "[bloodmoon] forehead height slider.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": "https://www.dropbox.com/s/olu814tqwyq5gp0/%5Bbloodmoon%5D%20forehead%20height%20slider.package?dl=0"
         },
         {
           "nome": "[KIKIW]The perfect doll slider_eyes_Fixed",
           "aliases": [],
           "fonte": "other",
           "url": "https://www.tumblr.com/cocoona-sims/652805006498643968/kikiwthe-perfect-doll-slide-the-slider-can",
-          "status": "falhou",
-          "arquivos": [],
-          "detalhe": "nenhum link baixável na página (https://www.patreon.com/posts/51786745: Patreon API HTTP 404: '{\"errors\":[{\"id\":\"cbf32e2d-5900-4a5c-be20-846e440fdb71\",\")"
+          "status": "ok",
+          "arquivos": [
+            "[KIKIW]The perfect doll slider_eyes.package"
+          ],
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/folder/188255/"
         },
         {
           "nome": "[MB] Default chin slider_Fixed",
@@ -1768,9 +1849,10 @@
           "url": "https://www.patreon.com/magicbot/posts/default-chin-54872952",
           "status": "ok",
           "arquivos": [
-            "ПРЕВЬЮ.png"
+            "[MB] Default chin slider.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/download/2676307/"
         },
         {
           "nome": "[MB] Default jaw slider",
@@ -1782,10 +1864,10 @@
             "[MB] Default jaw + cheeks slider.package",
             "[MB] Default cheekbone slider.package",
             "[MB] Default cheeks slider.package",
-            "[MB] Default jaw slider.package",
-            "превью копия.png"
+            "[MB] Default jaw slider.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[MB] Default mouth slider",
@@ -1794,9 +1876,10 @@
           "url": "https://www.patreon.com/magicbot/posts/default-mouth-56990147",
           "status": "ok",
           "arquivos": [
-            "ПРЕВЬЮ.png"
+            "[MB] Default mouth slider.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/download/2759281/"
         },
         {
           "nome": "[MB] Default nose slider_Fixed",
@@ -1805,9 +1888,10 @@
           "url": "https://www.patreon.com/magicbot/posts/default-nose-55675247",
           "status": "ok",
           "arquivos": [
-            "ПРЕВЬЮ.png"
+            "[MB] Default nose slider.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/download/2716250/"
         },
         {
           "nome": "Dumbaby chin slider FEMALE_Fixed",
@@ -1816,9 +1900,10 @@
           "url": "https://www.dumbaby.com/post/download-chin-slider-for-a-perfect-face-in-profile",
           "status": "ok",
           "arquivos": [
-            "Dumbaby Chin Slider.zip"
+            "Dumbaby chin slider FEMALE.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": "http://simfileshare.net/folder/61493/"
         },
         {
           "nome": "HFO_TS4AUNoseTipSlider",
@@ -1827,10 +1912,10 @@
           "url": "https://www.patreon.com/icecreamforbreakfast/posts/nose-tilt-slider-40825368",
           "status": "ok",
           "arquivos": [
-            "HFO_TS4AUNoseTipSlider.package",
-            "tumblr_802d766f14a008075c665c7769033eb2_252e9b5a_1280.jpg"
+            "HFO_TS4AUNoseTipSlider.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "HFO_TS4ShoulderSliders",
@@ -1843,7 +1928,8 @@
             "MTS_Hellfrozeover_1774223_HFO_TS4ShoulderSliders.zip",
             "MTS_Hellfrozeover_1774203_HFO_TS4ShoulderHeight.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "miiko-pouty-lip-slider",
@@ -1852,10 +1938,10 @@
           "url": "https://www.patreon.com/miikocc/posts/pouty-lip-slider-38539565",
           "status": "ok",
           "arquivos": [
-            "miiko-pouty-lip-slider.package",
-            "pouty-lip-slider-preview.jpg"
+            "miiko-pouty-lip-slider.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "obscurus eyelids sliders N1",
@@ -1866,7 +1952,8 @@
           "arquivos": [
             "obscurus eyelids sliders N1.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": "http://simfileshare.net/download/576396/"
         },
         {
           "nome": "teanmoon_ExpandedNoseWidthSilder",
@@ -1875,9 +1962,12 @@
           "url": "https://www.tumblr.com/teanmoon/174763735970/expanded-nose-width-slider-by-teanmoon-teen",
           "status": "ok",
           "arquivos": [
-            "teanmoon_LatticeTable.package"
+            "teanmoon_BendingOranmentalBamboo.package",
+            "teanmoon_LeaningOrnamentalBamboo.package",
+            "teanmoon_WisteriaArbor.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": "http://simfileshare.net/folder/81970/"
         },
         {
           "nome": "teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed",
@@ -1890,7 +1980,8 @@
           "arquivos": [
             "teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         }
       ]
     },
@@ -1918,19 +2009,22 @@
           "url": "https://www.patreon.com/posts/lucille-boots-58167877",
           "status": "ok",
           "arquivos": [
-            "Madlen Lucille Boots.package",
-            "ad1.jpg"
+            "Madlen Lucille Boots.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[VICE4Simz] - Rick Owens",
           "aliases": [],
           "fonte": "patreon",
           "url": "https://www.patreon.com/posts/vice-2022-high-c-64102874",
-          "status": "falhou",
-          "arquivos": [],
-          "detalhe": "Patreon API HTTP 404: '{\"errors\":[{\"id\":\"77efa7af-1864-4c60-a469-f0ee48de9430\",\"code_name\":\"ResourceMissing\",\"code\":4,\"title\":\"post was not found.\",\"detail\":\"post with id 64102874 was'"
+          "status": "ok",
+          "arquivos": [
+            "[VICE4Simz] - Rick Owens.package"
+          ],
+          "detalhe": null,
+          "link_download": "https://simfileshare.net/download/5238413/"
         },
         {
           "nome": "[SUNBERRY]Heart Fur Boots 22.73",
@@ -1939,9 +2033,10 @@
           "url": "https://www.patreon.com/posts/sunberry-puff-22-76138099",
           "status": "ok",
           "arquivos": [
-            "썸네일##.png"
+            "[SUNBERRY]Heart Fur Boots 22.73.package"
           ],
-          "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)"
+          "detalhe": null,
+          "link_download": "https://sunberry-sims.tistory.com/entry/SIMS4CC-2273-female"
         },
         {
           "nome": "[RIMINGS] Love What You Have _Mini Skirt",
@@ -1953,10 +2048,10 @@
             "[RIMINGS] Love What You Have _Mini Skirt.package",
             "[RIMINGS] Love What You Have _Shopper Bag.package",
             "[RIMINGS] Love What You Have _Turtleneck Top & Cardigan.package",
-            "[RIMINGS] Love What You Have _Turtleneck Top & Patternd Cardigan.package",
-            "썸넬2.png"
+            "[RIMINGS] Love What You Have _Turtleneck Top & Patternd Cardigan.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[Jius]KnittedSocks05",
@@ -1969,10 +2064,10 @@
             "[Jius]PlatformSandals08.package",
             "[Jius]PlatformSandals09.package",
             "[Jius]PlatformLoafersPumps01.package",
-            "[Jius]KnittedSocks05.package",
-            "01.jpg"
+            "[Jius]KnittedSocks05.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Sagittariah_Wounded_Blush",
@@ -1983,7 +2078,8 @@
           "arquivos": [
             "Sagittariah_Wounded_Blush.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Lips Preset N7 [NorthernSiberiaWinds]",
@@ -2003,10 +2099,10 @@
             "Lips Preset N4 [NorthernSiberiaWinds].package",
             "Lips Preset N3 [NorthernSiberiaWinds].package",
             "Lips Preset N2 [NorthernSiberiaWinds].package",
-            "Lips Preset N1 [NorthernSiberiaWinds].package",
-            "гиф.gif"
+            "Lips Preset N1 [NorthernSiberiaWinds].package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "í+333í+Box-shaped-Nose-shadow HQ",
@@ -2015,10 +2111,10 @@
           "url": "https://www.patreon.com/posts/333-box-shaped-108500219",
           "status": "ok",
           "arquivos": [
-            "【333】Box-shaped-Nose-shadow.zip",
-            "ad1.png"
+            "【333】Box-shaped-Nose-shadow.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "ANGISSI Eyeliner A210",
@@ -2029,7 +2125,8 @@
           "arquivos": [
             "ANGISSI Eyeliner A210.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NorthernSiberiaWinds] LIPS N29",
@@ -2053,10 +2150,10 @@
             "[NORTHERN SIBERIA WINDS] DIMPLES N1 B.package",
             "[NORTHERN SIBERIA WINDS] BLUSH N5 + HIGHLIGHTER.package",
             "[NORTHERN SIBERIA WINDS] NOSE PRESETS F N18-27 FOR CHILDREN.package",
-            "[NorthernSiberiaWinds] NOSE PRESETS F N18-27.package",
-            "Без-имени-1.gif"
+            "[NorthernSiberiaWinds] NOSE PRESETS F N18-27.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ",
@@ -2070,10 +2167,10 @@
             "[NORTHERN SIBERIA WINDS] SKIN N8 OVERLAY.package",
             "[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY.package",
             "[NORTHERN SIBERIA WINDS] SKIN N8 OVERLAY HQ.package",
-            "[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ.package",
-            "1Б.png"
+            "[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] FEMALE NOSE PRESETS N43-51 CHILD EDITION",
@@ -2084,7 +2181,8 @@
           "url": "https://www.patreon.com/posts/love-yourself-115123327",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: PRESETS COLLECTION ❤️)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: PRESETS COLLECTION ❤️)",
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N13",
@@ -2094,10 +2192,10 @@
           "status": "ok",
           "arquivos": [
             "[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1-8.zip",
-            "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip",
-            "превью.png"
+            "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] EYES N7",
@@ -2115,10 +2213,10 @@
             "[NORTHERN SIBERIA WINDS] EYES N7.package",
             "[NORTHERN SIBERIA WINDS] EYES N6.package",
             "[NORTHERN SIBERIA WINDS] EYES N5.package",
-            "[NorthernSiberiaWinds] Nose Presets F N10-17.package",
-            "2.png"
+            "[NorthernSiberiaWinds] Nose Presets F N10-17.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "[NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART",
@@ -2127,7 +2225,8 @@
           "url": "https://www.patreon.com/posts/love-yourself-118323257",
           "status": "pago/assinantes",
           "arquivos": [],
-          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)"
+          "detalhe": "post só para membros/assinantes do Patreon – faça login (às vezes é grátis para membros free) (LOVE YOURSELF: SKIN DETAILS PART 🩵)",
+          "link_download": null
         },
         {
           "nome": "LamaLama_Acc_Hair Melyssa",
@@ -2136,7 +2235,8 @@
           "url": "https://www.simsfinds.com/downloads/361654/melyssa-hair-by-lamalama-sims4",
           "status": "falhou",
           "arquivos": [],
-          "detalhe": "nenhum link baixável na página (https://www.simsfinds.com/en/downloads/sims4: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims4?latest=cc: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims3: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims3: pá | https://www.simsfinds.com/en/downloads/sims2: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims2: pá)"
+          "detalhe": "Boosty exige conta – baixe manualmente: https://boosty.to/lamalama",
+          "link_download": null
         },
         {
           "nome": "SMSims_magenta_bodypresets",
@@ -2145,10 +2245,10 @@
           "url": "https://www.patreon.com/SMSims/posts/honey-magenta-152440667",
           "status": "ok",
           "arquivos": [
-            "SMSims_magenta_bodypresets.package",
-            "SMSims_magenta_bodypresets.png"
+            "SMSims_magenta_bodypresets.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "S-Club LL ts4 necklace 202019",
@@ -2159,7 +2259,8 @@
           "arquivos": [
             "S-Club LL ts4 necklace 202019.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "MARSMERIZING_LISS_Carol Jacket_FTop",
@@ -2174,10 +2275,10 @@
             "MARSMERIZING_LISS_Carol Jacket_FTop.package",
             "MARSMERIZING_LISS_Coco Jacket_FTop.package",
             "MARSMERIZING_LISS_Santa Mittens.package",
-            "MARSMERIZING_LISS_Whitney Jacket_FTop.package",
-            "let it snow jackets.png"
+            "MARSMERIZING_LISS_Whitney Jacket_FTop.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "MagicHand Haley Eyebrows N286",
@@ -2188,7 +2289,8 @@
           "arquivos": [
             "MagicHand Haley Eyebrows N286.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "LMCS_Gotta_Top",
@@ -2199,7 +2301,8 @@
           "arquivos": [
             "LMCS_Gotta_Top.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "EnriqueS4_yfHair_Ari",
@@ -2210,7 +2313,8 @@
           "arquivos": [
             "EnriqueS4_yfHair_Ari.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Bobur Eyeshadow 15",
@@ -2221,7 +2325,8 @@
           "arquivos": [
             "Bobur Eyeshadow 15.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "ShakeProductionsS062301-HighHeels",
@@ -2232,7 +2337,8 @@
           "arquivos": [
             "ShakeProductionsS062301-HighHeels.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "ShakeProductions976-HighHeelBoots",
@@ -2243,7 +2349,8 @@
           "arquivos": [
             "ShakeProductions976-HighHeelBoots.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "S-Club LL ts4 erring 201926",
@@ -2254,7 +2361,8 @@
           "arquivos": [
             "S-Club LL ts4 erring 201926.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "portev p669",
@@ -2265,7 +2373,8 @@
           "arquivos": [
             "portev p669.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Pitted0live_Raquel_Earrings",
@@ -2276,7 +2385,8 @@
           "arquivos": [
             "Pitted0live_Raquel_Earrings.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "LLSIMS_StilettoNails_001",
@@ -2287,7 +2397,8 @@
           "arquivos": [
             "LLSIMS_StilettoNails_001.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "GlitterberrySims- TSR Butterfly Ring",
@@ -2298,7 +2409,8 @@
           "arquivos": [
             "GlitterberrySims- TSR Butterfly Ring.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "GlitterberrySims- aug2023- Olive Wedding Band",
@@ -2309,7 +2421,8 @@
           "arquivos": [
             "GlitterberrySims- aug2023- Olive Wedding Band.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         },
         {
           "nome": "Coffeemoon_Invisible_eyelashes_Teen-elderHQ",
@@ -2320,7 +2433,8 @@
           "arquivos": [
             "Coffeemoon_Invisible_eyelashes_Teen-elderHQ.package"
           ],
-          "detalhe": null
+          "detalhe": null,
+          "link_download": null
         }
       ]
     }
@@ -2377,14 +2491,13 @@
       "pasta": "AxA Angel",
       "status": "ok",
       "arquivos": [
-        "AxA Angel.zip",
-        "Preview.png"
+        "AxA Angel.zip"
       ],
       "detalhe": null,
       "usado_por": [
         "Edith Medina"
       ],
-      "tamanho": 99789214,
+      "tamanho": 64837019,
       "mods": [
         "Mods/AxA Angel/AxA Angel/[AxA]-AnyaHat.package",
         "Mods/AxA Angel/AxA Angel/[AxA]-FurLegwarmers.package",
@@ -2408,9 +2521,7 @@
         "Mods/AxA Angel/AxA Angel/[AxA]-LobaCardigan_V1.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/AxA Angel/Preview.png"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-lipstick/title/lipstick-n26/id/1639048/": {
       "nome": "[Anonimux] Lipstick N26",
@@ -2549,8 +2660,7 @@
       "status": "ok",
       "arquivos": [
         "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED.package",
-        "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package",
-        "Cover Lighting Overlay 2.png"
+        "[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package"
       ],
       "detalhe": null,
       "usado_por": [
@@ -2558,15 +2668,13 @@
         "Luciana Neal",
         "Serena Slade"
       ],
-      "tamanho": 60413420,
+      "tamanho": 58466038,
       "mods": [
         "Mods/[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED/[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED.package",
         "Mods/[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED/[JOSH JO_SE_OH] Ligthing Overlay 2.0 (COLOR) MERGED.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[JOSH JO_SE_OH] Ligthing Overlay 2.0 (TRUE BLACK) MERGED/Cover Lighting Overlay 2.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/sisters-pack-i-112828776": {
       "nome": "[NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS",
@@ -2581,8 +2689,7 @@
       "arquivos": [
         "[NORTHERN SIBERIA WINDS] SKIN N15 A.package",
         "[NORTHERN SIBERIA WINDS] SKIN N15 B.package",
-        "[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package",
-        "альфа превью1.png"
+        "[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package"
       ],
       "detalhe": null,
       "usado_por": [
@@ -2590,16 +2697,14 @@
         "Luciana Neal",
         "Serena Slade"
       ],
-      "tamanho": 536385120,
+      "tamanho": 533603291,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS/[NORTHERN SIBERIA WINDS] SKIN N15 A.package",
         "Mods/[NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS/[NORTHERN SIBERIA WINDS] SKIN N15 B.package",
         "Mods/[NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS/[NORTHERN SIBERIA WINDS] SKIN N15 CHILD.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] [BETTER EYES PROJECT] EYES N3 TEEN-ELDERS/альфа превью1.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/from-west-to-43932063": {
       "nome": "[NORTHERN SIBERIA WINDS] EYES N5",
@@ -2618,14 +2723,13 @@
         "[NORTHERN SIBERIA WINDS] EYES N7.package",
         "[NORTHERN SIBERIA WINDS] EYES N6.package",
         "[NORTHERN SIBERIA WINDS] EYES N5.package",
-        "[NorthernSiberiaWinds] Nose Presets F N10-17.package",
-        "2.png"
+        "[NorthernSiberiaWinds] Nose Presets F N10-17.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Edith Medina"
       ],
-      "tamanho": 69500183,
+      "tamanho": 59962689,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] EYES N5/[NorthernSiberiaWinds] Eyelids N4.package",
         "Mods/[NORTHERN SIBERIA WINDS] EYES N5/[NorthernSiberiaWinds] Eyelids N5.package",
@@ -2639,9 +2743,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] EYES N5/[NorthernSiberiaWinds] Nose Presets F N10-17.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] EYES N5/2.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/bodycare-kit-93373994": {
       "nome": "[NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1",
@@ -2678,8 +2780,7 @@
         "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N1.package",
         "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N2.package",
         "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N3.package",
-        "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package",
-        "превью1.png"
+        "[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package"
       ],
       "detalhe": null,
       "usado_por": [
@@ -2687,7 +2788,7 @@
         "Luciana Neal",
         "Serena Slade"
       ],
-      "tamanho": 427210458,
+      "tamanho": 423275624,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1/[NORTHERN SIBERIA WINDS] MALE TORSO MASK N1 MM OVERLAY.package",
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1/[NORTHERN SIBERIA WINDS] MALE TORSO MASK N1 B MM OVERLAY.package",
@@ -2715,9 +2816,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1/[NORTHERN SIBERIA WINDS] MALE BODY PRESET N4.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] FEMALE BODY PRESET N1/превью1.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/final-touch-kit-99496806": {
       "nome": "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16",
@@ -2730,15 +2829,14 @@
       "status": "ok",
       "arquivos": [
         "[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1-8.zip",
-        "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip",
-        "превью.png"
+        "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip"
       ],
       "detalhe": null,
       "usado_por": [
         "Edith Medina",
         "Luciana Neal"
       ],
-      "tamanho": 54285219,
+      "tamanho": 47840962,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16/[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1.package",
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16/[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N6.package",
@@ -2758,9 +2856,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N11.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16/превью.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/cartoon-style-i-72215143": {
       "nome": "[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES",
@@ -2770,21 +2866,18 @@
       "pasta": "[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES",
       "status": "ok",
       "arquivos": [
-        "[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES.package",
-        "1.png"
+        "[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Edith Medina"
       ],
-      "tamanho": 100575692,
+      "tamanho": 97177540,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES/[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] SOFT ROSE SKIN TONES/1.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/cartoon-style-ii-72215146": {
       "nome": "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ",
@@ -2808,15 +2901,14 @@
         "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FACE MASK HQ.package",
         "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FACE MASK HQ.package",
         "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ.package",
-        "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package",
-        "5.png"
+        "[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Edith Medina",
         "Luciana Neal"
       ],
-      "tamanho": 284975064,
+      "tamanho": 281740460,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ/[NORTHERN SIBERIA WINDS] NON DEFAULT EYE COLORS N1.package",
         "Mods/[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ/[NORTHERN SIBERIA WINDS] EYES N27.package",
@@ -2833,9 +2925,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ/[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND B FULL BODY HQ.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] SOFT ROSE SKINBLEND A FULL BODY HQ/5.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/RIMINGs/posts/rimings-111782004": {
       "nome": "[RIMINGS] DREAMCORE _Jewl Earring",
@@ -2846,22 +2936,19 @@
       "status": "ok",
       "arquivos": [
         "[RIMINGS] DREAMCORE _Jewl Earring.package",
-        "[RIMINGS] DREAMCORE _Slit Maxi Dress.package",
-        "썸넬.png"
+        "[RIMINGS] DREAMCORE _Slit Maxi Dress.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Edith Medina"
       ],
-      "tamanho": 14264581,
+      "tamanho": 12308415,
       "mods": [
         "Mods/[RIMINGS] DREAMCORE _Jewl Earring/[RIMINGS] DREAMCORE _Jewl Earring.package",
         "Mods/[RIMINGS] DREAMCORE _Jewl Earring/[RIMINGS] DREAMCORE _Slit Maxi Dress.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[RIMINGS] DREAMCORE _Jewl Earring/썸넬.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-157807075": {
       "nome": "[SEOULSOUL] 2026_#164_Skirt",
@@ -2871,18 +2958,19 @@
       "pasta": "[SEOULSOUL] 2026_#164_Skirt",
       "status": "ok",
       "arquivos": [
-        "01.png"
+        "[SEOULSOUL] 2026_#164_Skirt.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Edith Medina"
       ],
-      "tamanho": 825772,
-      "mods": [],
+      "tamanho": 8042385,
+      "link_download": "https://drive.google.com/drive/folders/1bHnBzR6rKq_vs3CM6fcX_5YuCcMRIGwk",
+      "mods": [
+        "Mods/[SEOULSOUL] 2026_#164_Skirt/[SEOULSOUL] 2026_#164_Skirt.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SEOULSOUL] 2026_#164_Skirt/01.png"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-lipstick/title/arlecchino-lips/id/1699291/": {
       "nome": "Anonimux - Arlecchino Lips",
@@ -3053,18 +3141,19 @@
       "pasta": "euno eye preset 11-15 [250801]",
       "status": "ok",
       "arquivos": [
-        "01.jpg"
+        "euno eye preset 11-15 [250801].zip"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Edith Medina"
       ],
-      "tamanho": 565398,
-      "mods": [],
+      "tamanho": 31653,
+      "link_download": "https://www.curseforge.com/sims4/create-a-sim/eye-presets-11-15",
+      "mods": [
+        "Mods/euno eye preset 11-15 [250801]/euno eye preset 11-15 [250801].package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/euno eye preset 11-15 [250801]/01.jpg"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/eunosims/posts/nose-preset-6-10-72592326": {
       "nome": "euno nose preset 6-10",
@@ -3074,19 +3163,20 @@
       "pasta": "euno nose preset 6-10",
       "status": "ok",
       "arquivos": [
-        "코프리셋.jpg"
+        "euno nose preset 6-10.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Edith Medina",
         "Serena Slade"
       ],
-      "tamanho": 145647,
-      "mods": [],
+      "tamanho": 75140,
+      "link_download": "https://eunosims.tistory.com/entry/nose-preset-610",
+      "mods": [
+        "Mods/euno nose preset 6-10/euno nose preset 6-10.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/euno nose preset 6-10/코프리셋.jpg"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/luumia/posts/sim-height-june-68032331": {
       "nome": "LUUMIA_mod_HeightSlider_UpdateJune2022",
@@ -3157,21 +3247,13 @@
       "fonte": "patreon",
       "url": "https://www.patreon.com/obscurus_sims/posts/maxis-match-set-78704428",
       "pasta": "obscurus_nose_highlighter",
-      "status": "ok",
-      "arquivos": [
-        "14.02.2023_23-58-02 копия.png"
-      ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "status": "falhou",
+      "arquivos": [],
+      "detalhe": "MEGA precisa do cliente/navegador – baixe manualmente: https://mega.nz/folder/Q5YRRIzI#KmYF3j1bPHN64dgA1pSPmA",
       "usado_por": [
         "Edith Medina",
         "Luciana Neal",
         "Serena Slade"
-      ],
-      "tamanho": 2186475,
-      "mods": [],
-      "tray": [],
-      "outros": [
-        "_nao_extraidos/obscurus_nose_highlighter/14.02.2023_23-58-02 копия.png"
       ]
     },
     "https://www.curseforge.com/sims4/create-a-sim/simpliciatys-alana-hair": {
@@ -3203,20 +3285,12 @@
       "fonte": "patreon",
       "url": "https://www.patreon.com/sims3melancholic/posts/pretty-eyes-90064610",
       "pasta": "sims3melancholic_contacts #121 EYE COLORS",
-      "status": "ok",
-      "arquivos": [
-        "11.png"
-      ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "status": "falhou",
+      "arquivos": [],
+      "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1XxidR5sxUx1kklsFYnzUnaNTI_n417P7/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1DXwvJWfHWJYxo7IPAfgiM1UPbHPepXrq: Google Drive pasta: nada baixado (sims3melancholic_contacts #120 EYE COLORS.package: Googl)",
       "usado_por": [
         "Edith Medina",
         "Serena Slade"
-      ],
-      "tamanho": 15305074,
-      "mods": [],
-      "tray": [],
-      "outros": [
-        "_nao_extraidos/sims3melancholic_contacts #121 EYE COLORS/11.png"
       ]
     },
     "https://www.patreon.com/sims3melancholic/posts/soft-forms-maxis-154420504": {
@@ -3225,19 +3299,11 @@
       "fonte": "patreon",
       "url": "https://www.patreon.com/sims3melancholic/posts/soft-forms-maxis-154420504",
       "pasta": "sims3melancholic_eyebrows #166",
-      "status": "ok",
-      "arquivos": [
-        "1.png"
-      ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "status": "falhou",
+      "arquivos": [],
+      "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1rslFQoSm5Tf-YhHhbhbhstPqInA0z6_t/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1LFdW0R8V1_Z1vaVWFDpccHlJ4ztdMSk0: Google Drive pasta: nada baixado (sims3melancholic_eyebrows #166.package: Google Drive: re)",
       "usado_por": [
         "Edith Medina"
-      ],
-      "tamanho": 10431005,
-      "mods": [],
-      "tray": [],
-      "outros": [
-        "_nao_extraidos/sims3melancholic_eyebrows #166/1.png"
       ]
     },
     "https://www.patreon.com/sims3melancholic/posts/highlight-103333754": {
@@ -3246,21 +3312,13 @@
       "fonte": "patreon",
       "url": "https://www.patreon.com/sims3melancholic/posts/highlight-103333754",
       "pasta": "sims3melancholic_highlight #23-28 ALL IN 1",
-      "status": "ok",
-      "arquivos": [
-        "11.png"
-      ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "status": "falhou",
+      "arquivos": [],
+      "detalhe": "Patreon: nenhum arquivo baixável no post (só imagens de preview) (https://drive.google.com/file/d/1YNZywjvC-2JEd3XGOg6z5dIpO7ks1oji/view: Google Drive: resposta não é arquivo (Content-Type=text/html; charset=utf-8) url=https://d; https://drive.google.com/drive/folders/1HqBdxL23nNBYvojw9eLsVdsI9yj592BL: Google Drive pasta: nada baixado (sims3melancholic_highlight #23-28 ALL IN 1.package: Goog)",
       "usado_por": [
         "Edith Medina",
         "Luciana Neal",
         "Serena Slade"
-      ],
-      "tamanho": 16929414,
-      "mods": [],
-      "tray": [],
-      "outros": [
-        "_nao_extraidos/sims3melancholic_highlight #23-28 ALL IN 1/11.png"
       ]
     },
     "https://www.patreon.com/posts/gshade-preset-123038419": {
@@ -3378,14 +3436,13 @@
         "[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN B FULL BODY HQ.package",
         "[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK A HQ.package",
         "[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES.package",
-        "[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK B HQ.package",
-        "катун сет2.png"
+        "[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK B HQ.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 270432070,
+      "tamanho": 267125652,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES/[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK B.package",
         "Mods/[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES/[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK A.package",
@@ -3398,9 +3455,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES/[NORTHERN SIBERIA WINDS] BLUEBERRY FACE MASK B HQ.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] BLUEBERRY SKIN TONES/катун сет2.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/wild-cat-make-up-64319245": {
       "nome": "[NorthernSiberiaWinds] LIPS N35",
@@ -3425,14 +3480,13 @@
         "[NORTHERN SIBERIA WINDS] SKIN N12 EXTRA DARK HQ.package",
         "[NORTHERN SIBERIA WINDS] SKIN N12 HQ.package",
         "[NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY.package",
-        "[NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY HQ.package",
-        "гиф-маска.gif"
+        "[NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY HQ.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 447599606,
+      "tamanho": 446855091,
       "mods": [
         "Mods/[NorthernSiberiaWinds] LIPS N35/[NorthernSiberiaWinds] EYELIDS N11.package",
         "Mods/[NorthernSiberiaWinds] LIPS N35/[NorthernSiberiaWinds] EYELIDS N12.package",
@@ -3452,9 +3506,7 @@
         "Mods/[NorthernSiberiaWinds] LIPS N35/[NORTHERN SIBERIA WINDS] SKIN N12 OVERLAY HQ.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NorthernSiberiaWinds] LIPS N35/гиф-маска.gif"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/RIMINGs/posts/rimings-old-gift-90183432": {
       "nome": "[RIMINGS] OLD GIFT BOX 9 _Earring",
@@ -3469,14 +3521,13 @@
         "[RIMINGS] OLD GIFT BOX 9 _Beret.package",
         "[RIMINGS] OLD GIFT BOX 9 _Crop Top & Suit Pants.package",
         "[RIMINGS] OLD GIFT BOX 9 _Hipsack & Twopiece Suit.package",
-        "[RIMINGS] OLD GIFT BOX 9 _Longcoat & Skirt.package",
-        "썸넬.png"
+        "[RIMINGS] OLD GIFT BOX 9 _Longcoat & Skirt.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 51916029,
+      "tamanho": 48780227,
       "mods": [
         "Mods/[RIMINGS] OLD GIFT BOX 9 _Earring/[RIMINGS] OLD GIFT BOX 9 _Earring.package",
         "Mods/[RIMINGS] OLD GIFT BOX 9 _Earring/[RIMINGS] OLD GIFT BOX 9 _Earring2.package",
@@ -3486,9 +3537,7 @@
         "Mods/[RIMINGS] OLD GIFT BOX 9 _Earring/[RIMINGS] OLD GIFT BOX 9 _Longcoat & Skirt.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[RIMINGS] OLD GIFT BOX 9 _Earring/썸넬.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/seoulsoul/posts/ingame-ver-2024-102201651": {
       "nome": "[SEOULSOUL] 2024_#22_Lace Pants",
@@ -3498,18 +3547,19 @@
       "pasta": "[SEOULSOUL] 2024_#22_Lace Pants",
       "status": "ok",
       "arquivos": [
-        "06.png"
+        "[SEOULSOUL] 2024_#22_Lace Pants.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 683461,
-      "mods": [],
+      "tamanho": 4523552,
+      "link_download": "https://drive.google.com/drive/folders/1TTN0fFoBlj1ScXRTY--g5SAnXTTDSPG3",
+      "mods": [
+        "Mods/[SEOULSOUL] 2024_#22_Lace Pants/[SEOULSOUL] 2024_#22_Lace Pants.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SEOULSOUL] 2024_#22_Lace Pants/06.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/seoulsoul/posts/ingame-ver-2024-116111159": {
       "nome": "[SEOULSOUL] 2024_#65_Ribbons tights",
@@ -3519,18 +3569,19 @@
       "pasta": "[SEOULSOUL] 2024_#65_Ribbons tights",
       "status": "ok",
       "arquivos": [
-        "18.png"
+        "[SEOULSOUL] 2024_#65_Ribbons tights.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 411392,
-      "mods": [],
+      "tamanho": 3300820,
+      "link_download": "https://drive.google.com/drive/folders/1xie81qDsN-koKJWngm8gfpLpT3wig4u-",
+      "mods": [
+        "Mods/[SEOULSOUL] 2024_#65_Ribbons tights/[SEOULSOUL] 2024_#65_Ribbons tights.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SEOULSOUL] 2024_#65_Ribbons tights/18.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/seoulsoul/posts/ingame-ver-2025-136614796": {
       "nome": "[SEOULSOUL] 2025_#118_Ribbons Heels",
@@ -3540,18 +3591,19 @@
       "pasta": "[SEOULSOUL] 2025_#118_Ribbons Heels",
       "status": "ok",
       "arquivos": [
-        "14.png"
+        "[SEOULSOUL] 2025_#118_Ribbons Heels.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 408624,
-      "mods": [],
+      "tamanho": 3226995,
+      "link_download": "https://drive.google.com/drive/folders/1_kztUScguAH0FVk9ubpvEN98oUO-AZq2",
+      "mods": [
+        "Mods/[SEOULSOUL] 2025_#118_Ribbons Heels/[SEOULSOUL] 2025_#118_Ribbons Heels.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SEOULSOUL] 2025_#118_Ribbons Heels/14.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-147880127": {
       "nome": "[SEOULSOUL] 2026_#142_V2_Fur Jacket",
@@ -3561,18 +3613,19 @@
       "pasta": "[SEOULSOUL] 2026_#142_V2_Fur Jacket",
       "status": "ok",
       "arquivos": [
-        "25.png"
+        "[SEOULSOUL] 2026_#142_V2_Fur Jacket.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 710589,
-      "mods": [],
+      "tamanho": 14976020,
+      "link_download": "https://drive.google.com/drive/folders/103uMfur8ZgnYJZ7tCf4Mj6Lmbh3WOFi-",
+      "mods": [
+        "Mods/[SEOULSOUL] 2026_#142_V2_Fur Jacket/[SEOULSOUL] 2026_#142_V2_Fur Jacket.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SEOULSOUL] 2026_#142_V2_Fur Jacket/25.png"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-blush/title/new-year-s-glow-2025-blush/id/1729794/": {
       "nome": "Anonimux - New Year's Glow 2025 - Blush",
@@ -3603,18 +3656,19 @@
       "pasta": "euno eye preset 1-5 [250220]",
       "status": "ok",
       "arquivos": [
-        "00.jpg"
+        "euno eye preset 1-5 [250220].package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 5833761,
-      "mods": [],
+      "tamanho": 110520,
+      "link_download": "https://eunosims.tistory.com/entry/sims4-eye-preset-download",
+      "mods": [
+        "Mods/euno eye preset 1-5 [250220]/euno eye preset 1-5 [250220].package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/euno eye preset 1-5 [250220]/00.jpg"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/miikocc/posts/eyebrow-slider-39393841": {
       "nome": "miiko-eyebrow-slider",
@@ -3624,22 +3678,19 @@
       "pasta": "miiko-eyebrow-slider",
       "status": "ok",
       "arquivos": [
-        "miiko-eyebrow-slider.package",
-        "eyebrow-slider-preview.jpg"
+        "miiko-eyebrow-slider.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Luciana Neal",
         "Serena Slade"
       ],
-      "tamanho": 359870,
+      "tamanho": 49383,
       "mods": [
         "Mods/miiko-eyebrow-slider/miiko-eyebrow-slider.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/miiko-eyebrow-slider/eyebrow-slider-preview.jpg"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/obscurus_sims/posts/eyebrows-and-23816939": {
       "nome": "obscurus_hairline_N1sd",
@@ -3649,20 +3700,19 @@
       "pasta": "obscurus_hairline_N1sd",
       "status": "ok",
       "arquivos": [
-        "1.png",
-        "1_1.png"
+        "obscurus_hairline_N1sd.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Luciana Neal"
       ],
-      "tamanho": 15359582,
-      "mods": [],
+      "tamanho": 34107746,
+      "link_download": "https://simfileshare.net/folder/54933/",
+      "mods": [
+        "Mods/obscurus_hairline_N1sd/obscurus_hairline_N1sd.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/obscurus_hairline_N1sd/1.png",
-        "_nao_extraidos/obscurus_hairline_N1sd/1_1.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/42027501": {
       "nome": "SimMandy_Spotlight_Skindetails",
@@ -3674,24 +3724,21 @@
       "arquivos": [
         "SimMandy_Spotlight_FaceMask.package",
         "SimMandy_Spotlight_Skindetails.package",
-        "SimMandy_Spotlight_Tattoos.package",
-        "thumb2.gif"
+        "SimMandy_Spotlight_Tattoos.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Luciana Neal",
         "Serena Slade"
       ],
-      "tamanho": 26264098,
+      "tamanho": 25712252,
       "mods": [
         "Mods/SimMandy_Spotlight_Skindetails/SimMandy_Spotlight_FaceMask.package",
         "Mods/SimMandy_Spotlight_Skindetails/SimMandy_Spotlight_Skindetails.package",
         "Mods/SimMandy_Spotlight_Skindetails/SimMandy_Spotlight_Tattoos.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/SimMandy_Spotlight_Skindetails/thumb2.gif"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/nonvmestudios/posts/teanmoon-mouth-28177423": {
       "nome": "teanmoonMouthScaleSliderFORALLIndecisiveSims_Fixed",
@@ -3796,14 +3843,13 @@
         "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N4.package",
         "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N3.package",
         "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2.package",
-        "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N1.package",
-        "превью1.png"
+        "[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N1.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Serena Slade"
       ],
-      "tamanho": 3810608,
+      "tamanho": 254627,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2/[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N8.package",
         "Mods/[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2/[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N7.package",
@@ -3815,9 +3861,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2/[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N1.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] HEAD SHAPE PRESET FOR FEMALES N2/превью1.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/winter-tale-and-45622566": {
       "nome": "[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ",
@@ -3839,14 +3883,13 @@
         "[NORTHERN SIBERIA WINDS] SKIN N4 - FANTASY VER.1 HQ.package",
         "[NORTHERN SIBERIA WINDS] SKIN N4 - FANTASY VER.2 HQ.package",
         "[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY.package",
-        "[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ.package",
-        "1.png"
+        "[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Serena Slade"
       ],
-      "tamanho": 315479113,
+      "tamanho": 307877912,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ/[NorthernSiberiaWinds] EYELINER N1.package",
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ/[NorthernSiberiaWinds] EYESHADOW N3.package",
@@ -3863,9 +3906,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ/[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] SKIN N4 - OVERLAY HQ/1.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/seoulsoul/posts/ingame-ver-2025-131742236": {
       "nome": "[SEOULSOUL] 2025_#106_Skirt",
@@ -3875,18 +3916,19 @@
       "pasta": "[SEOULSOUL] 2025_#106_Skirt",
       "status": "ok",
       "arquivos": [
-        "16.png"
+        "[SEOULSOUL] 2025_#106_Skirt.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Serena Slade"
       ],
-      "tamanho": 748910,
-      "mods": [],
+      "tamanho": 3741356,
+      "link_download": "https://drive.google.com/drive/folders/1zXvu1pANtMFGviHavSltgQ3thFM2HDM-",
+      "mods": [
+        "Mods/[SEOULSOUL] 2025_#106_Skirt/[SEOULSOUL] 2025_#106_Skirt.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SEOULSOUL] 2025_#106_Skirt/16.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-149006537": {
       "nome": "[SEOULSOUL] 2026_#146_Sleeveless top",
@@ -3896,18 +3938,19 @@
       "pasta": "[SEOULSOUL] 2026_#146_Sleeveless top",
       "status": "ok",
       "arquivos": [
-        "43.png"
+        "[SEOULSOUL] 2026_#146_Sleeveless top.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Serena Slade"
       ],
-      "tamanho": 709024,
-      "mods": [],
+      "tamanho": 6596582,
+      "link_download": "https://drive.google.com/drive/folders/12jrJ0P0PfH2KRhhzmdHCgmtM271p2Zxl",
+      "mods": [
+        "Mods/[SEOULSOUL] 2026_#146_Sleeveless top/[SEOULSOUL] 2026_#146_Sleeveless top.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SEOULSOUL] 2026_#146_Sleeveless top/43.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/seoulsoul/posts/ingame-ver-2026-164173468": {
       "nome": "[SEOULSOUL] 2026_#179_Thong boots",
@@ -3917,18 +3960,19 @@
       "pasta": "[SEOULSOUL] 2026_#179_Thong boots",
       "status": "ok",
       "arquivos": [
-        "17.png"
+        "[SEOULSOUL] 2026_#179_Thong boots.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Serena Slade"
       ],
-      "tamanho": 514580,
-      "mods": [],
+      "tamanho": 2875505,
+      "link_download": "https://drive.google.com/drive/folders/1q_GfT8dWJn3rvBK5ap-cw212aolBP7uJ",
+      "mods": [
+        "Mods/[SEOULSOUL] 2026_#179_Thong boots/[SEOULSOUL] 2026_#179_Thong boots.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SEOULSOUL] 2026_#179_Thong boots/17.png"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/members/Anonimux_Simmer/downloads/details/category/sims4-makeup-female-lipstick/title/makeup-set-n36-lips/id/1717771/": {
       "nome": "Anonimux - Makeup Set N36 - Lips",
@@ -3987,14 +4031,13 @@
         "Eyeshadow N2 [NorthernSiberiaWinds].package",
         "[NORTHERN SIBERIA WINDS] EYES N4.package",
         "[NORTHERN SIBERIA WINDS] EYES N3.package",
-        "Eyes Preset F N1-6 [NorthernSiberiaWinds].package",
-        "1.png"
+        "Eyes Preset F N1-6 [NorthernSiberiaWinds].package"
       ],
       "detalhe": null,
       "usado_por": [
         "Serena Slade"
       ],
-      "tamanho": 39501894,
+      "tamanho": 35823833,
       "mods": [
         "Mods/Eyes Preset F N1-6 [NorthernSiberiaWinds]/Eyebrows N2 [NorthernSiberiaWinds].package",
         "Mods/Eyes Preset F N1-6 [NorthernSiberiaWinds]/Eyebrows N3 [NorthernSiberiaWinds].package",
@@ -4006,9 +4049,7 @@
         "Mods/Eyes Preset F N1-6 [NorthernSiberiaWinds]/Eyes Preset F N1-6 [NorthernSiberiaWinds].package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/Eyes Preset F N1-6 [NorthernSiberiaWinds]/1.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/goppolsme/posts/gpme-gold-cc-47-119339172": {
       "nome": "GPME-GOLD Eyeshadow CC 47",
@@ -4018,18 +4059,19 @@
       "pasta": "GPME-GOLD Eyeshadow CC 47",
       "status": "ok",
       "arquivos": [
-        "EYESHADOW CC47 - 2.jpg"
+        "GPME-GOLD Eyeshadow CC 47.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Serena Slade"
       ],
-      "tamanho": 2383642,
-      "mods": [],
+      "tamanho": 2120866,
+      "link_download": "https://simfileshare.net/download/5216750/",
+      "mods": [
+        "Mods/GPME-GOLD Eyeshadow CC 47/GPME-GOLD Eyeshadow CC 47.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/GPME-GOLD Eyeshadow CC 47/EYESHADOW CC47 - 2.jpg"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/summer-equinox-38572488": {
       "nome": "Lips Preset N8 [NorthernSiberiaWinds]",
@@ -4050,14 +4092,13 @@
         "Lips Preset N4 [NorthernSiberiaWinds].package",
         "Lips Preset N3 [NorthernSiberiaWinds].package",
         "Lips Preset N2 [NorthernSiberiaWinds].package",
-        "Lips Preset N1 [NorthernSiberiaWinds].package",
-        "гиф.gif"
+        "Lips Preset N1 [NorthernSiberiaWinds].package"
       ],
       "detalhe": null,
       "usado_por": [
         "Serena Slade"
       ],
-      "tamanho": 13293183,
+      "tamanho": 8578667,
       "mods": [
         "Mods/Lips Preset N8 [NorthernSiberiaWinds]/Lips N3 - Poplar Fluff [NorthernSiberiaWinds].package",
         "Mods/Lips Preset N8 [NorthernSiberiaWinds]/Lips N4 - Tenderness [NorthernSiberiaWinds].package",
@@ -4073,9 +4114,7 @@
         "Mods/Lips Preset N8 [NorthernSiberiaWinds]/Lips Preset N1 [NorthernSiberiaWinds].package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/Lips Preset N8 [NorthernSiberiaWinds]/гиф.gif"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/members/VivianDang/downloads/details/category/sims4-accessories-female-necklaces/title/viviandang-af-necklace-y-forcloth-package/id/1741622/": {
       "nome": "VivianDang_AF_Necklace_Y (ForCloth)",
@@ -4145,14 +4184,13 @@
         "[CAMUFLAJE] Girly Things Collection - Earrings.package",
         "[CAMUFLAJE] Girly Things Collection - Head Bow.package",
         "[CAMUFLAJE] Girly Things Collection - Outfit.package",
-        "[CAMUFLAJE] Girly Things Collection - ALL IN ONE.rar",
-        "J1.jpg"
+        "[CAMUFLAJE] Girly Things Collection - ALL IN ONE.rar"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 86875777,
+      "tamanho": 85077809,
       "mods": [
         "Mods/[CAMUFLAJE] Girly Things Collection - Head Bow/[CAMUFLAJE] Girly Things Collection - Dress I.package",
         "Mods/[CAMUFLAJE] Girly Things Collection - Head Bow/[CAMUFLAJE] Girly Things Collection - Dress II.package",
@@ -4166,9 +4204,7 @@
         "Mods/[CAMUFLAJE] Girly Things Collection - Head Bow/[CAMUFLAJE] Girly Things Collection - Earrings.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[CAMUFLAJE] Girly Things Collection - Head Bow/J1.jpg"
-      ]
+      "outros": []
     },
     "https://kijiko-catfood.com/3d-lashes-uncurl-makeup/": {
       "nome": "[Kijiko]eyelash_YF_Mak_ex-natural_Ri",
@@ -4176,12 +4212,21 @@
       "fonte": "other",
       "url": "https://kijiko-catfood.com/3d-lashes-uncurl-makeup/",
       "pasta": "[Kijiko]eyelash_YF_Mak_ex-natural_Ri",
-      "status": "falhou",
-      "arquivos": [],
-      "detalhe": "Failed to perform, curl: (28) Connection timed out after 90001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "status": "ok",
+      "arquivos": [
+        "[Kijiko]eyelash_Makeup_Uncurled.zip"
+      ],
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
-      ]
+      ],
+      "tamanho": 11207090,
+      "link_download": "https://simfileshare.net/download/4893177/",
+      "mods": [
+        "Mods/[Kijiko]eyelash_YF_Mak_ex-natural_Ri/[Kijiko]eyelash_Makeup_Uncurled/[Kijiko]eyelash_YU_Makeup_Uncurled.package"
+      ],
+      "tray": [],
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/ladies-50919435": {
       "nome": "[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY edit",
@@ -4199,14 +4244,13 @@
         "[NorthernSiberiaWinds] NOSEMASK N4.package",
         "[NORTHERN SIBERIA WINDS] SKIN N7.package",
         "[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY.package",
-        "[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY HQ.package",
-        "1.png"
+        "[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY HQ.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 238669156,
+      "tamanho": 231487598,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY edit/[NORTHERN SIBERIA WINDS] EYES N14.package",
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY edit/[NORTHERN SIBERIA WINDS] EYES N15.package",
@@ -4219,9 +4263,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY edit/[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY HQ.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] SKIN N7 OVERLAY edit/1.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/northernsiberiawinds/posts/female-new-year-60554269": {
       "nome": "[NorthernSiberiaWinds] EYELINER N3",
@@ -4242,14 +4284,13 @@
         "[NORTHERN SIBERIA WINDS] SKIN N11 HQ.package",
         "[NORTHERN SIBERIA WINDS] SKIN N11 OVERLAY.package",
         "[NORTHERN SIBERIA WINDS] SKIN N11 OVERLAY HQ.package",
-        "[NorthernSiberiaWinds] LIPS PRESETS F N33-41.package",
-        "5.png"
+        "[NorthernSiberiaWinds] LIPS PRESETS F N33-41.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 311743441,
+      "tamanho": 308953351,
       "mods": [
         "Mods/[NorthernSiberiaWinds] EYELINER N3/[NorthernSiberiaWinds] EYELIDS N10.package",
         "Mods/[NorthernSiberiaWinds] EYELINER N3/[NorthernSiberiaWinds] EYELINER N3.package",
@@ -4265,9 +4306,7 @@
         "Mods/[NorthernSiberiaWinds] EYELINER N3/[NorthernSiberiaWinds] LIPS PRESETS F N33-41.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NorthernSiberiaWinds] EYELINER N3/5.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/poyopoyosim/posts/poyopoyo-skin-n5-71029892": {
       "nome": "[poyopoyo] Eye Contacts N9",
@@ -4277,18 +4316,19 @@
       "pasta": "[poyopoyo] Eye Contacts N9",
       "status": "ok",
       "arquivos": [
-        "23.png"
+        "[poyopoyo] Eye Contacts N9.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 23535083,
-      "mods": [],
+      "tamanho": 2399750,
+      "link_download": "https://drive.google.com/drive/folders/12AlqHAzsek4xQN75Eq14e0mVR-t9Y4Jh",
+      "mods": [
+        "Mods/[poyopoyo] Eye Contacts N9/[poyopoyo] Eye Contacts N9.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[poyopoyo] Eye Contacts N9/23.png"
-      ]
+      "outros": []
     },
     "https://m.blog.naver.com/kimseheongun/221720378667": {
       "nome": "ALGU_EYEBROWS_51",
@@ -4305,6 +4345,7 @@
         "Uminunu-F12 The Sweet Streamer"
       ],
       "tamanho": 74247,
+      "link_download": "http://www.simfileshare.net/download/1470158/",
       "mods": [
         "Mods/ALGU_EYEBROWS_51/ALGU_EYEBROWS_51.package"
       ],
@@ -4340,14 +4381,13 @@
       "pasta": "astya96_february_collection_skirt_01",
       "status": "ok",
       "arquivos": [
-        "astya96 february2023.rar",
-        "01023.png"
+        "astya96 february2023.rar"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 115422040,
+      "tamanho": 94979970,
       "mods": [
         "Mods/astya96_february_collection_skirt_01/astya96_february_collection_skirt_02.package",
         "Mods/astya96_february_collection_skirt_01/astya96_february_collection_pants_01.package",
@@ -4360,9 +4400,7 @@
         "Mods/astya96_february_collection_skirt_01/astya96_february_collection_top_03.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/astya96_february_collection_skirt_01/01023.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/astya96/posts/vintage-summer-111339616": {
       "nome": "astya96_vintage_summer_lila_top",
@@ -4370,19 +4408,11 @@
       "fonte": "patreon",
       "url": "https://www.patreon.com/astya96/posts/vintage-summer-111339616",
       "pasta": "astya96_vintage_summer_lila_top",
-      "status": "ok",
-      "arquivos": [
-        "1lila prev 01.png"
-      ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "status": "falhou",
+      "arquivos": [],
+      "detalhe": "Mod Collective exige login e JavaScript – baixe manualmente: https://modcollective.gg/sims4/details/collection/298",
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
-      ],
-      "tamanho": 15374399,
-      "mods": [],
-      "tray": [],
-      "outros": [
-        "_nao_extraidos/astya96_vintage_summer_lila_top/1lila prev 01.png"
       ]
     },
     "https://eunosims.tistory.com/entry/sims4cc-nail-set": {
@@ -4395,16 +4425,20 @@
       "arquivos": [
         "euno nail set.zip"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
       "tamanho": 2873854,
-      "mods": [],
+      "mods": [
+        "Mods/euno 2022 0104 nail (square shape) Solid HQ/euno 2022 0104 nail (Round shape) HQ.package",
+        "Mods/euno 2022 0104 nail (square shape) Solid HQ/euno 2022 0104 nail (square shape) Pattern ver HQ.package",
+        "Mods/euno 2022 0104 nail (square shape) Solid HQ/euno 2022 0104 nail (sharp shape) HQ.package",
+        "Mods/euno 2022 0104 nail (square shape) Solid HQ/euno 2022 0104 nail (square shape) Solid HQ.package",
+        "Mods/euno 2022 0104 nail (square shape) Solid HQ/euno 2022 0104 nail (square shape) Solid ver2 HQ.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/euno 2022 0104 nail (square shape) Solid HQ/euno nail set.zip"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/goppolsme/posts/gpme-gold-high-18294399": {
       "nome": "GPME-GOLD High Glossy Eyes",
@@ -4414,18 +4448,19 @@
       "pasta": "GPME-GOLD High Glossy Eyes",
       "status": "ok",
       "arquivos": [
-        "glosseyes_1-1.jpg"
+        "GPME-GOLD High Glossy Eyes.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 3343627,
-      "mods": [],
+      "tamanho": 2473463,
+      "link_download": "https://simfileshare.net/download/508140/",
+      "mods": [
+        "Mods/GPME-GOLD High Glossy Eyes/GPME-GOLD High Glossy Eyes.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/GPME-GOLD High Glossy Eyes/glosseyes_1-1.jpg"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/downloads/details/category/sims4-shoes-female-teenadultelder/title/cut-out-design-heeled-sandals-s193/id/1659882/": {
       "nome": "mermalade_S193",
@@ -4475,12 +4510,21 @@
       "fonte": "other",
       "url": "https://obscurus-sims.tumblr.com/post/168617117913/eyelids-n3-24-colors-teen-males-and-females",
       "pasta": "obscurus_eyelids_N3test",
-      "status": "falhou",
-      "arquivos": [],
-      "detalhe": "nenhum link baixável na página (http://simfileshare.net/folder/149886/: SimFileShare: é uma PASTA – baixe manualmente)",
+      "status": "ok",
+      "arquivos": [
+        "obscurus_eyelids_N3.package"
+      ],
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
-      ]
+      ],
+      "tamanho": 3848071,
+      "link_download": "https://simfileshare.net/folder/149886/",
+      "mods": [
+        "Mods/obscurus_eyelids_N3test/obscurus_eyelids_N3.package"
+      ],
+      "tray": [],
+      "outros": []
     },
     "https://www.patreon.com/pralinesims/posts/reverb-bead-set-88161386": {
       "nome": "Pralinesims_Necklace_Reverb_Pearl_F",
@@ -4490,14 +4534,13 @@
       "pasta": "Pralinesims_Necklace_Reverb_Pearl_F",
       "status": "ok",
       "arquivos": [
-        "Pralinesims_REVERB_NecklaceSet.zip",
-        "REVERB.png"
+        "Pralinesims_REVERB_NecklaceSet.zip"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 6894621,
+      "tamanho": 2183951,
       "mods": [
         "Mods/Pralinesims_Necklace_Reverb_Pearl_F/Pralinesims_Necklace_Reverb_Pearl_F.package",
         "Mods/Pralinesims_Necklace_Reverb_Pearl_F/Pralinesims_Necklace_Reverb_Pearl_M.package",
@@ -4507,9 +4550,7 @@
         "Mods/Pralinesims_Necklace_Reverb_Pearl_F/Pralinesims_Necklace_Reverb_Wood_F.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/Pralinesims_Necklace_Reverb_Pearl_F/REVERB.png"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/downloads/details/category/sims4-accessories-female-earrings/title/mida-pearl-earring-set/id/1419274/": {
       "nome": "PS_MidaPearlEarringSet",
@@ -4583,14 +4624,13 @@
       "status": "ok",
       "arquivos": [
         "Meatballteeth_Nose_Rotate_Slider.package",
-        "Meatballteeth_Household_allen benavides.zip",
-        "tumblr_04c7d4c8b9b6b9b043e0cb3602727ce2_cc360fd4_500.jpg"
+        "Meatballteeth_Household_allen benavides.zip"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 19529466,
+      "tamanho": 19450568,
       "mods": [
         "Mods/Meatballteeth_Nose_Rotate_Slider/Meatballteeth_Nose_Rotate_Slider.package",
         "Mods/Meatballteeth_Nose_Rotate_Slider/Mods/skindetails/MellouwSim_-_PORES_NO.1.package",
@@ -4625,15 +4665,13 @@
         "Mods/Meatballteeth_Nose_Rotate_Slider/Mods/eyes/ND/Pralinesims_Eyes_N149_Euphoria_NonDefault.package"
       ],
       "tray": [
-        "Tray/0x00000000!0x00c70bb1e913ab34.householdbinary",
-        "Tray/0x1ea56502!0x00c70bb1e913ab34.hhi",
-        "Tray/0x00000013!0x0dc70bb1e913ab35.sgi",
-        "Tray/0x1ea56503!0x00c70bb1e913ab34.hhi",
-        "Tray/0x00000001!0x00c70bb1e913ab34.trayitem"
+        "_extras/Tray/Meatballteeth_Nose_Rotate_Slider/0x00000000!0x00c70bb1e913ab34.householdbinary",
+        "_extras/Tray/Meatballteeth_Nose_Rotate_Slider/0x1ea56502!0x00c70bb1e913ab34.hhi",
+        "_extras/Tray/Meatballteeth_Nose_Rotate_Slider/0x00000013!0x0dc70bb1e913ab35.sgi",
+        "_extras/Tray/Meatballteeth_Nose_Rotate_Slider/0x1ea56503!0x00c70bb1e913ab34.hhi",
+        "_extras/Tray/Meatballteeth_Nose_Rotate_Slider/0x00000001!0x00c70bb1e913ab34.trayitem"
       ],
-      "outros": [
-        "_nao_extraidos/Meatballteeth_Nose_Rotate_Slider/tumblr_04c7d4c8b9b6b9b043e0cb3602727ce2_cc360fd4_500.jpg"
-      ]
+      "outros": []
     },
     "https://bloodmooncc.tumblr.com/post/643220448197394432/forehead-height-slider-consider-this-my-420": {
       "nome": "[bloodmoon] forehead height slider_Fixed",
@@ -4650,6 +4688,7 @@
         "Uminunu-F12 The Sweet Streamer"
       ],
       "tamanho": 38590,
+      "link_download": "https://www.dropbox.com/s/olu814tqwyq5gp0/%5Bbloodmoon%5D%20forehead%20height%20slider.package?dl=0",
       "mods": [
         "Mods/[bloodmoon] forehead height slider_Fixed/[bloodmoon] forehead height slider.package"
       ],
@@ -4662,12 +4701,21 @@
       "fonte": "other",
       "url": "https://www.tumblr.com/cocoona-sims/652805006498643968/kikiwthe-perfect-doll-slide-the-slider-can",
       "pasta": "[KIKIW]The perfect doll slider_eyes_Fixed",
-      "status": "falhou",
-      "arquivos": [],
-      "detalhe": "nenhum link baixável na página (https://www.patreon.com/posts/51786745: Patreon API HTTP 404: '{\"errors\":[{\"id\":\"cbf32e2d-5900-4a5c-be20-846e440fdb71\",\")",
+      "status": "ok",
+      "arquivos": [
+        "[KIKIW]The perfect doll slider_eyes.package"
+      ],
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
-      ]
+      ],
+      "tamanho": 233283,
+      "link_download": "https://simfileshare.net/folder/188255/",
+      "mods": [
+        "Mods/[KIKIW]The perfect doll slider_eyes_Fixed/[KIKIW]The perfect doll slider_eyes.package"
+      ],
+      "tray": [],
+      "outros": []
     },
     "https://www.patreon.com/magicbot/posts/default-chin-54872952": {
       "nome": "[MB] Default chin slider_Fixed",
@@ -4677,18 +4725,19 @@
       "pasta": "[MB] Default chin slider_Fixed",
       "status": "ok",
       "arquivos": [
-        "ПРЕВЬЮ.png"
+        "[MB] Default chin slider.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 5530548,
-      "mods": [],
+      "tamanho": 9319,
+      "link_download": "https://simfileshare.net/download/2676307/",
+      "mods": [
+        "Mods/[MB] Default chin slider_Fixed/[MB] Default chin slider.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[MB] Default chin slider_Fixed/ПРЕВЬЮ.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/magicbot/posts/set-default-face-103538408": {
       "nome": "[MB] Default jaw slider",
@@ -4701,14 +4750,13 @@
         "[MB] Default jaw + cheeks slider.package",
         "[MB] Default cheekbone slider.package",
         "[MB] Default cheeks slider.package",
-        "[MB] Default jaw slider.package",
-        "превью копия.png"
+        "[MB] Default jaw slider.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 2903684,
+      "tamanho": 1051579,
       "mods": [
         "Mods/[MB] Default jaw slider/[MB] Default jaw + cheeks slider.package",
         "Mods/[MB] Default jaw slider/[MB] Default cheekbone slider.package",
@@ -4716,9 +4764,7 @@
         "Mods/[MB] Default jaw slider/[MB] Default jaw slider.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[MB] Default jaw slider/превью копия.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/magicbot/posts/default-mouth-56990147": {
       "nome": "[MB] Default mouth slider",
@@ -4728,18 +4774,19 @@
       "pasta": "[MB] Default mouth slider",
       "status": "ok",
       "arquivos": [
-        "ПРЕВЬЮ.png"
+        "[MB] Default mouth slider.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 10062222,
-      "mods": [],
+      "tamanho": 291013,
+      "link_download": "https://simfileshare.net/download/2759281/",
+      "mods": [
+        "Mods/[MB] Default mouth slider/[MB] Default mouth slider.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[MB] Default mouth slider/ПРЕВЬЮ.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/magicbot/posts/default-nose-55675247": {
       "nome": "[MB] Default nose slider_Fixed",
@@ -4749,18 +4796,19 @@
       "pasta": "[MB] Default nose slider_Fixed",
       "status": "ok",
       "arquivos": [
-        "ПРЕВЬЮ.png"
+        "[MB] Default nose slider.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 6170805,
-      "mods": [],
+      "tamanho": 345961,
+      "link_download": "https://simfileshare.net/download/2716250/",
+      "mods": [
+        "Mods/[MB] Default nose slider_Fixed/[MB] Default nose slider.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[MB] Default nose slider_Fixed/ПРЕВЬЮ.png"
-      ]
+      "outros": []
     },
     "https://www.dumbaby.com/post/download-chin-slider-for-a-perfect-face-in-profile": {
       "nome": "Dumbaby chin slider FEMALE_Fixed",
@@ -4770,16 +4818,16 @@
       "pasta": "Dumbaby chin slider FEMALE_Fixed",
       "status": "ok",
       "arquivos": [
-        "Dumbaby Chin Slider.zip"
+        "Dumbaby chin slider FEMALE.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 19885,
+      "tamanho": 29546,
+      "link_download": "http://simfileshare.net/folder/61493/",
       "mods": [
-        "Mods/Dumbaby chin slider FEMALE_Fixed/Dumbaby Chin Slider/Dumbaby chin slider FEMALE.package",
-        "Mods/Dumbaby chin slider FEMALE_Fixed/Dumbaby Chin Slider/Dumbaby chin slider MALE.package"
+        "Mods/Dumbaby chin slider FEMALE_Fixed/Dumbaby chin slider FEMALE.package"
       ],
       "tray": [],
       "outros": []
@@ -4792,21 +4840,18 @@
       "pasta": "HFO_TS4AUNoseTipSlider",
       "status": "ok",
       "arquivos": [
-        "HFO_TS4AUNoseTipSlider.package",
-        "tumblr_802d766f14a008075c665c7769033eb2_252e9b5a_1280.jpg"
+        "HFO_TS4AUNoseTipSlider.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 330123,
+      "tamanho": 29613,
       "mods": [
         "Mods/Meatballteeth_Nose_Rotate_Slider/Mods/sliders/sliders/HFO_TS4AUNoseTipSlider.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/HFO_TS4AUNoseTipSlider/tumblr_802d766f14a008075c665c7769033eb2_252e9b5a_1280.jpg"
-      ]
+      "outros": []
     },
     "https://modthesims.info/download.php?t=613257": {
       "nome": "HFO_TS4ShoulderSliders",
@@ -4841,21 +4886,18 @@
       "pasta": "miiko-pouty-lip-slider",
       "status": "ok",
       "arquivos": [
-        "miiko-pouty-lip-slider.package",
-        "pouty-lip-slider-preview.jpg"
+        "miiko-pouty-lip-slider.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 391192,
+      "tamanho": 155252,
       "mods": [
         "Mods/miiko-pouty-lip-slider/miiko-pouty-lip-slider.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/miiko-pouty-lip-slider/pouty-lip-slider-preview.jpg"
-      ]
+      "outros": []
     },
     "https://obscurus-sims.tumblr.com/post/174905199148/sliders-for-eyelids-dl-works-in-normal-mode": {
       "nome": "obscurus eyelids sliders N1",
@@ -4872,6 +4914,7 @@
         "Uminunu-F12 The Sweet Streamer"
       ],
       "tamanho": 101695,
+      "link_download": "http://simfileshare.net/download/576396/",
       "mods": [
         "Mods/Meatballteeth_Nose_Rotate_Slider/Mods/sliders/sliders/obscurus eyelids sliders N1.package"
       ],
@@ -4886,15 +4929,20 @@
       "pasta": "teanmoon_ExpandedNoseWidthSilder",
       "status": "ok",
       "arquivos": [
-        "teanmoon_LatticeTable.package"
+        "teanmoon_BendingOranmentalBamboo.package",
+        "teanmoon_LeaningOrnamentalBamboo.package",
+        "teanmoon_WisteriaArbor.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Uminunu-F12 The Sweet Streamer"
       ],
-      "tamanho": 623768,
+      "tamanho": 1745452,
+      "link_download": "http://simfileshare.net/folder/81970/",
       "mods": [
-        "Mods/teanmoon_ExpandedNoseWidthSilder/teanmoon_LatticeTable.package"
+        "Mods/teanmoon_ExpandedNoseWidthSilder/teanmoon_BendingOranmentalBamboo.package",
+        "Mods/teanmoon_ExpandedNoseWidthSilder/teanmoon_LeaningOrnamentalBamboo.package",
+        "Mods/teanmoon_ExpandedNoseWidthSilder/teanmoon_WisteriaArbor.package"
       ],
       "tray": [],
       "outros": []
@@ -4907,21 +4955,18 @@
       "pasta": "Madlen Lucille Boots",
       "status": "ok",
       "arquivos": [
-        "Madlen Lucille Boots.package",
-        "ad1.jpg"
+        "Madlen Lucille Boots.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 1421645,
+      "tamanho": 1195198,
       "mods": [
         "Mods/Madlen Lucille Boots/Madlen Lucille Boots.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/Madlen Lucille Boots/ad1.jpg"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/vice-2022-high-c-64102874": {
       "nome": "[VICE4Simz] - Rick Owens",
@@ -4929,12 +4974,21 @@
       "fonte": "patreon",
       "url": "https://www.patreon.com/posts/vice-2022-high-c-64102874",
       "pasta": "[VICE4Simz] - Rick Owens",
-      "status": "falhou",
-      "arquivos": [],
-      "detalhe": "Patreon API HTTP 404: '{\"errors\":[{\"id\":\"77efa7af-1864-4c60-a469-f0ee48de9430\",\"code_name\":\"ResourceMissing\",\"code\":4,\"title\":\"post was not found.\",\"detail\":\"post with id 64102874 was'",
+      "status": "ok",
+      "arquivos": [
+        "[VICE4Simz] - Rick Owens.package"
+      ],
+      "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
-      ]
+      ],
+      "tamanho": 11435686,
+      "link_download": "https://simfileshare.net/download/5238413/",
+      "mods": [
+        "Mods/[VICE4Simz] - Rick Owens/[VICE4Simz] - Rick Owens.package"
+      ],
+      "tray": [],
+      "outros": []
     },
     "https://www.patreon.com/posts/sunberry-puff-22-76138099": {
       "nome": "[SUNBERRY]Heart Fur Boots 22.73",
@@ -4944,18 +4998,19 @@
       "pasta": "[SUNBERRY]Heart Fur Boots 22.73",
       "status": "ok",
       "arquivos": [
-        "썸네일##.png"
+        "[SUNBERRY]Heart Fur Boots 22.73.package"
       ],
-      "detalhe": "baixado, mas nenhum .package reconhecido (veja _nao_extraidos)",
+      "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 1290789,
-      "mods": [],
+      "tamanho": 5222939,
+      "link_download": "https://sunberry-sims.tistory.com/entry/SIMS4CC-2273-female",
+      "mods": [
+        "Mods/[SUNBERRY]Heart Fur Boots 22.73/[SUNBERRY]Heart Fur Boots 22.73.package"
+      ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[SUNBERRY]Heart Fur Boots 22.73/썸네일##.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/rimings-love-you-87534253": {
       "nome": "[RIMINGS] Love What You Have _Mini Skirt",
@@ -4968,14 +5023,13 @@
         "[RIMINGS] Love What You Have _Mini Skirt.package",
         "[RIMINGS] Love What You Have _Shopper Bag.package",
         "[RIMINGS] Love What You Have _Turtleneck Top & Cardigan.package",
-        "[RIMINGS] Love What You Have _Turtleneck Top & Patternd Cardigan.package",
-        "썸넬2.png"
+        "[RIMINGS] Love What You Have _Turtleneck Top & Patternd Cardigan.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 41570062,
+      "tamanho": 38348974,
       "mods": [
         "Mods/[RIMINGS] Love What You Have _Mini Skirt/[RIMINGS] Love What You Have _Mini Skirt.package",
         "Mods/[RIMINGS] Love What You Have _Mini Skirt/[RIMINGS] Love What You Have _Shopper Bag.package",
@@ -4983,9 +5037,7 @@
         "Mods/[RIMINGS] Love What You Have _Mini Skirt/[RIMINGS] Love What You Have _Turtleneck Top & Patternd Cardigan.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[RIMINGS] Love What You Have _Mini Skirt/썸넬2.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/69246364": {
       "nome": "[Jius]KnittedSocks05",
@@ -4999,14 +5051,13 @@
         "[Jius]PlatformSandals08.package",
         "[Jius]PlatformSandals09.package",
         "[Jius]PlatformLoafersPumps01.package",
-        "[Jius]KnittedSocks05.package",
-        "01.jpg"
+        "[Jius]KnittedSocks05.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 17500655,
+      "tamanho": 17036860,
       "mods": [
         "Mods/[Jius]KnittedSocks05/[Jius]PlatformPumps04.package",
         "Mods/[Jius]KnittedSocks05/[Jius]PlatformSandals08.package",
@@ -5015,9 +5066,7 @@
         "Mods/[Jius]KnittedSocks05/[Jius]KnittedSocks05.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[Jius]KnittedSocks05/01.jpg"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/themes/maxismatch/downloads/details/category/sims4-makeup-female-blush/title/wounded-blush/id/1633809/": {
       "nome": "Sagittariah_Wounded_Blush",
@@ -5059,14 +5108,13 @@
         "Lips Preset N4 [NorthernSiberiaWinds].package",
         "Lips Preset N3 [NorthernSiberiaWinds].package",
         "Lips Preset N2 [NorthernSiberiaWinds].package",
-        "Lips Preset N1 [NorthernSiberiaWinds].package",
-        "гиф.gif"
+        "Lips Preset N1 [NorthernSiberiaWinds].package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 13293183,
+      "tamanho": 8578667,
       "mods": [
         "Mods/Lips Preset N8 [NorthernSiberiaWinds]/Lips N3 - Poplar Fluff [NorthernSiberiaWinds].package",
         "Mods/Lips Preset N8 [NorthernSiberiaWinds]/Lips N4 - Tenderness [NorthernSiberiaWinds].package",
@@ -5082,9 +5130,7 @@
         "Mods/Lips Preset N8 [NorthernSiberiaWinds]/Lips Preset N1 [NorthernSiberiaWinds].package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/Lips Preset N7 [NorthernSiberiaWinds]/гиф.gif"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/333-box-shaped-108500219": {
       "nome": "í+333í+Box-shaped-Nose-shadow HQ",
@@ -5094,21 +5140,18 @@
       "pasta": "í+333í+Box-shaped-Nose-shadow HQ",
       "status": "ok",
       "arquivos": [
-        "【333】Box-shaped-Nose-shadow.zip",
-        "ad1.png"
+        "【333】Box-shaped-Nose-shadow.zip"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 2337379,
+      "tamanho": 997444,
       "mods": [
         "Mods/í+333í+Box-shaped-Nose-shadow HQ/í╛333í┐Box-shaped-Nose-shadow HQ.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/í+333í+Box-shaped-Nose-shadow HQ/ad1.png"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/downloads/details/category/sims4-makeup-female-eyeliner/title/eyeliner-a210/id/1731059/": {
       "nome": "ANGISSI Eyeliner A210",
@@ -5154,14 +5197,13 @@
         "[NORTHERN SIBERIA WINDS] DIMPLES N1 B.package",
         "[NORTHERN SIBERIA WINDS] BLUSH N5 + HIGHLIGHTER.package",
         "[NORTHERN SIBERIA WINDS] NOSE PRESETS F N18-27 FOR CHILDREN.package",
-        "[NorthernSiberiaWinds] NOSE PRESETS F N18-27.package",
-        "Без-имени-1.gif"
+        "[NorthernSiberiaWinds] NOSE PRESETS F N18-27.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 57122878,
+      "tamanho": 56711040,
       "mods": [
         "Mods/[NorthernSiberiaWinds] LIPS N29/[NorthernSiberiaWinds] NOSEMASK N5.package",
         "Mods/[NorthernSiberiaWinds] LIPS N29/[NorthernSiberiaWinds] LIPS N26.package",
@@ -5181,9 +5223,7 @@
         "Mods/[NorthernSiberiaWinds] LIPS N29/[NorthernSiberiaWinds] NOSE PRESETS F N18-27.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NorthernSiberiaWinds] LIPS N29/Без-имени-1.gif"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/mr-mrs-55374454": {
       "nome": "[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ",
@@ -5198,14 +5238,13 @@
         "[NORTHERN SIBERIA WINDS] SKIN N8 OVERLAY.package",
         "[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY.package",
         "[NORTHERN SIBERIA WINDS] SKIN N8 OVERLAY HQ.package",
-        "[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ.package",
-        "1Б.png"
+        "[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 265075888,
+      "tamanho": 256905701,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ/[NORTHERN SIBERIA WINDS] SKIN N8.package",
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ/[NORTHERN SIBERIA WINDS] SKIN N9.package",
@@ -5215,9 +5254,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ/[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] SKIN N9 OVERLAY HQ/1Б.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/love-yourself-115123327": {
       "nome": "[NORTHERN SIBERIA WINDS] FEMALE NOSE PRESETS N43-51 CHILD EDITION",
@@ -5243,14 +5280,13 @@
       "status": "ok",
       "arquivos": [
         "[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1-8.zip",
-        "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip",
-        "превью.png"
+        "[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESETS N9-16.zip"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 54285219,
+      "tamanho": 47840962,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16/[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N1.package",
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16/[NORTHERN SIBERIA WINDS] CHILD HEAD SHAPE PRESET N6.package",
@@ -5270,9 +5306,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N16/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N11.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] FEMALE HEAD SHAPE PRESET N13/превью.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/from-west-to-43932063": {
       "nome": "[NORTHERN SIBERIA WINDS] EYES N7",
@@ -5291,14 +5325,13 @@
         "[NORTHERN SIBERIA WINDS] EYES N7.package",
         "[NORTHERN SIBERIA WINDS] EYES N6.package",
         "[NORTHERN SIBERIA WINDS] EYES N5.package",
-        "[NorthernSiberiaWinds] Nose Presets F N10-17.package",
-        "2.png"
+        "[NorthernSiberiaWinds] Nose Presets F N10-17.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 69500183,
+      "tamanho": 59962689,
       "mods": [
         "Mods/[NORTHERN SIBERIA WINDS] EYES N5/[NorthernSiberiaWinds] Eyelids N4.package",
         "Mods/[NORTHERN SIBERIA WINDS] EYES N5/[NorthernSiberiaWinds] Eyelids N5.package",
@@ -5312,9 +5345,7 @@
         "Mods/[NORTHERN SIBERIA WINDS] EYES N5/[NorthernSiberiaWinds] Nose Presets F N10-17.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/[NORTHERN SIBERIA WINDS] EYES N7/2.png"
-      ]
+      "outros": []
     },
     "https://www.patreon.com/posts/love-yourself-118323257": {
       "nome": "[NORTHERN SIBERIA WINDS] LOVE YOURSELF - SKIN DETAILS PART",
@@ -5337,7 +5368,7 @@
       "pasta": "LamaLama_Acc_Hair Melyssa",
       "status": "falhou",
       "arquivos": [],
-      "detalhe": "nenhum link baixável na página (https://www.simsfinds.com/en/downloads/sims4: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims4?latest=cc: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims4: pá | https://www.simsfinds.com/en/downloads/sims3: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims3: pá | https://www.simsfinds.com/en/downloads/sims2: nenhum link baixável na página (https://www.simsfinds.com/pt/downloads/sims2: pá)",
+      "detalhe": "Boosty exige conta – baixe manualmente: https://boosty.to/lamalama",
       "usado_por": [
         "Rosemary Haney"
       ]
@@ -5350,21 +5381,18 @@
       "pasta": "SMSims_magenta_bodypresets",
       "status": "ok",
       "arquivos": [
-        "SMSims_magenta_bodypresets.package",
-        "SMSims_magenta_bodypresets.png"
+        "SMSims_magenta_bodypresets.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 6490808,
+      "tamanho": 5403920,
       "mods": [
         "Mods/SMSims_magenta_bodypresets/SMSims_magenta_bodypresets.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/SMSims_magenta_bodypresets/SMSims_magenta_bodypresets.png"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/downloads/details/id/1512540": {
       "nome": "S-Club LL ts4 necklace 202019",
@@ -5401,14 +5429,13 @@
         "MARSMERIZING_LISS_Carol Jacket_FTop.package",
         "MARSMERIZING_LISS_Coco Jacket_FTop.package",
         "MARSMERIZING_LISS_Santa Mittens.package",
-        "MARSMERIZING_LISS_Whitney Jacket_FTop.package",
-        "let it snow jackets.png"
+        "MARSMERIZING_LISS_Whitney Jacket_FTop.package"
       ],
       "detalhe": null,
       "usado_por": [
         "Rosemary Haney"
       ],
-      "tamanho": 27252780,
+      "tamanho": 23439425,
       "mods": [
         "Mods/MARSMERIZING_LISS_Carol Jacket_FTop/MARSMERIZING_LISS_Celebrity Windbreaker_MTop.package",
         "Mods/MARSMERIZING_LISS_Carol Jacket_FTop/MARSMERIZING_LISS_Celebrity Windbreaker_FTop.package",
@@ -5419,9 +5446,7 @@
         "Mods/MARSMERIZING_LISS_Carol Jacket_FTop/MARSMERIZING_LISS_Whitney Jacket_FTop.package"
       ],
       "tray": [],
-      "outros": [
-        "_nao_extraidos/MARSMERIZING_LISS_Carol Jacket_FTop/let it snow jackets.png"
-      ]
+      "outros": []
     },
     "https://www.thesimsresource.com/downloads/details/id/1695424": {
       "nome": "MagicHand Haley Eyebrows N286",
@@ -5699,9 +5724,9 @@
   },
   "resumo": {
     "cc_unicos": 133,
-    "ok": 120,
+    "ok": 119,
     "pago_assinantes": 7,
-    "falhou": 5,
+    "falhou": 6,
     "opcional": 1,
     "sims_ok": 5
   }
