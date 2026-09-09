@@ -1,0 +1,166 @@
+; ============================================================================
+;  DRAGON BALL XENOVERSE 2 - MISSÃO PARALELA CUSTOMIZADA
+;  PQ "Eclipse do Deus Caído"  (identificador: TMQ_EVE_160)
+;
+;  Arquivo: quest.x2qs  (TextEntry dos títulos + objeto Quest + recompensas)
+;
+;  Como usar: compilar a pasta inteira com o "XV2 Quest Creator"
+;  (Eternity Tools) para gerar o .x2m e instalar com o XV2 Mods Installer.
+;  Veja COMO-COMPILAR.md para o passo a passo.
+; ============================================================================
+
+; ----------------------- TÍTULOS (TextEntry) --------------------------------
+; "en" é obrigatório; os demais idiomas são opcionais (caem para o inglês).
+; Aqui fornecemos en (inglês) + pt (português brasileiro).
+TextEntry PQTitle {
+    en: "Eclipse of the Fallen God"
+    pt: "Eclipse do Deus Caído"
+}
+
+TextEntry PQSuccess {
+    en: "The three timelines were stabilized!"
+    pt: "As três linhas do tempo foram estabilizadas!"
+}
+
+TextEntry PQFailure {
+    en: "The timelines collapsed into a single era..."
+    pt: "As linhas do tempo colapsaram em uma só era..."
+}
+
+TextEntry PQOutline {
+    en: "Stop Towa before Mira becomes an artificial God of Destruction!"
+    pt: "Impeça Towa antes que Mira vire um Deus da Destruição artificial!"
+}
+
+TextEntry PQWarning {
+    en: "WARNING! Mira is unleashing stolen Divine Ki!"
+    pt: "ATENÇÃO! Mira está liberando o Ki Divino roubado!"
+}
+
+TextEntry PQExSuccess {
+    en: "Defeat Mira, the artificial God of Destruction!"
+    pt: "Derrote Mira, o Deus da Destruição artificial!"
+}
+
+; --------------------------- OBJETO DA MISSÃO -------------------------------
+Quest TMQ_EVE_160 {
+    episode: 0
+    sub_type: 0
+    num_players: 3
+
+    title: PQTitle
+    success: PQSuccess
+    failure: PQFailure
+    outline: PQOutline
+    warning: PQWarning
+    ex_success: PQExSuccess
+
+    i40: 0
+    parent_quest: -1
+    i44: 0
+    i48: 0
+    i52: 0
+    i56: 0
+    i60: 0
+    unlock_requirement: -1
+    i68: 0
+    i72: 0
+    i76: 0
+    i80: 0
+    i84: 0
+
+    ; Tempo limite global em segundos (30 min). Os "tempos por ato" do design
+    ; são simplificados aqui para um único cronômetro (ver COMO-COMPILAR.md).
+    time_limit: 1800
+    difficulty: 6
+    level: 85
+    start_stage: "BFnmc"
+    start_demo: -1
+
+    xp_reward: 2000
+    ult_xp_reward: 3200
+    fail_xp_reward: 500
+    zeni_reward: 9800
+    ult_zeni_reward: 13800
+    fail_zeni_reward: 3000
+    tp_medals_once: 2
+    tp_medals: 2
+    tp_medals_special: 1
+    resistance_points: 0
+
+    ; As 5 áreas, na ordem em que são visitadas (máx. 5 por PQ).
+    ; BFnmc = Planeta Namek | BFtwh = West City (Subúrbios, no lugar do "cais
+    ; do tempo") | BFcel = Arena dos Jogos de Cell | BFsmt = Planeta Sem Nome
+    ; (Beerus) | BFtok = Time Rift (núcleo da distorção).
+    stages: ("BFnmc", "BFtwh", "BFcel", "BFsmt", "BFtok")
+    i192: 0
+
+    i232: 0
+    i234: 0
+    i236: 0
+    i238: 0
+    i240: 0
+    i242: 0
+    i244: 0
+    i246: 0
+    i248: 0
+    i250: 0
+    flags: 0
+
+    update_requirement: ANY
+    dlc_requirement: NONE
+
+    i264: 0
+    no_enemy_bgm: 0
+    enemy_near_bgm: 0
+    battle_bgm: 0
+    ultimate_finish_bgm: 0
+    f276: 0.0
+    i280: 0
+
+    ; ------------------- RETRATOS (lista de PQs) -----------------------------
+    CharPortrait {
+        char: "BLS"
+        costume: 0
+        trans: -1
+    }
+    CharPortrait {
+        char: "TOW"
+        costume: 0
+        trans: -1
+    }
+    CharPortrait {
+        char: "MIR"
+        costume: 0
+        trans: -1
+    }
+
+    ; ------------------- RECOMPENSAS (drops de skill) ------------------------
+    ; São skills 100% vanilla (o design pedia skills novas; ver COMO-COMPILAR.md).
+    ; condition: 0 = drop em qualquer conclusão | 1 = só no Ultimate Finish.
+    ; chance: percentual (0.0 a 100.0).
+    SkillReward {
+        skill: "SKM"          ; Warp Kamehameha (Ultimate, Goku SSGSS)
+        condition: 0
+        i12: 0
+        chance: 12.0
+    }
+    SkillReward {
+        skill: "SDK"          ; Spread Shot Retreat (Evasiva)
+        condition: 0
+        i12: 0
+        chance: 15.0
+    }
+    SkillReward {
+        skill: "FNF"          ; Final Flash (Ultimate, Vegeta)
+        condition: 0
+        i12: 0
+        chance: 10.0
+    }
+    SkillReward {
+        skill: "SGL"          ; Super Galick Gun (Ultimate, Vegeta SSGSS) - só no Ultimate Finish
+        condition: 1
+        i12: 0
+        chance: 30.0
+    }
+}

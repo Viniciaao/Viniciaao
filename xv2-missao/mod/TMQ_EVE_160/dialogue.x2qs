@@ -1,0 +1,90 @@
+; ============================================================================
+;  PQ TMQ_EVE_160 - Eclipse do Deus Caído  |  dialogue.x2qs
+;  Falas dos chefes (texto PT-BR + EN). Sem áudio (voice) — por isso usamos
+;  TextEntry em vez de TextAudioEntry.
+; ============================================================================
+
+; ---------------------------- FALAS (TextEntry) -----------------------------
+TextEntry LineIntro {
+    en: "Let the eclipse begin. Every blow you land feeds Mira."
+    pt: "Que comece o eclipse. Cada golpe seu alimenta Mira."
+}
+
+TextEntry LineFrieza {
+    en: "You dare challenge the emperor of the universe at the end of this world?"
+    pt: "Você ousa desafiar o imperador do universo neste fim de mundo?"
+}
+
+TextEntry LineCell {
+    en: "Perfection... distorted. I am the echo of what should have won."
+    pt: "Perfeição... distorcida. Eu sou o eco do que deveria ter vencido."
+}
+
+TextEntry LineMira {
+    en: "My energy is now divine. Nothing remains but the end."
+    pt: "Minha energia agora é divina. Nada resta além do fim."
+}
+
+TextEntry LineFinal {
+    en: "I AM THE GOD THAT HISTORY SHOULD NEVER HAVE CREATED."
+    pt: "EU SOU O DEUS QUE A HISTÓRIA NUNCA DEVERIA TER CRIADO."
+}
+
+; ----------------------------- DIÁLOGOS -------------------------------------
+; Cada Dialogue agrupa um ou mais DialoguePart (falas). O "actor" define o
+; retrato; o "text_audio" referencia um TextEntry definido acima.
+
+Dialogue DlgIntro {
+    i28: 0
+    DialoguePart {
+        actor: "TOW"
+        costume: 0
+        transformation: -1
+        text_audio: LineIntro
+        i8: 0
+    }
+}
+
+Dialogue DlgFrieza {
+    i28: 0
+    DialoguePart {
+        actor: "FRZ"
+        costume: 0
+        transformation: -1
+        text_audio: LineFrieza
+        i8: 0
+    }
+}
+
+Dialogue DlgCell {
+    i28: 0
+    DialoguePart {
+        actor: "CL4"
+        costume: 0
+        transformation: -1
+        text_audio: LineCell
+        i8: 0
+    }
+}
+
+Dialogue DlgMira {
+    i28: 0
+    DialoguePart {
+        actor: "MIR"
+        costume: 0
+        transformation: -1
+        text_audio: LineMira
+        i8: 0
+    }
+}
+
+Dialogue DlgFinal {
+    i28: 0
+    DialoguePart {
+        actor: "MRN"
+        costume: 0
+        transformation: -1
+        text_audio: LineFinal
+        i8: 0
+    }
+}

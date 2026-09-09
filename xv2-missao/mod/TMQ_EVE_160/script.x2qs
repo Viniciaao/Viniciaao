@@ -1,0 +1,196 @@
+; ============================================================================
+;  PQ TMQ_EVE_160 - Eclipse do Deus Caído  |  script.x2qs
+;
+;  Estrutura: Script { State N { Event N { Condition ... Action ... } } }
+;  - Um único State fica ativo por vez; GotoState troca o fluxo.
+;  - As 5 áreas avançam pelo portal (PortalControl). A transição entre áreas
+;    usa os personagens spawn_at_start da área seguinte.
+;  - Condições secretas do Ultimate Finish: TrunksAlly >= 80% (Ato 2) e
+;    WhisEnemy derrotado antes de BeerusEnemy (Ato 4). Ambas viram Flags.
+;
+;  Obs.: skills/recompensas dos chefes são vanilla; a "condição oculta" de
+;  derrotar o elite do Ato 1 com um Ultimate foi simplificada (ver
+;  COMO-COMPILAR.md, seção "Limitações desta versão").
+; ============================================================================
+
+Flag TrunksSafe
+Flag WhisFirst
+Flag BeerusDown
+
+Script {
+
+    ; ===================== ESTADO 0 — INÍCIO / ATO 1, ONDA 1 =================
+    State 0 {
+
+        Event 0 {
+            Condition Always
+            Action InitQuest
+            Action BattleModeStart
+            Action PlayDialogue(DlgIntro, 0, -1, 0)
+        }
+
+        ; Onda 1 (Appule + Raspberry) já está em campo (spawn_at_start).
+        ; Ao derrotar os 2, spawna a onda 2 (DodoriaEnemy + ZarbonEnemy).
+        Event 1 {
+            Condition NumCharsDefeated(2, ENEMY_TEAM, "BFnmc")
+            Action LoadChara(DodoriaEnemy)
+            Action LoadChara(ZarbonEnemy)
+            Action CharaSpawn2(DodoriaEnemy, ZarbonEnemy, 0, -1, "BFnmc", 0, 0, 0)
+            Action GotoState(1)
+        }
+    }
+
+    ; ===================== ESTADO 1 — ATO 1, ONDA 3 (FREEZA) =================
+    State 1 {
+        Event 0 {
+            Condition NumCharsDefeated(4, ENEMY_TEAM, "BFnmc")
+            Action LoadChara(FreezaEnemy)
+            Action CharaSpawn(FreezaEnemy, 1, DlgFrieza, 0, "BFnmc", 0)
+            Action GotoState(2)
+        }
+    }
+
+    ; ============ ESTADO 2 — ATO 1 CONCLUÍDO (ABRE PORTAL P/ ATO 2) ==========
+    State 2 {
+        Event 0 {
+            Condition NumCharsDefeated(5, ENEMY_TEAM, "BFnmc")
+            Action PortalControl("BFnmc", "BFtwh", true, false)
+            Action GotoState(3)
+        }
+    }
+
+    ; ===================== ESTADO 3 — ATO 2, ONDA 1 ==========================
+    ; TrunksAlly (aliado), Ginyu e Recoome já estão em campo (spawn_at_start).
+    State 3 {
+        Event 0 {
+            Condition NumCharsDefeated(2, ENEMY_TEAM, "BFtwh")
+            Action LoadChara(JeiceEnemy)
+            Action LoadChara(BurterEnemy)
+            Action CharaSpawn2(JeiceEnemy, BurterEnemy, 0, -1, "BFtwh", 0, 0, 0)
+            Action GotoState(4)
+        }
+    }
+
+    ; ============ ESTADO 4 — ATO 2 CONCLUÍDO (CHEGA TRUNKS E PORTAIS) =========
+    State 4 {
+        ; TrunksAlly com 80%+ de vida => condição secreta do UF marcada.
+        Event 0 {
+            Condition NumCharsDefeated(4, ENEMY_TEAM, "BFtwh")
+            Condition Health(>=, TrunksAlly, 80.0)
+            Action SetFlag(TrunksSafe, true)
+            Action PortalControl("BFtwh", "BFcel", true, false)
+            Action GotoState(5)
+        }
+        Event 1 {
+            Condition NumCharsDefeated(4, ENEMY_TEAM, "BFtwh")
+            Condition Health(<=, TrunksAlly, 80.0)
+            Action PortalControl("BFtwh", "BFcel", true, false)
+            Action GotoState(5)
+        }
+    }
+
+    ; ===================== ESTADO 5 — ATO 3, ONDA 2 (CELL PERFEITO) ==========
+    State 5 {
+        Event 0 {
+            Condition NumCharsDefeated(2, ENEMY_TEAM, "BFcel")
+            Action LoadChara(CellPerfectEnemy)
+            Action CharaSpawn(CellPerfectEnemy, 0, -1, 0, "BFcel", 0)
+            Action GotoState(6)
+        }
+    }
+
+    ; ===================== ESTADO 6 — ATO 3, ONDA 3 (CELL FULL POWER) ========
+    State 6 {
+        Event 0 {
+            Condition NumCharsDefeated(3, ENEMY_TEAM, "BFcel")
+            Action LoadChara(CellFullPowerEnemy)
+            Action CharaSpawn(CellFullPowerEnemy, 1, DlgCell, 0, "BFcel", 0)
+            Action GotoState(7)
+        }
+    }
+
+    ; ============ ESTADO 7 — ATO 3 CONCLUÍDO (ABRE PORTAL P/ ATO 4) ==========
+    State 7 {
+        Event 0 {
+            Condition NumCharsDefeated(4, ENEMY_TEAM, "BFcel")
+            Action PortalControl("BFcel", "BFsmt", true, false)
+            Action GotoState(8)
+        }
+    }
+
+    ; ============ ESTADO 8 — ATO 4 (BEERUS + WHIS) E SEGREDO DO WHIS =========
+    State 8 {
+        ; BeerusEnemy derrotado => marca a flag (usada para saber se WhisEnemy foi 1º).
+        Event 0 {
+            Condition Ko(BeerusEnemy, false, 0)
+            Action SetFlag(BeerusDown, true)
+        }
+        ; WhisEnemy derrotado ANTES de BeerusEnemy => condição secreta do UF.
+        Event 1 {
+            Condition Ko(WhisEnemy, false, 0)
+            Condition CheckFlag(BeerusDown, false)
+            Action SetFlag(WhisFirst, true)
+        }
+        ; Os dois derrotados => abre o portal para o Ato 5.
+        Event 2 {
+            Condition NumCharsDefeated(2, ENEMY_TEAM, "BFsmt")
+            Action PortalControl("BFsmt", "BFtok", true, false)
+            Action GotoState(9)
+        }
+    }
+
+    ; ===================== ESTADO 9 — ATO 5, FASE 2 (MIRA) ===================
+    State 9 {
+        Event 0 {
+            Condition NumCharsDefeated(1, ENEMY_TEAM, "BFtok")
+            Action LoadChara(MiraEnemy)
+            Action CharaSpawn(MiraEnemy, 0, DlgMira, 0, "BFtok", 0)
+            Action GotoState(10)
+        }
+    }
+
+    ; ============ ESTADO 10 — DECISÃO DE FIM (COMPLETE OU ULTIMATE FINISH) ====
+    State 10 {
+        ; As duas condições secretas cumpridas => ULTIMATE FINISH (MiraEnemy Final).
+        Event 0 {
+            Condition NumCharsDefeated(2, ENEMY_TEAM, "BFtok")
+            Condition CheckFlag(TrunksSafe, true)
+            Condition CheckFlag(WhisFirst, true)
+            Action ShowWarning
+            Action LoadChara(MiraFinalEnemy)
+            Action CharaSpawn(MiraFinalEnemy, 1, DlgFinal, 0, "BFtok", 0)
+            Action GotoState(11)
+        }
+        ; TrunksAlly não foi salvo => conclusão normal.
+        Event 1 {
+            Condition NumCharsDefeated(2, ENEMY_TEAM, "BFtok")
+            Condition CheckFlag(TrunksSafe, false)
+            Action QuestFinishState(COMPLETE)
+            Action QuestClear
+            Action GotoState(12)
+        }
+        ; WhisEnemy não caiu primeiro => conclusão normal.
+        Event 2 {
+            Condition NumCharsDefeated(2, ENEMY_TEAM, "BFtok")
+            Condition CheckFlag(WhisFirst, false)
+            Action QuestFinishState(COMPLETE)
+            Action QuestClear
+            Action GotoState(12)
+        }
+    }
+
+    ; ============ ESTADO 11 — ULTIMATE FINISH (DERROTAR MIRA FINAL) ==========
+    State 11 {
+        Event 0 {
+            Condition Ko(MiraFinalEnemy, false, 0)
+            Action QuestFinishState(ULTIMATE_FINISH)
+            Action QuestClear
+            Action GotoState(12)
+        }
+    }
+
+    ; ===================== ESTADO 12 — TERMINAL ===============================
+    State 12 {
+        ; Estado vazio, usado como "fim" do fluxo.
+    }
+}

@@ -1,0 +1,108 @@
+; ============================================================================
+;  PQ TMQ_EVE_160 - Eclipse do Deus Caido  |  positions.x2qs
+;  Posicoes iniciais (spawn_at_start) dos personagens em cada area.
+; ============================================================================
+
+CharPosition PosPlayer {
+    char: Player
+    stage: "BFnmc"
+    position: "TRESPASS_PLAYER_0"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosPlayer2 {
+    char: Player2
+    stage: "BFnmc"
+    position: "TRESPASS_PLAYER_1"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosPlayer3 {
+    char: Player3
+    stage: "BFnmc"
+    position: "TRESPASS_PLAYER_2"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosAppule {
+    char: AppuleEnemy
+    stage: "BFnmc"
+    position: "TRESPASS_0"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosRaspberry {
+    char: RaspberryEnemy
+    stage: "BFnmc"
+    position: "TRESPASS_1"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosTrunks {
+    char: TrunksAlly
+    stage: "BFtwh"
+    position: "TRESPASS_2"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosGinyu {
+    char: GinyuEnemy
+    stage: "BFtwh"
+    position: "TRESPASS_0"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosRecoome {
+    char: RecoomeEnemy
+    stage: "BFtwh"
+    position: "TRESPASS_1"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosAndroid17 {
+    char: Android17Enemy
+    stage: "BFcel"
+    position: "TRESPASS_0"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosAndroid18 {
+    char: Android18Enemy
+    stage: "BFcel"
+    position: "TRESPASS_1"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosBeerus {
+    char: BeerusEnemy
+    stage: "BFsmt"
+    position: "TRESPASS_0"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosWhis {
+    char: WhisEnemy
+    stage: "BFsmt"
+    position: "TRESPASS_1"
+    type: 2
+    i40: 0
+}
+
+CharPosition PosTowa {
+    char: TowaEnemy
+    stage: "BFtok"
+    position: "TRESPASS_0"
+    type: 2
+    i40: 0
+}
